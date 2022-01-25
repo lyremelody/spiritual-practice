@@ -2,18 +2,18 @@
 
 * [目录](README.md)
 
-## 思考 <a id="mind"></a>
+## 世界观 <a href="#worldview" id="worldview"></a>
 
-* [关于技术](mind/thinking-about-it/README.md)
-  * [初识「搜索引擎」](mind/thinking-about-it/chu-shi-sou-suo-yin-qing.md)
-  * [谈谈设计之「自顶向下」和「自底向上」](mind/thinking-about-it/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
-* [关于职业化](mind/thinking-about-professional/README.md)
-  * [职业生涯的思考](mind/thinking-about-professional/zhi-ye-sheng-ya-de-si-kao.md)
-* [读后感](mind/after-reading/README.md)
-  * [寻求内心的力量](mind/after-reading/xun-qiu-nei-xin-de-li-liang.md)
-  * [读《异类》](mind/after-reading/du-yi-lei.md)
+* [关于技术](worldview/thinking-about-it/README.md)
+  * [初识「搜索引擎」](worldview/thinking-about-it/chu-shi-sou-suo-yin-qing.md)
+  * [谈谈设计之「自顶向下」和「自底向上」](worldview/thinking-about-it/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
+* [关于职业化](worldview/thinking-about-professional/README.md)
+  * [职业生涯的思考](worldview/thinking-about-professional/zhi-ye-sheng-ya-de-si-kao.md)
+* [读后感](worldview/after-reading/README.md)
+  * [寻求内心的力量](worldview/after-reading/xun-qiu-nei-xin-de-li-liang.md)
+  * [读《异类》](worldview/after-reading/du-yi-lei.md)
 
-## 实践总结 <a id="practice"></a>
+## 实践总结 <a href="#practice" id="practice"></a>
 
 * [如何做计划](practice/how-to-plan.md)
 * [如何写技术方案](practice/how-to-write-a-technical-solution.md)
@@ -23,13 +23,13 @@
 * [早起，其实并没有那么难](practice/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
 * [如何有效地养成习惯](practice/how-to-form-a-habit.md)
 
-## 读书笔记 <a id="reading-notes"></a>
+## 读书笔记 <a href="#reading-notes" id="reading-notes"></a>
 
 * [书单](reading-notes/book-list.md)
 * [《影响力大师》](reading-notes/influencer.md)
 * [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
 
-## IT笔记 <a id="it"></a>
+## IT笔记 <a href="#it" id="it"></a>
 
 * [数据结构](it/learning-data-structure/README.md)
   * [链表](it/learning-data-structure/linked-list.md)
@@ -152,4 +152,3 @@
 * [MySQL](plan/learning-mysql.md)
 * [Redis](plan/learning-redis.md)
 * [MongoDB](plan/learning-mongodb.md)
-

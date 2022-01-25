@@ -4,67 +4,80 @@ description: '@lyremelody 的日志'
 
 # 目录
 
+{% content-ref url="reading-notes/book-list.md" %}
+[book-list.md](reading-notes/book-list.md)
+{% endcontent-ref %}
 
+{% content-ref url="plan/learning-computer.md" %}
+[learning-computer.md](plan/learning-computer.md)
+{% endcontent-ref %}
 
-{% tabs %}
-{% tab title="书单" %}
-{% page-ref page="reading-notes/book-list.md" %}
-{% endtab %}
+{% content-ref url="it/learning-algorithm/" %}
+[learning-algorithm](it/learning-algorithm/)
+{% endcontent-ref %}
 
-{% tab title="学习笔记" %}
-{% page-ref page="plan/learning-computer.md" %}
+{% content-ref url="it/learning-data-structure/" %}
+[learning-data-structure](it/learning-data-structure/)
+{% endcontent-ref %}
 
-{% page-ref page="it/learning-algorithm/" %}
+{% content-ref url="plan/learning-operating-system.md" %}
+[learning-operating-system.md](plan/learning-operating-system.md)
+{% endcontent-ref %}
 
-{% page-ref page="it/learning-data-structure/" %}
+{% content-ref url="plan/learning-network.md" %}
+[learning-network.md](plan/learning-network.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-operating-system.md" %}
+{% content-ref url="plan/learning-database.md" %}
+[learning-database.md](plan/learning-database.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-network.md" %}
+{% content-ref url="plan/learning-load-balance.md" %}
+[learning-load-balance.md](plan/learning-load-balance.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-database.md" %}
+{% content-ref url="it/learning-message-queue/" %}
+[learning-message-queue](it/learning-message-queue/)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-load-balance.md" %}
+{% content-ref url="plan/learning-security.md" %}
+[learning-security.md](plan/learning-security.md)
+{% endcontent-ref %}
 
-{% page-ref page="it/learning-message-queue/" %}
+{% content-ref url="plan/learning-distributed.md" %}
+[learning-distributed.md](plan/learning-distributed.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-security.md" %}
+{% content-ref url="plan/learning-python.md" %}
+[learning-python.md](plan/learning-python.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-distributed.md" %}
+{% content-ref url="plan/learning-cpp.md" %}
+[learning-cpp.md](plan/learning-cpp.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-python.md" %}
+{% content-ref url="plan/learning-golang.md" %}
+[learning-golang.md](plan/learning-golang.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-cpp.md" %}
+{% content-ref url="it/learning-microservices.md" %}
+[learning-microservices.md](it/learning-microservices.md)
+{% endcontent-ref %}
 
-{% page-ref page="plan/learning-golang.md" %}
-{% endtab %}
+{% content-ref url="worldview/thinking-about-professional/" %}
+[thinking-about-professional](worldview/thinking-about-professional/)
+{% endcontent-ref %}
 
-{% tab title="云原生" %}
-{% page-ref page="it/learning-microservices.md" %}
-{% endtab %}
+{% content-ref url="worldview/after-reading/" %}
+[after-reading](worldview/after-reading/)
+{% endcontent-ref %}
 
-{% tab title="思考" %}
-{% page-ref page="mind/thinking-about-professional/" %}
-
-{% page-ref page="mind/after-reading/" %}
-{% endtab %}
-
-{% tab title="架构" %}
 ## 架构设计
 
-{% page-ref page="it/learning-architecture/she-ji-yuan-ze.md" %}
+{% content-ref url="it/learning-architecture/she-ji-yuan-ze.md" %}
+[she-ji-yuan-ze.md](it/learning-architecture/she-ji-yuan-ze.md)
+{% endcontent-ref %}
 
-{% page-ref page="it/learning-architecture/architecture-pattern.md" %}
-
-{% page-ref page="it/learning-architecture/design-pattern.md" %}
-{% endtab %}
-
-{% tab title="实践" %}
-## 云原生
-
-## 其他
-{% endtab %}
-{% endtabs %}
-
-
-
+{% content-ref url="it/learning-architecture/architecture-pattern.md" %}
+[architecture-pattern.md](it/learning-architecture/architecture-pattern.md)
+{% endcontent-ref %}
