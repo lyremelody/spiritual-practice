@@ -6,6 +6,7 @@
 
 * [系统](worldview/system.md)
 * [思维](worldview/thinking/README.md)
+  * [客户思维](worldview/thinking/customer-thinking.md)
   * [寻求内心的力量](worldview/thinking/xun-qiu-nei-xin-de-li-liang.md)
   * [读《异类》](worldview/thinking/du-yi-lei.md)
 * [家庭](worldview/family.md)
