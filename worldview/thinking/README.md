@@ -1,8 +1,13 @@
-# 读后感
+# 思维
 
-{% page-ref page="xun-qiu-nei-xin-de-li-liang.md" %}
+{% content-ref url="xun-qiu-nei-xin-de-li-liang.md" %}
+[xun-qiu-nei-xin-de-li-liang.md](xun-qiu-nei-xin-de-li-liang.md)
+{% endcontent-ref %}
 
-{% page-ref page="du-yi-lei.md" %}
+{% content-ref url="du-yi-lei.md" %}
+[du-yi-lei.md](du-yi-lei.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../practice/how-to-form-a-habit.md" %}
-
+{% content-ref url="../../practice/self-management/how-to-form-a-habit.md" %}
+[how-to-form-a-habit.md](../../practice/self-management/how-to-form-a-habit.md)
+{% endcontent-ref %}

@@ -13,7 +13,8 @@
   * [初识「搜索引擎」](worldview/skill/chu-shi-sou-suo-yin-qing.md)
   * [谈谈设计之「自顶向下」和「自底向上」](worldview/skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 * [历史](worldview/history.md)
-* [社会](worldview/society.md)
+* [社会](worldview/society/README.md)
+  * [我的权力观 2021](worldview/society/power.md)
 * [职业](worldview/thinking-about-professional/README.md)
   * [职业生涯的思考](worldview/thinking-about-professional/zhi-ye-sheng-ya-de-si-kao.md)
 
@@ -22,11 +23,14 @@
 * [写作](practice/writing/README.md)
   * [如何写技术方案](practice/writing/how-to-write-a-technical-solution.md)
   * [如何写技术白皮书](practice/writing/how-to-write-a-technical-white-paper.md)
-* [如何做计划](practice/how-to-plan.md)
-* [如何做技术预研](practice/how-to-do-technical-pre-research.md)
-* [处事方法归纳](practice/chu-shi-fang-fa-gui-na.md)
-* [早起，其实并没有那么难](practice/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
-* [如何有效地养成习惯](practice/how-to-form-a-habit.md)
+* [团队管理](practice/team-management.md)
+* [个人管理](practice/self-management/README.md)
+  * [早起，其实并没有那么难](practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
+  * [如何有效地养成习惯](practice/self-management/how-to-form-a-habit.md)
+  * [处事方法归纳](practice/self-management/chu-shi-fang-fa-gui-na.md)
+  * [如何做计划](practice/self-management/how-to-plan.md)
+* [技术管理](practice/tec-management/README.md)
+  * [如何做技术预研](practice/tec-management/how-to-do-technical-pre-research.md)
 
 ## 读书笔记 <a href="#reading-notes" id="reading-notes"></a>
 

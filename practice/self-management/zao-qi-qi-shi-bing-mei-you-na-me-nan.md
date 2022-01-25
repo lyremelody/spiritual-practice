@@ -10,7 +10,7 @@ description: '2019-03-01'
 >
 > 半年以后，我参加了个半程马拉松赛，拿个了纪念奖牌。
 >
-> 一年以后，我完成了另一个阶段目标，跑了个全程马拉松，写了一篇总结[《首马总结》](http://mp.weixin.qq.com/s?__biz=MjM5MTM4NDE3Mg==&mid=2247483867&idx=1&sn=b011a22d71b08fbb1a4a6aa1b02a5aab&chksm=a6b716d891c09fce5577ba700f5d32d382f4bd70c4dec09706c559df8e187bac6f772b538ac1&scene=21#wechat_redirect)。
+> 一年以后，我完成了另一个阶段目标，跑了个全程马拉松，写了一篇总结[《首马总结》](http://mp.weixin.qq.com/s?\_\_biz=MjM5MTM4NDE3Mg==\&mid=2247483867\&idx=1\&sn=b011a22d71b08fbb1a4a6aa1b02a5aab\&chksm=a6b716d891c09fce5577ba700f5d32d382f4bd70c4dec09706c559df8e187bac6f772b538ac1\&scene=21#wechat\_redirect)。
 
 2018年初，在自律的路上，我立了个flag，“坚持6点早起300天”。
 
@@ -24,11 +24,11 @@ description: '2019-03-01'
 
 当然，今天我来写这个文章，是因为我找到了实现这个目标的可行的方法，并且做了2周的验证，希望对其他人有帮助。
 
-先看看结果： 
+先看看结果：
 
-![](../.gitbook/assets/wechatimg60.jpeg)
+![](../../.gitbook/assets/wechatimg60.jpeg)
 
-![](../.gitbook/assets/wechatimg61.jpeg)
+![](../../.gitbook/assets/wechatimg61.jpeg)
 
 要点有三个：
 
@@ -119,4 +119,3 @@ description: '2019-03-01'
 * 明确目标和制订容易执行的策略
 * 使用能够帮助你达成目标的工具
 * 赋予早起意义，并形成正向反馈
-

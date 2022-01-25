@@ -8,10 +8,10 @@
 [zhi-ye-sheng-ya-de-si-kao.md](zhi-ye-sheng-ya-de-si-kao.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../practice/chu-shi-fang-fa-gui-na.md" %}
-[chu-shi-fang-fa-gui-na.md](../../practice/chu-shi-fang-fa-gui-na.md)
+{% content-ref url="../../practice/self-management/chu-shi-fang-fa-gui-na.md" %}
+[chu-shi-fang-fa-gui-na.md](../../practice/self-management/chu-shi-fang-fa-gui-na.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../practice/zao-qi-qi-shi-bing-mei-you-na-me-nan.md" %}
-[zao-qi-qi-shi-bing-mei-you-na-me-nan.md](../../practice/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
+{% content-ref url="../../practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md" %}
+[zao-qi-qi-shi-bing-mei-you-na-me-nan.md](../../practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
 {% endcontent-ref %}
