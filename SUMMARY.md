@@ -5,17 +5,17 @@
 ## 世界观 <a href="#worldview" id="worldview"></a>
 
 * [系统](worldview/system.md)
-* [思维](worldview/think-about-/README.md)
-  * [寻求内心的力量](worldview/think-about-/xun-qiu-nei-xin-de-li-liang.md)
-  * [读《异类》](worldview/think-about-/du-yi-lei.md)
+* [思维](worldview/thinking/README.md)
+  * [寻求内心的力量](worldview/thinking/xun-qiu-nei-xin-de-li-liang.md)
+  * [读《异类》](worldview/thinking/du-yi-lei.md)
 * [家庭](worldview/family.md)
-* [技能](worldview/thinking-about-it/README.md)
-  * [初识「搜索引擎」](worldview/thinking-about-it/chu-shi-sou-suo-yin-qing.md)
-  * [谈谈设计之「自顶向下」和「自底向上」](worldview/thinking-about-it/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
+* [技能](worldview/skill/README.md)
+  * [初识「搜索引擎」](worldview/skill/chu-shi-sou-suo-yin-qing.md)
+  * [谈谈设计之「自顶向下」和「自底向上」](worldview/skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 * [历史](worldview/history.md)
 * [社会](worldview/society.md)
-* [职业](worldview/professional/README.md)
-  * [职业生涯的思考](worldview/professional/zhi-ye-sheng-ya-de-si-kao.md)
+* [职业](worldview/thinking-about-professional/README.md)
+  * [职业生涯的思考](worldview/thinking-about-professional/zhi-ye-sheng-ya-de-si-kao.md)
 
 ## 实践 <a href="#practice" id="practice"></a>
 
