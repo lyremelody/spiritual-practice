@@ -1,5 +1,5 @@
 ---
-description: '@lyremelody 的日志'
+description: '@lyremelody'
 ---
 
 # 目录
