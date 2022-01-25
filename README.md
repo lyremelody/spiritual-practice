@@ -68,8 +68,8 @@ description: '@lyremelody 的日志'
 [thinking-about-professional](worldview/thinking-about-professional/)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/after-reading/" %}
-[after-reading](worldview/after-reading/)
+{% content-ref url="worldview/think-about-/" %}
+[think-about-](worldview/think-about-/)
 {% endcontent-ref %}
 
 ## 架构设计
