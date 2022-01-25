@@ -15,8 +15,8 @@
 * [历史](worldview/history.md)
 * [社会](worldview/society/README.md)
   * [我的权力观 2021](worldview/society/power.md)
-* [职业](worldview/profession/README.md)
-  * [职业生涯的思考](worldview/profession/zhi-ye-sheng-ya-de-si-kao.md)
+* [职业](worldview/thinking-about-professional/README.md)
+  * [职业生涯的思考 2019](worldview/profession/think-about-career-2019.md)
 
 ## 实践 <a href="#practice" id="practice"></a>
 

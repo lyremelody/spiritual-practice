@@ -4,8 +4,8 @@
 [tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md](../skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 {% endcontent-ref %}
 
-{% content-ref url="zhi-ye-sheng-ya-de-si-kao.md" %}
-[zhi-ye-sheng-ya-de-si-kao.md](zhi-ye-sheng-ya-de-si-kao.md)
+{% content-ref url="../profession/think-about-career-2019.md" %}
+[think-about-career-2019.md](../profession/think-about-career-2019.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../practice/self-management/chu-shi-fang-fa-gui-na.md" %}
