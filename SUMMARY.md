@@ -14,8 +14,8 @@
   * [谈谈设计之「自顶向下」和「自底向上」](worldview/thinking-about-it/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 * [历史](worldview/history.md)
 * [社会](worldview/society.md)
-* [职业](worldview/thinking-about-professional/README.md)
-  * [职业生涯的思考](worldview/thinking-about-professional/zhi-ye-sheng-ya-de-si-kao.md)
+* [职业](worldview/professional/README.md)
+  * [职业生涯的思考](worldview/professional/zhi-ye-sheng-ya-de-si-kao.md)
 
 ## 实践 <a href="#practice" id="practice"></a>
 
