@@ -1,2 +1,0 @@
-# Open Policy Agent
-
