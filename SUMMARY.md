@@ -73,6 +73,7 @@
 * [微服务](it/learning-microservices.md)
 * [多租户](it/multi-tenancy/README.md)
   * [学习资料](it/multi-tenancy/infomation.md)
+  * [\[译/注\] Force.com 多租户互联网应用开发平台的设计](it/multi-tenancy/translatep889-weissman-1-pdf.md)
 * [服务网格](it/learning-service-mesh/README.md)
   * [学习资料](it/learning-service-mesh/information.md)
 * [混沌工程](it/learning-chaos-engineering/README.md)
