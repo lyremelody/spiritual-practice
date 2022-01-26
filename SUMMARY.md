@@ -8,8 +8,6 @@
 * [思维](worldview/thinking/README.md)
   * [客户思维](worldview/thinking/customer-thinking.md)
   * [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
-  * [寻求内心的力量](worldview/thinking/xun-qiu-nei-xin-de-li-liang.md)
-  * [读《异类》](worldview/thinking/du-yi-lei.md)
 * [家庭](worldview/family.md)
 * [技能](worldview/skill/README.md)
   * [初识「搜索引擎」](worldview/skill/chu-shi-sou-suo-yin-qing.md)
@@ -34,9 +32,11 @@
 * [技术管理](practice/tec-management/README.md)
   * [如何做技术预研](practice/tec-management/how-to-do-technical-pre-research.md)
 
-## 读书笔记 <a href="#reading-notes" id="reading-notes"></a>
+## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
 * [书单](reading-notes/book-list.md)
+* [寻求内心的力量](reading-notes/xun-qiu-nei-xin-de-li-liang.md)
+* [读《异类》](reading-notes/du-yi-lei.md)
 * [《影响力大师》](reading-notes/influencer.md)
 * [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
 
