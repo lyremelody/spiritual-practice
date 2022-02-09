@@ -51,10 +51,6 @@
   * [用户思维](business1/concept/user-orientation.md)
   * [NPS](business1/concept/nps.md)
 
-***
-
-* [商业](business.md)
-
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
 * [数据结构](computer-system/learning-data-structure/README.md)
