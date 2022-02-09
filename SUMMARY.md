@@ -47,6 +47,9 @@
     * [ToB SaaS](business/concept/to-b-saas.md)
     * [客户](business/concept/customer.md)
     * [客户成功](business/concept/customer-success.md)
+    * [客户体验](business/concept/customer-experience.md)
+    * [用户](business/concept/user.md)
+    * [用户体验](business/concept/user-experience.md)
     * [NPS](business/concept/nps.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
