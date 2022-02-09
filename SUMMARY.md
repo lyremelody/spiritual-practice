@@ -78,6 +78,8 @@
 * [REST](computer-system/learning-rest/README.md)
   * [学习资料](computer-system/learning-rest/information.md)
 * [API](computer-system/learning-api.md)
+* [OAuth](computer-system/oauth/README.md)
+  * [学习资料](computer-system/oauth/information.md)
 * [云原生](computer-system/learning-cloud-native/README.md)
   * [学习资料](computer-system/learning-cloud-native/information.md)
   * [云原生是什么？](computer-system/learning-cloud-native/what-is-cloud-native.md)
