@@ -22,3 +22,4 @@
 5. 只有0.1%的创业者，能把用户思维真正落地，2020-07-01 [https://t.qianzhan.com/daka/detail/200701-242e3f00.html](https://t.qianzhan.com/daka/detail/200701-242e3f00.html)
 6. 用案例告诉你什么是用户思维，2021-08-02 **** [**https://www.shejidaren.com/shen-me-shi-yong-hu-si-wei.html**](https://www.shejidaren.com/shen-me-shi-yong-hu-si-wei.html)
 7. 如何深入理解用户？从四个维度聊聊培养用户思维那点事，2021-12-22 [https://www.nihaotm.com/operating/54869.html](https://www.nihaotm.com/operating/54869.html)
+8. Oracle 客户体验(CX) 主题 [https://www.oracle.com/cn/cx/what-is-cx/](https://www.oracle.com/cn/cx/what-is-cx/)
