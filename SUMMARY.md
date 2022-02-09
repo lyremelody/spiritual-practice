@@ -40,17 +40,20 @@
 * [《影响力大师》](reading-notes/influencer.md)
 * [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
 
+## 商业 <a href="#business1" id="business1"></a>
+
+* [概念](business1/concept/README.md)
+  * [ToB SaaS](business1/concept/to-b-saas.md)
+  * [客户与用户](business1/concept/customer-user.md)
+  * [客户成功](business1/concept/customer-success.md)
+  * [客户体验与用户体验](business1/concept/customer-user-experience.md)
+  * [客户思维](business1/concept/customer-orientation.md)
+  * [用户思维](business1/concept/user-orientation.md)
+  * [NPS](business1/concept/nps.md)
+
 ***
 
-* [商业](business/README.md)
-  * [概念](business/concept/README.md)
-    * [ToB SaaS](business/concept/to-b-saas.md)
-    * [客户与用户](business/concept/customer-user.md)
-    * [客户成功](business/concept/customer-success.md)
-    * [客户体验与用户体验](business/concept/customer-user-experience.md)
-    * [客户思维](business/concept/customer-orientation.md)
-    * [用户思维](business/concept/user-orientation.md)
-    * [NPS](business/concept/nps.md)
+* [商业](business.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
