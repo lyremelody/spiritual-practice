@@ -66,6 +66,7 @@
   * [Bloom Filter](computer-system/learning-algorithm/bloom-filter.md)
 * [架构设计](computer-system/learning-architecture/README.md)
   * [概念整理](computer-system/learning-architecture/architecture-concept/README.md)
+    * [架构 architecture](computer-system/learning-architecture/architecture-concept/architecture.md)
     * [Scalability](computer-system/learning-architecture/architecture-concept/concept-scalability.md)
   * [设计原则](computer-system/learning-architecture/she-ji-yuan-ze.md)
   * [架构模式](computer-system/learning-architecture/architecture-pattern.md)
