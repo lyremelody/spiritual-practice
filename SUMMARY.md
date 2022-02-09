@@ -40,6 +40,15 @@
 * [《影响力大师》](reading-notes/influencer.md)
 * [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
 
+***
+
+* [商业](business/README.md)
+  * [概念](business/concept/README.md)
+    * [ToB SaaS](business/concept/to-b-saas.md)
+    * [客户](business/concept/customer.md)
+    * [客户成功](business/concept/customer-success.md)
+    * [NPS](business/concept/nps.md)
+
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
 * [数据结构](computer-system/learning-data-structure/README.md)
