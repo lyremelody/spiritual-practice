@@ -35,6 +35,7 @@
 * 2004 年 \~ 2007 年，Google 已在内部大规模地使用像 Cgroups 这样的容器技术；&#x20;
 * 2008 年，Google 将 Cgroups 合并进入了 Linux 内核主干。
 * 2010 年，出现云原生的概念。[在当时 Paul Fremantle 的一篇博客中被提及](http://pzf.fremantle.org/2010/05/cloud-native.html)，他主要将其描述为一种和云一样的系统行为的应用的编写，比如分布式的、松散的、自服务的、持续部署与测试的。当时提出云原生是为了能构建一种符合云计算特性的标准来指导云计算应用的编写。
+* 2011 年，PaaS提供商Heroku的Adam Wiggins提出[12因素(12-factor)](https://12factor.net/zh\_cn/)
 * 2013 年，Docker 项目正式发布。 Docker 项目的发布使得全操作系统语义的沙盒技术唾手可得，使得用户能够更好地、更完整地打包自己的应用，使得开发者可以轻而易举的获得了一个应用的最小可运行单位，而不需要依赖任何 PaaS 能力。这对经典 PaaS 产业其实是一个“降维打击”。
 * 2013 年，[Matt Stine在推特上迅速推广云原生概念](https://dzone.com/articles/cloud-native-devops-your-world-to-new-possibilitie)
 * 2013 年，Netflix 云架构师 Adrian Cockcroft 介绍了 Netflix 在 AWS 上基于Cloud Native的成功应用，Netflix在AWS上有上万个实例，每天都有数以万计的实例被创建或者删除。Adrian Cockcroft在介绍netflix在AWS上成功经验时，从目标、原则和措施三个方面进行了讲述。
@@ -42,7 +43,7 @@
   * 原则：不变性，服务一旦创建，不能修改，只能重建；关注点分离，通过微服务架构实现关注点分离，避免决策瓶颈反脆弱性；默认所有的依赖的都会失效，在设计阶段考虑这些失效问题；高信任的组织，相信自己的员工可以做出正确的决策，倡导底层员工的自主决策权 共享，透明的管理，共享能够促进技术人员的成长。
   * 措施：利用AWS实现可扩展、高可用和共享；利用非标准化数据实现关注点分离；利用猴子工程师实现反脆弱性；利用默认开源实现敏捷和共享； 利用持续部署实现敏捷、不变性；利用devops实现高度信任和共享；利用运行自己写的代码实现反脆弱性开发演进。
 * 2014 年，Kubernetes 项目正式发布。 Kubernetes 项目发布，其意义在于 Google 将内部的 Borg/Omega 系统思想借助开源社区实现了“重生”，并且提出了“容器设计模式”的思想。而 Google 之所以选择间接开源 Kubernetes 而不是直接开源 Borg 项目，其实背后的原因也比较容易理解：Borg/Omega 这样的系统太复杂了，是没办法提供给 Google 之外的人使用，但是 Borg/Omega 这样的设计思想却可以借助 Kubernetes 让大家接触到，这也是开源 Kubernetes 的重要背景。
-* 2015 年，来自 Pivotal 的 Matt Stine 在[《迁移到云原生架构》](https://www.oreilly.com/library/view/migrating-to-cloud-native/9781492047605/)一书中定义了符合云原生架构的特征：12因素、微服务、自服务、基于API协作、抗脆弱性。而由于这本书的推广畅销，这也成了很多人对云原生的早期印象，同时这时云原生也被[12要素](https://12factor.net)变成了一个抽象的概念。他认为单体架构在向云原生架构的演进过程中，需要流程、文化、技术共同变革。
+* 2015 年，来自 Pivotal 的 Matt Stine 在[《迁移到云原生架构》](https://www.oreilly.com/library/view/migrating-to-cloud-native/9781492047605/)一书中定义了符合云原生架构的特征：12因素、微服务、自服务、基于API协作、抗脆弱性。而由于这本书的推广畅销，这也成了很多人对云原生的早期印象，同时这时云原生也被[12因素(12-factor)](https://12factor.net/zh\_cn/)变成了一个抽象的概念。他认为单体架构在向云原生架构的演进过程中，需要流程、文化、技术共同变革。
 * 2015 年，CNCF 成立。 Linux基金会发起了一个 [The Cloud Native Computing Foundation（CNCF） 基金组织](https://www.cncf.io)，CNCF基金会的成立标志着云原生正式进入高速发展轨道，[google、Cisco、Docker各大厂纷纷加入](https://www.cncf.io/announcement/2015/12/17/cloud-native-computing-foundation-announces-new-members-begins-accepting-technical-contributions/)，并逐步构建出围绕 Cloud Native 的具体工具，而云原生这个的概念也逐渐变得更具体化。
 * 2015 年到 2016 年，处于容器编排“三国争霸”的时代，当时 Docker、Swarm、Mesos、Kubernetes 都在容器编排领域展开角逐，他们竞争的原因其实也比较容易理解， 那就是 Docker 或者容器本身的价值虽然大，但是如果想要让其产生商业价值或者说对云的价值，那么就一定需要在编排上面占据一个有利的位置。其中，Swarm 更偏向于生态，而 Mesos 技术更强一些。相比之下， Kubernetes 则兼具了两者优势，最终在 2017 年“三国争霸”的局面中得以胜出，成为了当时直到现在的容器编排标准。这一过程的代表性事件就是 Docker 公司宣布在核心产品中内置了 Kubernetes 服务，并且 Swarm 项目逐渐停止维护。
 * 2017 年，Matt Stine 将原生云架构归纳为模块化、可观察、可部署、可测试、可替换、可处理 6 特质；而 Pivotal 最新官网对云原生概括为 4 个要点：DevOps+持续交付+微服务+容器。
