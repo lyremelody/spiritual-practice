@@ -15,6 +15,7 @@
 * [历史](worldview/history/README.md)
   * [计算机科学史](worldview/history/history-of-computer-science.md)
   * [计算机发展史](worldview/history/history-of-computer.md)
+  * [软件发展史](worldview/history/history-of-software.md)
   * [云计算发展史](worldview/history/history-of-cloud-computing.md)
   * [云原生发展史](worldview/history/history-of-cloud-native.md)
 * [社会](worldview/society/README.md)
