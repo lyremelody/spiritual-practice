@@ -20,7 +20,7 @@
   * [软件发展史](worldview/history/history-of-software.md)
   * [操作系统发展史](worldview/history/history-of-operating-system.md)
   * [云计算发展史](worldview/history/history-of-cloud-computing.md)
-  * [我了解的云原生发展史 v1](worldview/history/history-of-cloud-native.md)
+  * [云原生发展史](worldview/history/history-of-cloud-native.md)
 * [社会](worldview/society/README.md)
   * [我的权力观 2021](worldview/society/power.md)
 * [职业](worldview/thinking-about-professional/README.md)
