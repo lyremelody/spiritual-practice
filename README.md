@@ -22,8 +22,8 @@ description: '@lyremelody'
 [skill](worldview/skill/)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/history.md" %}
-[history.md](worldview/history.md)
+{% content-ref url="worldview/history/" %}
+[history](worldview/history/)
 {% endcontent-ref %}
 
 {% content-ref url="worldview/society/" %}
@@ -39,7 +39,7 @@ description: '@lyremelody'
 
 {% endtab %}
 
-{% tab title="读书笔记" %}
+{% tab title="读书" %}
 
 {% endtab %}
 
