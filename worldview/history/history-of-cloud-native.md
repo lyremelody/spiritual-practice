@@ -1,5 +1,7 @@
 # 云原生发展史
 
+![](../../.gitbook/assets/wechat-lyremelody.png)
+
 了解一个概念，最好的方法，就是先全面的了解一下这个概念的发展。
 
 收集和整理了「云原生 Cloud Native」相关发展历程的资料，如下。
