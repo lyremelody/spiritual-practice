@@ -1,6 +1,6 @@
 # 云原生发展史
 
-![](../../.gitbook/assets/wechat-lyremelody.png)
+![](../../.gitbook/assets/wechat-lyremelody.bmp)
 
 了解一个概念，最好的方法，就是先全面的了解一下这个概念的发展。
 
