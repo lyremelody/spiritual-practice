@@ -8,12 +8,17 @@
 
 ## 论文
 
-1. [Large-scale cluster management at Google with Borg](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43438.pdf)，Google Inc.
+1. [Large-scale cluster management at Google with Borg](https://static.googleusercontent.com/media/research.google.com/zh-CN/pubs/archive/43438.pdf)，Google Inc.
 
 ## 书
 
 1. Kubernetes in Action 中文版，2019
 2. [Kubernetes权威指南](https://book.douban.com/subject/27112874/)，2017
+
+## 生产最佳实践
+
+1. [Kubernetes production best practices](https://learnk8s.io/production-best-practices)，learnk8s.io
+2. [Kubernetes troubleshooting flowchart](https://learnk8s.io/troubleshooting-deployments)，learnk8s.io
 
 ## 其他资料
 
@@ -21,8 +26,5 @@
 2. [云原生技术公开课](https://edu.aliyun.com/roadmap/cloudnative)，阿里云
 3. [Kubernetes指南](https://feisky.gitbooks.io/kubernetes/)，很好的中文资料
 4. [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)，很好的中文资料
-5. [Kubernetes中文社区](https://www.kubernetes.org.cn/)
-6. \*\*\*\*[Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)**，**Microsoft Azure
-
-
-
+5. [Kubernetes中文社区](https://www.kubernetes.org.cn)
+6. \*\*\*\*[Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)\*\*，\*\*Microsoft Azure
