@@ -6,8 +6,8 @@ description: '@lyremelody'
 
 {% tabs %}
 {% tab title="世界观" %}
-{% content-ref url="worldview/system.md" %}
-[system.md](worldview/system.md)
+{% content-ref url="worldview/system/" %}
+[system](worldview/system/)
 {% endcontent-ref %}
 
 {% content-ref url="worldview/thinking/" %}

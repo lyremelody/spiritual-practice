@@ -4,7 +4,8 @@
 
 ## 世界观 <a href="#worldview" id="worldview"></a>
 
-* [系统](worldview/system.md)
+* [系统](worldview/system/README.md)
+  * [我的系统观 2022](worldview/system/wo-de-xi-tong-guan-2022.md)
 * [思维](worldview/thinking/README.md)
   * [客户思维](worldview/thinking/customer-thinking.md)
   * [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
