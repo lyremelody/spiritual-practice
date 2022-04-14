@@ -1,7 +1,5 @@
 # 云原生发展史
 
-![](../../.gitbook/assets/wechat-lyremelody.bmp)
-
 了解一个概念，最好的方法，就是先全面的了解一下这个概念的发展。
 
 收集和整理了「云原生 Cloud Native」相关发展历程的资料，如下。
@@ -176,3 +174,5 @@ _lyremelody 2022年2月11日于上海_
 * [《云原生2.0白皮书》](https://res-static1.huaweicloud.com/content/dam/cloudbu-site/archive/china/zh-cn/about/events/techwave2021/%E4%BA%91%E5%8E%9F%E7%94%9F2.0%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
 * [《凤凰架构：构建可靠的大型分布式系统》](https://book.douban.com/subject/35492898/)
 * skyao 云原生学习笔记-[《云计算的历史》](https://skyao.io/learning-cloudnative/docs/introduction/history.html)
+
+![](../../.gitbook/assets/wechat-lyremelody.bmp)
