@@ -25,7 +25,7 @@
 
 在2000年前后，虚拟化技术逐渐发展成熟：
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 * 1998年，VMware成立并首次引入X86的虚拟技术，通过运行在Windows NT上的VMware来启动Windows 95。
 * 1999年，VMWare推出可在X86平台上流畅运行的第一款VMware Workstation，从此虚拟化技术终于走下了大型机的神话。之后，研发人员和发烧友开始在普通PC和工作站上大量使用该虚拟化解决方案。
@@ -109,7 +109,7 @@
 
 下图形象的概述了这二十年云计算的演进过程：从传统预制IT、托管到云，以及云的不同形态如IaaS、PaaS、SaaS等。
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (15) (1).png>)
 
 对于XaaS的一路演进，可以简单归纳为：
 
