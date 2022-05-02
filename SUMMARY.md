@@ -74,6 +74,7 @@
   * [Bloom Filter](computer-system/learning-algorithm/bloom-filter.md)
 * [架构设计](computer-system/learning-architecture/README.md)
   * [概念](computer-system/learning-architecture/architecture-concept/README.md)
+    * [「Openness」开放性：一个框架及简史](computer-system/learning-architecture/architecture-concept/openness-a-framework-and-a-brief-history.md)
     * [架构 Architecture](computer-system/learning-architecture/architecture-concept/architecture.md)
     * [「Availability」可用性](computer-system/learning-architecture/architecture-concept/availability.md)
     * [「fault tolerance」容错](computer-system/learning-architecture/architecture-concept/fault-tolerance.md)

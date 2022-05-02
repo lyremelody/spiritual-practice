@@ -8,7 +8,7 @@ description: 2021-04-16 01:55
 
 直到我看了这本书：
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 一本很薄的小册子，160页，大约一个多小时就能看完。
 

@@ -77,7 +77,7 @@
 容器技术可以说是过去十年间对软件开发行业改变最大的技术，而从虚拟机到容器，整个云计算市场发生了一次重大变革，甚至是洗牌。基于容器技术的容器编排市场，则经历了Mesos、Swarm、kubernetes三家的一场史诗大战，最终以kubernetes全面胜利而告终：\
 
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 * 2008年，LXC（Linux Container）容器发布，这是一种内核虚拟化技术，可以提供轻量级的虚拟化，以便隔离进程和资源。LXC是Docker最初使用的具体内核功能实现
 * 2013年，Docker发布，组合LXC，Union File System和cgroups等Linux技术创建容器化标准，docker风靡一时，container逐步替代VM，云计算进入容器时代
