@@ -1,1 +1,1 @@
-# notes
+# Architect Notes from LU Yuan
