@@ -3,9 +3,10 @@
 [软件工程总览](./software-engineering.md)
 
 ## 软件过程
-[架构概念总览](./architecture.md)
 
 ## 建模
+* [架构概念总览](./architecture.md)
+
 ### 架构目标
 * [非功能性需求](./non-functional-requirements/)
 
