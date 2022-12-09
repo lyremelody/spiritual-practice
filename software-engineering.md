@@ -1,9 +1,9 @@
 # 软件工程的定义
-IEEE IEE7给出的定义：
+美国电气与电子工程师学会(IEEE)[IEE7]给出的定义：
 * 软件工程：将系统化的、规范化的、可量化的方法应用于软件的开发、运行和维护，即将工程化方法应用于软件。
 
 <div align=center><img src="./software-engineering-layers.png"></div>
-<center>图1 软件工程层次图</center><br>
+<div align=center>图1 软件工程层次图</div><br>
 
 软件工程是一种层次化的技术：
 - 任何工程方法(包括软件工程)必须构建在质量承诺的基础之上。支持软件工程的根基在于**质量关注点**(quality focus)。
