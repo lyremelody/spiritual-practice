@@ -1,7 +1,7 @@
 # Architect Notes from LU Yuan
 
-[软件工程总览](./software-engineering.md)
-[各种发展史(timelines)](./timelines/)
+* [软件工程总览](./software-engineering.md)
+* [各种发展史(timelines)](./timelines/)
 
 ## 软件过程
 
@@ -21,3 +21,4 @@
 * [软件质量](./software-quality/)
 
 ## 论文学习
+* [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
