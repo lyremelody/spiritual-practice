@@ -1,7 +1,6 @@
 # Table of contents
 
 * [目录](README.md)
-* [Architect Notes](architect-notes.md)
 
 ## 世界观 <a href="#worldview" id="worldview"></a>
 

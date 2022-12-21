@@ -6,9 +6,7 @@ description: '@lyremelody'
 
 {% tabs %}
 {% tab title="Architect Notes" %}
-{% content-ref url="architect-notes.md" %}
-[architect-notes.md](architect-notes.md)
-{% endcontent-ref %}
+{% embed url="https://github.com/lyremelody/architect-notes#readme" %}
 {% endtab %}
 
 {% tab title="世界观" %}
