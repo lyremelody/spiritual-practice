@@ -29,6 +29,10 @@
 ### 质量与安全
 * [软件质量](./software-quality/)
 
+## 基础算法
+* [快速排序](./primary-algorithms/quick-sort.md)
+* [最大堆和堆排序](./primary-algorithms/heap-sort.md)
+
 ## 论文学习
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 
