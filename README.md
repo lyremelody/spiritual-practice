@@ -5,6 +5,12 @@ description: '@lyremelody'
 # 目录
 
 {% tabs %}
+{% tab title="Architect Notes" %}
+{% content-ref url="architect-notes.md" %}
+[architect-notes.md](architect-notes.md)
+{% endcontent-ref %}
+{% endtab %}
+
 {% tab title="世界观" %}
 {% content-ref url="worldview/system/" %}
 [system](worldview/system/)
@@ -40,16 +46,6 @@ description: '@lyremelody'
 {% endtab %}
 
 {% tab title="读书" %}
-
-{% endtab %}
-
-{% tab title="计算机基础" %}
-
-{% endtab %}
-
-{% tab title="开源" %}
-
-
 
 {% endtab %}
 {% endtabs %}
