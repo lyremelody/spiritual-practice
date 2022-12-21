@@ -35,7 +35,6 @@
   * [早起，其实并没有那么难](practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
   * [如何有效地养成习惯](practice/self-management/how-to-form-a-habit.md)
   * [处事方法归纳](practice/self-management/chu-shi-fang-fa-gui-na.md)
-  * [如何做计划](practice/self-management/how-to-plan.md)
 
 ## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
@@ -73,8 +72,6 @@
   * [\[译/注\] Force.com 多租户互联网应用开发平台的设计](computer-system/multi-tenancy/translatep889-weissman-1-pdf.md)
 * [服务网格](computer-system/learning-service-mesh/README.md)
   * [学习资料](computer-system/learning-service-mesh/information.md)
-* [混沌工程](computer-system/learning-chaos-engineering/README.md)
-  * [混沌工程是什么？](computer-system/learning-chaos-engineering/what-is-chaos-engineering.md)
 
 ## 开源 <a href="#opensource" id="opensource"></a>
 
