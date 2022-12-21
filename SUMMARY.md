@@ -45,11 +45,6 @@
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
-* [数据结构](computer-system/learning-data-structure/README.md)
-  * [Trie](computer-system/learning-data-structure/trie.md)
-* [消息队列](computer-system/learning-message-queue/README.md)
-  * [什么是消息队列？](computer-system/learning-message-queue/what-is-message-queue.md)
-  * [消息队列适合哪些场景？](computer-system/learning-message-queue/mq-situation.md)
 * [REST](computer-system/learning-rest/README.md)
   * [学习资料](computer-system/learning-rest/information.md)
 * [API](computer-system/learning-api.md)
@@ -67,14 +62,6 @@
 ## 开源 <a href="#opensource" id="opensource"></a>
 
 * [Docker](opensource/learning-docker/README.md)
-  * [学习资料](opensource/learning-docker/information.md)
-  * [概念](opensource/learning-docker/introduce/README.md)
-    * [Docker是什么？](opensource/learning-docker/introduce/what-is-docker.md)
-    * [Docker能做什么？](opensource/learning-docker/introduce/what-can-docker-do.md)
-    * [Docker发展历程](opensource/learning-docker/introduce/docker-history.md)
-    * [关键概念](opensource/learning-docker/introduce/key-concept.md)
-  * [使用](opensource/learning-docker/how-to-use.md)
-  * [原理](opensource/learning-docker/principle.md)
   * [实践和思考](opensource/learning-docker/my-practice/README.md)
     * [那些年踩过的坑--Docker篇（二）数据持久化](opensource/learning-docker/my-practice/na-xie-nian-cai-guo-de-keng-docker-pian-er-shu-ju-chi-jiu-hua.md)
     * [那些年踩过的坑--Docker篇](opensource/learning-docker/my-practice/na-xie-nian-cai-guo-de-keng-docker-pian.md)
@@ -111,12 +98,8 @@
     * [Helm是什么？](opensource/learning-helm/introduce/what-is-helm.md)
     * [Helm核心概念](opensource/learning-helm/introduce/core-concept.md)
     * [Chart](opensource/learning-helm/introduce/core-concept-chart.md)
-  * [使用](opensource/learning-helm/how-to-use.md)
-  * [原理](opensource/learning-helm/principle.md)
-  * [实践和思考](opensource/learning-helm/my-practice.md)
 * [Nginx](opensource/learning-nginx/README.md)
   * [Nginx性能测试](opensource/learning-nginx/nginx-test-performance.md)
 * [Elasticsearch](opensource/learning-elasticsearch/README.md)
-  * [概念](opensource/learning-elasticsearch/introduce.md)
   * [Elasticsearch热温数据迁移验证](opensource/learning-elasticsearch/elasticsearch-re-wen-shu-ju-qian-yi-yan-zheng.md)
   * [Elasticsearch Rally](opensource/learning-elasticsearch/elasticsearch-rally.md)
