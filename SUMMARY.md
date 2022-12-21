@@ -30,16 +30,12 @@
 ## 实践 <a href="#practice" id="practice"></a>
 
 * [写作](practice/writing/README.md)
-  * [如何写技术方案](practice/writing/how-to-write-a-technical-solution.md)
   * [如何写技术白皮书](practice/writing/how-to-write-a-technical-white-paper.md)
-* [团队管理](practice/team-management.md)
 * [个人管理](practice/self-management/README.md)
   * [早起，其实并没有那么难](practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
   * [如何有效地养成习惯](practice/self-management/how-to-form-a-habit.md)
   * [处事方法归纳](practice/self-management/chu-shi-fang-fa-gui-na.md)
   * [如何做计划](practice/self-management/how-to-plan.md)
-* [技术管理](practice/tec-management/README.md)
-  * [如何做技术预研](practice/tec-management/how-to-do-technical-pre-research.md)
 
 ## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
@@ -48,17 +44,6 @@
 * [读《异类》](reading-notes/du-yi-lei.md)
 * [《影响力大师》](reading-notes/influencer.md)
 * [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
-
-## 商业 <a href="#business" id="business"></a>
-
-* [概念](business/concept/README.md)
-  * [ToB SaaS](business/concept/to-b-saas.md)
-  * [客户与用户](business/concept/customer-user.md)
-  * [客户成功](business/concept/customer-success.md)
-  * [客户体验与用户体验](business/concept/customer-user-experience.md)
-  * [客户思维](business/concept/customer-orientation.md)
-  * [用户思维](business/concept/user-orientation.md)
-  * [NPS](business/concept/nps.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
@@ -72,20 +57,9 @@
   * [快速排序](computer-system/learning-algorithm/quick-sort.md)
   * [最大堆和堆排序](computer-system/learning-algorithm/heap-sort.md)
   * [Bloom Filter](computer-system/learning-algorithm/bloom-filter.md)
-* [架构设计](computer-system/learning-architecture/README.md)
-  * [概念](computer-system/learning-architecture/architecture-concept/README.md)
-    * [「Openness」开放性：一个框架及简史](computer-system/learning-architecture/architecture-concept/openness-a-framework-and-a-brief-history.md)
-    * [架构 Architecture](computer-system/learning-architecture/architecture-concept/architecture.md)
-    * [「Availability」可用性](computer-system/learning-architecture/architecture-concept/availability.md)
-    * [「fault tolerance」容错](computer-system/learning-architecture/architecture-concept/fault-tolerance.md)
-    * [Scalability](computer-system/learning-architecture/architecture-concept/concept-scalability.md)
-  * [设计原则](computer-system/learning-architecture/she-ji-yuan-ze.md)
-  * [架构模式](computer-system/learning-architecture/architecture-pattern.md)
-  * [设计模式](computer-system/learning-architecture/design-pattern.md)
 * [消息队列](computer-system/learning-message-queue/README.md)
   * [什么是消息队列？](computer-system/learning-message-queue/what-is-message-queue.md)
   * [消息队列适合哪些场景？](computer-system/learning-message-queue/mq-situation.md)
-  * [为什么需要消息队列？](computer-system/learning-message-queue/why-need-message-queue.md)
 * [REST](computer-system/learning-rest/README.md)
   * [学习资料](computer-system/learning-rest/information.md)
 * [API](computer-system/learning-api.md)
@@ -94,9 +68,6 @@
 * [云原生](computer-system/learning-cloud-native/README.md)
   * [学习资料](computer-system/learning-cloud-native/information.md)
   * [云原生是什么？](computer-system/learning-cloud-native/what-is-cloud-native.md)
-  * [云原生技术全景](computer-system/learning-cloud-native/cloud-native-landscape.md)
-* [容器](computer-system/learning-container.md)
-* [微服务](computer-system/learning-microservices.md)
 * [多租户](computer-system/multi-tenancy/README.md)
   * [学习资料](computer-system/multi-tenancy/infomation.md)
   * [\[译/注\] Force.com 多租户互联网应用开发平台的设计](computer-system/multi-tenancy/translatep889-weissman-1-pdf.md)

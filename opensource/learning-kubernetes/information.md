@@ -26,5 +26,5 @@
 2. [云原生技术公开课](https://edu.aliyun.com/roadmap/cloudnative)，阿里云
 3. [Kubernetes指南](https://feisky.gitbooks.io/kubernetes/)，很好的中文资料
 4. [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)，很好的中文资料
-5. [Kubernetes中文社区](https://www.kubernetes.org.cn)
+5. [Kubernetes中文社区](https://www.kubernetes.org.cn/)
 6. \*\*\*\*[Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)\*\*，\*\*Microsoft Azure
