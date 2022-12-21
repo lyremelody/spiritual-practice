@@ -34,7 +34,7 @@
 
 ## 5.基础设施
 ### 5.1 消息队列
-* [什么是消息队列？](./what-is-message-queue.md)
+* [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
 ## 6.论文学习
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
