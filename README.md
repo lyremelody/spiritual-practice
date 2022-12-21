@@ -1,6 +1,4 @@
 # Architect Notes from LU Yuan
-
-
 ## 1.各种发展史
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
@@ -29,12 +27,17 @@
 ## 3.质量与安全
 * [软件质量](./software-quality/)
 
-## 4.基础算法
+## 4.基础算法与数据结构
 * [快速排序](./primary-algorithms/quick-sort.md)
 * [最大堆和堆排序](./primary-algorithms/heap-sort.md)
+* [Trie](./data-structures/trie.md)
 
-## 5.论文学习
+## 5.基础设施
+### 5.1 消息队列
+* [什么是消息队列？](./what-is-message-queue.md)
+  
+## 6.论文学习
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 
-## 6.读书笔记
+## 7.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
