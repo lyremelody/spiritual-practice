@@ -1,11 +1,16 @@
 # Architect Notes from LU Yuan
 
+
+## 各种发展史
+* [云原生发展史](./timelines/cloudnative-timeline.md)
+* [DevOps起源](./timelines/devops-timeline.md)
+
+## 软件工程
 * [软件工程总览](./software-engineering.md)
-* [各种发展史(timelines)](./timelines/)
 
-## 软件过程
+### 软件过程
 
-## 建模
+### 建模
 * [架构概念总览](./architecture.md)
 
 ### 架构目标
@@ -21,8 +26,11 @@
 * [企业架构框架](./enterprise-architecture-frameworks/)
 * [设计模式](./design-patterns/)
 
-## 质量与安全
+### 质量与安全
 * [软件质量](./software-quality/)
 
 ## 论文学习
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
+
+## 读书笔记
+* [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
