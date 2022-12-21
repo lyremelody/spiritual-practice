@@ -42,14 +42,10 @@
 * [寻求内心的力量](reading-notes/xun-qiu-nei-xin-de-li-liang.md)
 * [读《异类》](reading-notes/du-yi-lei.md)
 * [《影响力大师》](reading-notes/influencer.md)
-* [《简约之美-软件设计之道》](reading-notes/code-simplicity-the-science-of-development.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
 * [数据结构](computer-system/learning-data-structure/README.md)
-  * [链表](computer-system/learning-data-structure/linked-list.md)
-  * [队列](computer-system/learning-data-structure/queue.md)
-  * [树](computer-system/learning-data-structure/tree.md)
   * [Trie](computer-system/learning-data-structure/trie.md)
 * [消息队列](computer-system/learning-message-queue/README.md)
   * [什么是消息队列？](computer-system/learning-message-queue/what-is-message-queue.md)

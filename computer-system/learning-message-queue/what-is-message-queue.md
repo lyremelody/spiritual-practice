@@ -4,7 +4,7 @@
 
 队列是一种「先进先出」数据结构。
 
-具体见的[《数据结构-队列》](../learning-data-structure/queue.md)
+具体见的[《数据结构-队列》](broken-reference)
 
 ## 2 对于消息队列的理解
 
@@ -57,4 +57,3 @@ RocketMQ 中国开发者中心：[http://rocketmq.cloud/zh-cn/](http://rocketmq.
 ## 5 参考资料
 
 1. [Wiki - 消息队列](https://zh.wikipedia.org/wiki/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97)
-
