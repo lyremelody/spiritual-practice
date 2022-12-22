@@ -25,30 +25,33 @@
 * [企业架构框架](./enterprise-architecture-frameworks/)
 * [设计模式](./design-patterns/)
 
-## 3.质量与安全
+### 2.3 质量与安全
 * [软件质量](./software-quality/)
 
-## 4.基础算法与数据结构
+### 2.4 软件项目管理
+
+## 3.程序设计与实现
+### 3.1 基础算法与数据结构
 * [快速排序](./primary-algorithms/quick-sort.md)
 * [最大堆和堆排序](./primary-algorithms/heap-sort.md)
 * [Trie](./data-structures/trie.md)
 
-## 5.基础设施
-### 5.1 Docker
+## 4.基础设施
+### 4.1 Docker
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
-### 5.2 消息队列
+### 4.2 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
-### 5.3 搜索引擎
+### 4.3 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 
-## 6.论文学习
-### 6.1 Openness
+## 5.论文学习
+### 5.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
-### 6.2 多租户
+### 5.2 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
-## 7.读书笔记
+## 6.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
