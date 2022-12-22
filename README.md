@@ -10,8 +10,12 @@ description: '@lyremelody'
 {% endtab %}
 
 {% tab title="世界观" %}
-{% content-ref url="worldview/system/" %}
-[system](worldview/system/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -22,12 +26,8 @@ description: '@lyremelody'
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/skill/" %}
-[skill](worldview/skill/)
-{% endcontent-ref %}
-
-{% content-ref url="worldview/history/" %}
-[history](worldview/history/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

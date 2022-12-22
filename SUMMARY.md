@@ -2,15 +2,6 @@
 
 * [目录](README.md)
 
-## 世界观 <a href="#worldview" id="worldview"></a>
-
-* [系统](worldview/system/README.md)
-  * [我的系统观 2022](worldview/system/wo-de-xi-tong-guan-2022.md)
-* [技能](worldview/skill/README.md)
-  * [谈谈设计之「自顶向下」和「自底向上」](worldview/skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
-* [历史](worldview/history/README.md)
-  * [云计算发展史](worldview/history/history-of-cloud-computing.md)
-
 ## 实践 <a href="#practice" id="practice"></a>
 
 * [写作](practice/writing/README.md)
@@ -19,6 +10,7 @@
   * [早起，其实并没有那么难](practice/self-management/zao-qi-qi-shi-bing-mei-you-na-me-nan.md)
   * [如何有效地养成习惯](practice/self-management/how-to-form-a-habit.md)
   * [处事方法归纳](practice/self-management/chu-shi-fang-fa-gui-na.md)
+  * [我的系统观 2022](practice/self-management/wo-de-xi-tong-guan-2022.md)
 
 ## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
@@ -31,13 +23,12 @@
 * [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
 * [我的权力观 2021](worldview/society/power.md)
 
-## 计算机基础 <a href="#computer-system" id="computer-system"></a>
+## 资料收集 <a href="#information" id="information"></a>
 
-* [REST](computer-system/learning-rest/README.md)
-  * [学习资料](computer-system/learning-rest/information.md)
-* [API](computer-system/learning-api.md)
-* [云原生](computer-system/learning-cloud-native/README.md)
-  * [学习资料](computer-system/learning-cloud-native/information.md)
+* [REST学习资料](information/rest-information.md)
+* [API](information/learning-api.md)
+* [云原生学习资料](information/cloudnative-information.md)
+* [Nginx性能测试](information/nginx-test-performance.md)
 
 ## 开源 <a href="#opensource" id="opensource"></a>
 
@@ -66,16 +57,11 @@
     * [使用 kubectl](opensource/learning-kubernetes/how-to-use/use-kubectl.md)
     * [使用 ConfigMap](opensource/learning-kubernetes/how-to-use/use-configmap.md)
     * [Pod 健康检查](opensource/learning-kubernetes/how-to-use/pod-health-check.md)
-  * [原理](opensource/learning-kubernetes/principle.md)
-  * [实践和思考](opensource/learning-kubernetes/my-practice.md)
 * [Helm](opensource/learning-helm/README.md)
   * [学习资料](opensource/learning-helm/information.md)
   * [概念](opensource/learning-helm/introduce/README.md)
     * [Helm是什么？](opensource/learning-helm/introduce/what-is-helm.md)
     * [Helm核心概念](opensource/learning-helm/introduce/core-concept.md)
     * [Chart](opensource/learning-helm/introduce/core-concept-chart.md)
-* [Nginx](opensource/learning-nginx/README.md)
-  * [Nginx性能测试](opensource/learning-nginx/nginx-test-performance.md)
-* [Elasticsearch](opensource/learning-elasticsearch/README.md)
-  * [Elasticsearch热温数据迁移验证](opensource/learning-elasticsearch/elasticsearch-re-wen-shu-ju-qian-yi-yan-zheng.md)
-  * [Elasticsearch Rally](opensource/learning-elasticsearch/elasticsearch-rally.md)
+* [Elasticsearch热温数据迁移验证](opensource/elasticsearch-re-wen-shu-ju-qian-yi-yan-zheng.md)
+* [Elasticsearch Rally](opensource/elasticsearch-rally.md)
