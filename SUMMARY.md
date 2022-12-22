@@ -6,26 +6,11 @@
 
 * [系统](worldview/system/README.md)
   * [我的系统观 2022](worldview/system/wo-de-xi-tong-guan-2022.md)
-* [思维](worldview/thinking/README.md)
-  * [客户思维](worldview/thinking/customer-thinking.md)
-  * [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
-* [家庭](worldview/family.md)
 * [技能](worldview/skill/README.md)
-  * [初识「搜索引擎」](worldview/skill/chu-shi-sou-suo-yin-qing.md)
   * [谈谈设计之「自顶向下」和「自底向上」](worldview/skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 * [历史](worldview/history/README.md)
-  * [计算发展史](worldview/history/history-of-computing.md)
-  * [计算机科学史](worldview/history/history-of-computer-science.md)
-  * [计算机发展史](worldview/history/history-of-computer.md)
-  * [计算机硬件发展史](worldview/history/history-of-computing-hardware.md)
-  * [软件发展史](worldview/history/history-of-software.md)
-  * [操作系统发展史](worldview/history/history-of-operating-system.md)
   * [云计算发展史](worldview/history/history-of-cloud-computing.md)
   * [云原生发展史](worldview/history/history-of-cloud-native.md)
-* [社会](worldview/society/README.md)
-  * [我的权力观 2021](worldview/society/power.md)
-* [职业](worldview/thinking-about-professional/README.md)
-  * [职业生涯的思考 2019](worldview/profession/think-about-career-2019.md)
 
 ## 实践 <a href="#practice" id="practice"></a>
 
@@ -38,10 +23,14 @@
 
 ## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
-* [书单](reading-notes/book-list.md)
+* [书单](reading-notes/book-list/README.md)
+  * [客户思维](reading-notes/book-list/customer-thinking.md)
 * [寻求内心的力量](reading-notes/xun-qiu-nei-xin-de-li-liang.md)
 * [读《异类》](reading-notes/du-yi-lei.md)
 * [《影响力大师》](reading-notes/influencer.md)
+* [职业生涯的思考 2019](reading-notes/think-about-career-2019.md)
+* [定义问题比解决问题更重要](reading-notes/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
+* [我的权力观 2021](reading-notes/power.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 

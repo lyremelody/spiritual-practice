@@ -14,12 +14,12 @@ description: '@lyremelody'
 [system](worldview/system/)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/thinking/" %}
-[thinking](worldview/thinking/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/family.md" %}
-[family.md](worldview/family.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="worldview/skill/" %}
@@ -30,12 +30,12 @@ description: '@lyremelody'
 [history](worldview/history/)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/society/" %}
-[society](worldview/society/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="worldview/thinking-about-professional/" %}
-[thinking-about-professional](worldview/thinking-about-professional/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 {% endtab %}
 
