@@ -19,6 +19,7 @@
 * [可用性](./concepts/availability.md)
 * [容错](./concepts/fault-tolerance.md)
 * [云原生](./concepts/what-is-cloud-native.md)
+* [谈谈设计之「自顶向下」和「自底向上」](./talk-about-top-down-and-bottom-up.md)
 
 #### 2.2.3 架构设计
 * [架构风格](./architecture-styles/)
