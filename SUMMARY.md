@@ -10,7 +10,6 @@
   * [谈谈设计之「自顶向下」和「自底向上」](worldview/skill/tan-tan-she-ji-zhi-zi-ding-xiang-xia-he-zi-di-xiang-shang.md)
 * [历史](worldview/history/README.md)
   * [云计算发展史](worldview/history/history-of-cloud-computing.md)
-  * [云原生发展史](worldview/history/history-of-cloud-native.md)
 
 ## 实践 <a href="#practice" id="practice"></a>
 
@@ -23,14 +22,14 @@
 
 ## 读书 <a href="#reading-notes" id="reading-notes"></a>
 
-* [书单](reading-notes/book-list/README.md)
-  * [客户思维](reading-notes/book-list/customer-thinking.md)
+* [书单](reading-notes/book-list.md)
+  * [客户思维](worldview/thinking/customer-thinking.md)
 * [寻求内心的力量](reading-notes/xun-qiu-nei-xin-de-li-liang.md)
 * [读《异类》](reading-notes/du-yi-lei.md)
 * [《影响力大师》](reading-notes/influencer.md)
-* [职业生涯的思考 2019](reading-notes/think-about-career-2019.md)
-* [定义问题比解决问题更重要](reading-notes/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
-* [我的权力观 2021](reading-notes/power.md)
+* [职业生涯的思考 2019](worldview/profession/think-about-career-2019.md)
+* [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
+* [我的权力观 2021](worldview/society/power.md)
 
 ## 计算机基础 <a href="#computer-system" id="computer-system"></a>
 
@@ -39,7 +38,6 @@
 * [API](computer-system/learning-api.md)
 * [云原生](computer-system/learning-cloud-native/README.md)
   * [学习资料](computer-system/learning-cloud-native/information.md)
-  * [云原生是什么？](computer-system/learning-cloud-native/what-is-cloud-native.md)
 
 ## 开源 <a href="#opensource" id="opensource"></a>
 
