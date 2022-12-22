@@ -1,5 +1,6 @@
 # Architect Notes from LU Yuan
 ## 1.各种发展史
+* [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
 
@@ -41,14 +42,17 @@
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
 ## 4.基础设施
-### 4.1 Docker
+### 4.1 操作系统
+### 4.2 Docker&Kubernetes
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
-### 4.2 消息队列
+### 4.3 数据库
+
+### 4.4 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
-### 4.3 搜索引擎
+### 4.5 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 
 ## 5.论文学习
