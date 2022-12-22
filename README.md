@@ -33,7 +33,11 @@
 * [Trie](./data-structures/trie.md)
 
 ## 5.基础设施
-### 5.1 消息队列
+### 5.1 Docker
+* [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
+* [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
+
+### 5.2 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
 ## 6.论文学习
