@@ -61,10 +61,6 @@
 
 ## 开源 <a href="#opensource" id="opensource"></a>
 
-* [Docker](opensource/learning-docker/README.md)
-  * [实践和思考](opensource/learning-docker/my-practice/README.md)
-    * [那些年踩过的坑--Docker篇（二）数据持久化](opensource/learning-docker/my-practice/na-xie-nian-cai-guo-de-keng-docker-pian-er-shu-ju-chi-jiu-hua.md)
-    * [那些年踩过的坑--Docker篇](opensource/learning-docker/my-practice/na-xie-nian-cai-guo-de-keng-docker-pian.md)
 * [Kubernetes](opensource/learning-kubernetes/README.md)
   * [学习资料](opensource/learning-kubernetes/information.md)
   * [概念](opensource/learning-kubernetes/introduce/README.md)
