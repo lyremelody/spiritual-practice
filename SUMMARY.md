@@ -48,16 +48,9 @@
 * [REST](computer-system/learning-rest/README.md)
   * [学习资料](computer-system/learning-rest/information.md)
 * [API](computer-system/learning-api.md)
-* [OAuth](computer-system/oauth/README.md)
-  * [学习资料](computer-system/oauth/information.md)
 * [云原生](computer-system/learning-cloud-native/README.md)
   * [学习资料](computer-system/learning-cloud-native/information.md)
   * [云原生是什么？](computer-system/learning-cloud-native/what-is-cloud-native.md)
-* [多租户](computer-system/multi-tenancy/README.md)
-  * [学习资料](computer-system/multi-tenancy/infomation.md)
-  * [\[译/注\] Force.com 多租户互联网应用开发平台的设计](computer-system/multi-tenancy/translatep889-weissman-1-pdf.md)
-* [服务网格](computer-system/learning-service-mesh/README.md)
-  * [学习资料](computer-system/learning-service-mesh/information.md)
 
 ## 开源 <a href="#opensource" id="opensource"></a>
 
