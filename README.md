@@ -36,6 +36,10 @@
 * [最大堆和堆排序](./primary-algorithms/heap-sort.md)
 * [Trie](./data-structures/trie.md)
 
+### 3.2 实践和题解
+* [Leetcode](https://github.com/lyremelody/leetcode)
+* [ProjectEuler](https://github.com/lyremelody/projecteuler)
+
 ## 4.基础设施
 ### 4.1 Docker
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
