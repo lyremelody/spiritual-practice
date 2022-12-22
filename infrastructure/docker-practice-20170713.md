@@ -23,7 +23,7 @@ docker run -itd -v xx:xx -p xx:xx xxxxxx {image_name}:{image_tag}
 
 很多容器的时钟是UTC，比如
 
-<div align=center><img src="./imgaes/docker-practice-20170713-01.png"></div>
+<div align=center><img src="./images/docker-practice-20170713-01.png"></div>
 
 很多对于时钟依赖的服务就会出问题，比如日志处理服务。
 
@@ -31,7 +31,7 @@ docker run -itd -v xx:xx -p xx:xx xxxxxx {image_name}:{image_tag}
 
 我们的做法是将主机的/etc/localtime映射到容器中，使得容器时钟与宿主机一致，然后将宿主机配置NTP就行了。如下
 
-<div align=center><img src="./imgaes/docker-practice-20170713-02.png"></div>
+<div align=center><img src="./images/docker-practice-20170713-02.png"></div>
 
 ## 不要使用latest版本的镜像
 

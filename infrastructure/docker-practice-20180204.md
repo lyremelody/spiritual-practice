@@ -50,15 +50,15 @@ mount --bind test.conf test.mountpoint
 
 创建一个实验环境，对比内容和 inode 均不同，如下：
 
-<div align=center><img src="./imgaes/docker-practice-20180204-01.png"></div>
+<div align=center><img src="./images/docker-practice-20180204-01.png"></div>
 
 通过 bind mount 将 test.conf 挂载到 test.mountpoint，对比内容和 inode 均相同：
 
-<div align=center><img src="./imgaes/docker-practice-20180204-02.png"></div>
+<div align=center><img src="./images/docker-practice-20180204-02.png"></div>
 
 通过 vi 编辑 test.conf，看到生成中间文件，原文件\(test.conf\) inode 变化：
 
-<div align=center><img src="./imgaes/docker-practice-20180204-03.png"></div>
+<div align=center><img src="./images/docker-practice-20180204-03.png"></div>
 
 可以看到通过 vi 编辑后，原文件 test.conf 的 inode 变化为中间文件\(.swp\)的inode，挂载点 test.mountpoint 与 test.conf 的关系被破坏。
 
@@ -78,7 +78,7 @@ mount --bind test.conf test.mountpoint
 
 我们再看看联系容器与宿主机的 bind mount 文件的信息
 
-<div align=center><img src="./imgaes/docker-practice-20180204-04.png"></div>
+<div align=center><img src="./images/docker-practice-20180204-04.png"></div>
 
 由上面的内容来看，Docker 通过 bind mount 创建的卷，实际上容器内文件的 inode 与宿主机是相同的，即与宿主机上的是同一个目录/文件 (设备)。
 

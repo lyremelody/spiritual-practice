@@ -40,6 +40,9 @@
 ### 5.2 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
+### 5.3 搜索引擎
+* [初识搜索引擎](./infrastructure/search-engine-20180427.md)
+
 ## 6.论文学习
 ### 6.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
