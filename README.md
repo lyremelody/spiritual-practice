@@ -41,7 +41,10 @@
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
 ## 6.论文学习
+### 6.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
+### 6.2 多租户
+* [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
 ## 7.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
