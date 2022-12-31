@@ -48,12 +48,15 @@
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
-### 4.3 数据库
+### 4.3 Kubernetes
+* [Kubernetes是什么？](./infrastructure/what-is-kubernetes.md)
 
-### 4.4 消息队列
+### 4.4 数据库
+
+### 4.5 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
-### 4.5 搜索引擎
+### 4.6 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 
 ## 5.论文学习
