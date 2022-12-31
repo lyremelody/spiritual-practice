@@ -1,4 +1,5 @@
 # Architect Notes from LU Yuan
+## [0.学习资料](./info-list.md)
 ## 1.各种发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
