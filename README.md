@@ -52,12 +52,15 @@
 ### 4.3 Kubernetes
 * [Kubernetes是什么？](./infrastructure/what-is-kubernetes.md)
 
-### 4.4 数据库
+### 4.4 Helm
+* [Helm是什么？](./infrastructure/what-is-helm.md)
 
-### 4.5 消息队列
+### 4.5 数据库
+
+### 4.6 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
-### 4.6 搜索引擎
+### 4.7 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 
 ## 5.论文学习
