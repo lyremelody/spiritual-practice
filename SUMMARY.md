@@ -23,21 +23,11 @@
 * [定义问题比解决问题更重要](worldview/thinking/ding-yi-wen-ti-bi-jie-jue-wen-ti-geng-zhong-yao.md)
 * [我的权力观 2021](worldview/society/power.md)
 
-## 资料收集 <a href="#information" id="information"></a>
-
-* [REST学习资料](information/rest-information.md)
-* [API](information/learning-api.md)
-* [云原生学习资料](information/cloudnative-information.md)
-* [Nginx性能测试](information/nginx-test-performance.md)
-
 ## 开源 <a href="#opensource" id="opensource"></a>
 
 * [Kubernetes](opensource/learning-kubernetes/README.md)
-  * [学习资料](opensource/learning-kubernetes/information.md)
   * [概念](opensource/learning-kubernetes/introduce/README.md)
-    * [Kubernetes是什么？](opensource/learning-kubernetes/introduce/what-is-kubernetes.md)
     * [Kubernetes的发展史](opensource/learning-kubernetes/introduce/kubernetes-history.md)
-    * [Kubernetes总体架构](opensource/learning-kubernetes/introduce/kubernetes-architecture.md)
     * [Kubernetes核心概念](opensource/learning-kubernetes/introduce/kubernetes-core-concepts/README.md)
       * [Pod](opensource/learning-kubernetes/introduce/kubernetes-core-concepts/kubernetes-core-concepts-pod.md)
       * [Service](opensource/learning-kubernetes/introduce/kubernetes-core-concepts/kubernetes-core-concepts-service.md)
@@ -49,7 +39,6 @@
     * [使用 kubectl](opensource/learning-kubernetes/how-to-use/use-kubectl.md)
     * [Pod 健康检查](opensource/learning-kubernetes/how-to-use/pod-health-check.md)
 * [Helm](opensource/learning-helm/README.md)
-  * [学习资料](opensource/learning-helm/information.md)
   * [概念](opensource/learning-helm/introduce/README.md)
     * [Helm是什么？](opensource/learning-helm/introduce/what-is-helm.md)
     * [Helm核心概念](opensource/learning-helm/introduce/core-concept.md)
