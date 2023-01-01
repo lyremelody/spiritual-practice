@@ -34,5 +34,3 @@
   * [使用](opensource/learning-kubernetes/how-to-use/README.md)
     * [使用 kubectl](opensource/learning-kubernetes/how-to-use/use-kubectl.md)
     * [Pod 健康检查](opensource/learning-kubernetes/how-to-use/pod-health-check.md)
-* [Elasticsearch热温数据迁移验证](opensource/elasticsearch-re-wen-shu-ju-qian-yi-yan-zheng.md)
-* [Elasticsearch Rally](opensource/elasticsearch-rally.md)
