@@ -16,3 +16,4 @@
 ## 搜索引擎
 * [初识搜索引擎](./search-engine-20180427.md)
 * [Elasticsearch Rally](./elasticsearch-rally-20180123.md)
+* [Elasticsearch 热温数据迁移验证](./elasticsearch-hot-warm-20181211.md)

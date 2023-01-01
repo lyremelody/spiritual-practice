@@ -63,6 +63,7 @@
 ### 4.7 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 * [Elasticsearch Rally](./infrastructure/elasticsearch-rally-20180123.md)
+* [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch-hot-warm-20181211.md)
 
 ## 5.论文学习
 ### 5.1 Openness
