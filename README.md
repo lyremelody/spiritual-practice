@@ -4,6 +4,7 @@
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
+* [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
 ## 2.软件工程
 * [软件工程总览](./software-engineering.md)
@@ -52,6 +53,12 @@
 
 ### 4.3 Kubernetes
 * [Kubernetes是什么？](./infrastructure/what-is-kubernetes.md)
+* [Kubernetes 核心概念](./infrastructure/kubernetes-core-concepts.md)
+* [Kubernetes - Namespace](./infrastructure/kubernetes-core-concepts-namespace.md)
+* [Kubernetes - Pod](./infrastructure/kubernetes-core-concepts-pod.md)
+* [Kubernetes - Service](./infrastructure/kubernetes-core-concepts-service.md)
+* [Kubernetes - Volume](./infrastructure/kubernetes-core-concepts-volume.md)
+* [Kubernetes - IP](./infrastructure/kubernetes-some-concepts-ip.md)
 
 ### 4.4 Helm
 * [Helm是什么？](./infrastructure/what-is-helm.md)
