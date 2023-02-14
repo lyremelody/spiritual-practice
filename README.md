@@ -27,6 +27,7 @@
 * [架构视图模型](./architecture-view-models/)
 * [企业架构框架](./enterprise-architecture-frameworks/)
 * [设计模式](./design-patterns/)
+* [解决方案架构](./solution-architecture/)
 
 ### 2.3 质量与安全
 * [软件质量](./software-quality/)
@@ -45,7 +46,7 @@
 
 ## 4.基础设施
 ### 4.1 操作系统
-### 4.2 Docker&Kubernetes
+### 4.2 Docker
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
@@ -65,11 +66,14 @@
 * [Elasticsearch Rally](./infrastructure/elasticsearch-rally-20180123.md)
 * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch-hot-warm-20181211.md)
 
-## 5.论文学习
-### 5.1 Openness
+## 5.问题视角
+[问题](./problems/)
+
+## 6.论文学习
+### 6.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
-### 5.2 多租户
+### 6.2 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
-## 6.读书笔记
+## 7.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
