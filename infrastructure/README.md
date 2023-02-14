@@ -12,6 +12,8 @@
 * [Kubernetes - Service](./kubernetes-core-concepts-service.md)
 * [Kubernetes - Volume](./kubernetes-core-concepts-volume.md)
 * [Kubernetes - IP](./kubernetes-some-concepts-ip.md)
+* [使用 kubectl](./kubernetes-use-kubectl.md)
+* [Pod 健康检查](./kubernetes-pod-health-check.md)
 
 ## Helm
 * [Helm是什么？](./what-is-helm.md)
