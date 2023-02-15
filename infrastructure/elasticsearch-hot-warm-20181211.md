@@ -12,8 +12,8 @@ description: '2018-12-11'
 
 当前基于Elasticsearch容器实例与存储介质绑定，并给予存储介质的特性定义标签。如：
 
-* 定义绑定SSD的Elasticsearch实例\(节点\)为热节点\(hot\)
-* 定义绑定SATA的Elasticsearch实例\(节点\)为温节点\(warm\)
+* 定义绑定SSD的Elasticsearch实例(节点)为热节点(hot)
+* 定义绑定SATA的Elasticsearch实例(节点)为温节点(warm)
 
   
 设置索引规则默认写入到热节点，当需要进行存储迁移转换的时候，通过定时任务的方式设置索引的路由规则，以触发索引存储介质的迁移。下面验证索引介质迁移的触发。（产品实现上可通过定时任务管理来实现）
@@ -30,9 +30,8 @@ description: '2018-12-11'
 ### 2.2 Elasticsearch配置
 
 #### 2.2.1 ES Node1数据存储使用SSD（/usrvol/ssd），配置为热节点
-
-{% code title="elasticsearch.yml" %}
-```yaml
+elasticsearch.yml 配置如下：
+```yaml 
 cluster.name: elasticsearch
 node.name: node1node.master: true
 node.data: true
@@ -46,7 +45,6 @@ transport.tcp.port: 9300
 discovery.zen.minimum_master_nodes: 1
 discovery.zen.ping.unicast.hosts: ["10.211.55.5:9300","10.211.55.5:9301"]
 ```
-{% endcode %}
 
 启动参数：
 
@@ -62,7 +60,7 @@ docker run -itd --name=elasticsearch_hot --restart=always \
 
 #### 2.2.2 ES Node2数据存储使用SATA（/usrvol/sata），配置为温节点
 
-{% code title="elasticsearch.yml" %}
+elasticsearch.yml 配置如下：
 ```yaml
 cluster.name: elasticsearch
 node.name: node2
@@ -78,7 +76,6 @@ transport.tcp.port: 9300
 discovery.zen.minimum_master_nodes: 1
 discovery.zen.ping.unicast.hosts: ["10.211.55.5:9300","10.211.55.5:9301"]
 ```
-{% endcode %}
 
 启动参数：
 
