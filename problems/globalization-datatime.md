@@ -192,12 +192,10 @@ Unix Timestamp 在存储、计算、传递环节都可以使用，可谓万能�
 * 在 2021 年 11 月 7 日凌晨 1:59:59 后，下一秒是凌晨 1:00:00。因此，美国的 2021 年 11 月 7 日凌晨 1:10:00 这个时间实际上会出现两次。为了避免歧义，根据 RFC5545，看到这个时间时，会认为是靠前的时间点。因此，除非用别国的时区来约日程，否则，美国老板是不可能约你在重叠的第二个小时内开会的。
 
 ## 6. 阅读更多及参考文献
-
 1. Wikipedia: ISO8601 - 用字符串表达各种时间对象的标准 ​​https://en.wikipedia.org/wiki/ISO_8601​​
 2. RFC3339 - 互联网上关于时间和日期实现的通用建议 ​​https://www.rfc-editor.org/rfc/rfc3339​​
 3. RFC5545 - iCalendar 互联网日历应用的规范 https://datatracker.ietf.org/doc/html/rfc5545​​
-4. Stackoverflow: Daylight saving time and time zone best practices [closed] - 技术实现建议 
-5. https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices Stackoverflow: How to store repeating dates keeping in mind daylight saving time - 技术实现建议
-6. Medium: How to Deal with Date and Time across Time Zones - 技术实现建议 https://medium.com/@vivekmadurai/how-to-deal-with-date-and-time-across-time-zones-39b1bd747f35
-7. Microsoft365: Behavior and format options of the Date and Time field - 微软的时间和日期字段的文档 https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/behavior-format-date-time-field?view=op-9-1
-8. Time Change 2021 in the United States - 美国 2021 年夏令时的调整方式  ​https://www.timeanddate.com/time/change/usa?year=2021​
+4. Stackoverflow: Daylight saving time and time zone best practices [closed] - 技术实现建议 https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices 
+5. Medium: How to Deal with Date and Time across Time Zones - 技术实现建议 https://medium.com/@vivekmadurai/how-to-deal-with-date-and-time-across-time-zones-39b1bd747f35
+6. Microsoft365: Behavior and format options of the Date and Time field - 微软的时间和日期字段的文档 https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/behavior-format-date-time-field?view=op-9-1
+7. Time Change 2021 in the United States - 美国 2021 年夏令时的调整方式  ​https://www.timeanddate.com/time/change/usa?year=2021​
