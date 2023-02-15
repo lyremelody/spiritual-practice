@@ -76,7 +76,7 @@
 * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch-hot-warm-20181211.md)
 
 ## 5.问题视角
-[问题](./problems/)
+* [全球化系统中的日期时间处理问题](./problems/globalization-datatime.md)
 
 ## 6.论文学习
 ### 6.1 Openness
