@@ -83,6 +83,8 @@
 ## 6.论文学习
 ### 6.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
+* [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
+
 ### 6.2 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
