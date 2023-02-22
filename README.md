@@ -6,46 +6,45 @@
 * [DevOps起源](./timelines/devops-timeline.md)
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
-## 2.软件工程
+## 2.程序设计与实现
+### 2.1 基础算法与数据结构
+* [快速排序](./programming/primary-algorithms/quick-sort.md)
+* [最大堆和堆排序](./programming/primary-algorithms/heap-sort.md)
+* [Trie](./programming/data-structures/trie.md)
+
+### 2.2 实践和题解
+* [Leetcode](https://github.com/lyremelody/leetcode)
+* [ProjectEuler](https://github.com/lyremelody/projecteuler)
+
+## 3.软件工程
 * [软件工程总览](./software-engineering/software-engineering.md)
 
-### 2.1 软件过程
+### 3.1 软件过程
 
-### 2.2 建模
+### 3.2 建模
 * [架构概念总览](./architecture.md)
 
-#### 2.2.1 架构目标
+#### 3.2.1 架构目标
 * [非功能性需求](./non-functional-requirements/)
 
-#### 2.2.2 概念理解
+#### 3.2.2 概念理解
 * [可用性](./concepts/availability.md)
 * [容错](./concepts/fault-tolerance.md)
 * [云原生](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
 * [谈谈设计之「自顶向下」和「自底向上」](./talk-about-top-down-and-bottom-up.md)
 
-
-#### 2.2.3 架构设计
+#### 3.2.3 架构设计
 * [架构风格](./software-engineering/architecture-styles/)
 * [架构视图模型](./software-engineering/architecture-view-models/)
 * [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
 * [设计模式](./software-engineering/design-patterns/)
 * [解决方案架构](./solution-architecture/)
 
-### 2.3 质量与安全
+### 3.3 质量与安全
 * [软件质量](./software-engineering/software-quality/)
 
-### 2.4 软件项目管理
-
-## 3.程序设计与实现
-### 3.1 基础算法与数据结构
-* [快速排序](./primary-algorithms/quick-sort.md)
-* [最大堆和堆排序](./primary-algorithms/heap-sort.md)
-* [Trie](./data-structures/trie.md)
-
-### 3.2 实践和题解
-* [Leetcode](https://github.com/lyremelody/leetcode)
-* [ProjectEuler](https://github.com/lyremelody/projecteuler)
+### 3.4 软件项目管理
 
 ## 4.基础设施
 ### 4.1 操作系统
