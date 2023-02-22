@@ -16,43 +16,45 @@
 * [Leetcode](https://github.com/lyremelody/leetcode)
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
-## 3.软件工程
+## 3.解决方案架构
+* [解决方案架构](./solution-architecture/)
+
+## 4.软件工程
 * [软件工程总览](./software-engineering/software-engineering.md)
 
-### 3.1 软件过程
+### 4.1 软件过程
 
-### 3.2 建模
+### 4.2 建模
 * [架构概念总览](./architecture.md)
 
-#### 3.2.1 架构目标
+#### 4.2.1 架构目标
 * [非功能性需求](./non-functional-requirements/)
 
-#### 3.2.2 概念理解
+#### 4.2.2 概念理解
 * [可用性](./concepts/availability.md)
 * [容错](./concepts/fault-tolerance.md)
 * [云原生](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
 * [谈谈设计之「自顶向下」和「自底向上」](./talk-about-top-down-and-bottom-up.md)
 
-#### 3.2.3 架构设计
+#### 4.2.3 架构设计
 * [架构风格](./software-engineering/architecture-styles/)
 * [架构视图模型](./software-engineering/architecture-view-models/)
 * [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
 * [设计模式](./software-engineering/design-patterns/)
-* [解决方案架构](./solution-architecture/)
 
-### 3.3 质量与安全
+### 4.3 质量与安全
 * [软件质量](./software-engineering/software-quality/)
 
-### 3.4 软件项目管理
+### 4.4 软件项目管理
 
-## 4.基础设施
-### 4.1 操作系统
-### 4.2 Docker
+## 5.基础设施
+### 5.1 操作系统
+### 5.2 Docker
 * [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
-### 4.3 Kubernetes
+### 5.3 Kubernetes
 * [Kubernetes是什么？](./infrastructure/what-is-kubernetes.md)
 * [Kubernetes 核心概念](./infrastructure/kubernetes-core-concepts.md)
 * [Kubernetes - Namespace](./infrastructure/kubernetes-core-concepts-namespace.md)
@@ -63,31 +65,31 @@
 * [使用 kubectl](./infrastructure/kubernetes-use-kubectl.md)
 * [Pod 健康检查](./infrastructure/kubernetes-pod-health-check.md)
 
-### 4.4 Helm
+### 5.4 Helm
 * [Helm是什么？](./infrastructure/what-is-helm.md)
 
-### 4.5 数据库
+### 5.5 数据库
 
-### 4.6 消息队列
+### 5.6 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
   
-### 4.7 搜索引擎
+### 5.7 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 * [Elasticsearch Rally](./infrastructure/elasticsearch-rally-20180123.md)
 * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch-hot-warm-20181211.md)
 
-## 5.问题视角
+## 6.问题视角
 * [全球化系统中的日期时间处理问题](./problems/globalization-datatime.md)
 
-## 6.[软技能](./soft-skills/README.md)
+## 7.[软技能](./soft-skills/README.md)
 
-## 7.论文学习
-### 7.1 Openness
+## 8.论文学习
+### 8.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 7.2 多租户
+### 8.2 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
-## 8.读书笔记
+## 9.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
