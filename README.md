@@ -7,7 +7,7 @@
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
 ## 2.软件工程
-* [软件工程总览](./software-engineering.md)
+* [软件工程总览](./software-engineering/software-engineering.md)
 
 ### 2.1 软件过程
 
@@ -26,14 +26,14 @@
 
 
 #### 2.2.3 架构设计
-* [架构风格](./architecture-styles/)
-* [架构视图模型](./architecture-view-models/)
-* [企业架构框架](./enterprise-architecture-frameworks/)
-* [设计模式](./design-patterns/)
+* [架构风格](./software-engineering/architecture-styles/)
+* [架构视图模型](./software-engineering/architecture-view-models/)
+* [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
+* [设计模式](./software-engineering/design-patterns/)
 * [解决方案架构](./solution-architecture/)
 
 ### 2.3 质量与安全
-* [软件质量](./software-quality/)
+* [软件质量](./software-engineering/software-quality/)
 
 ### 2.4 软件项目管理
 
