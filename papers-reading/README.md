@@ -4,6 +4,7 @@
 * [开放平台: How, When and Why?](./opening-platform-how-when-and-why.md)
 
 ## SLA
+* [一文理解「SLA/服务等级协议」](./about-sla.md)
 
 ## 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./translatep889-weissman-1-pdf.md)

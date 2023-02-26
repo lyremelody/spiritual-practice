@@ -88,7 +88,10 @@
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 8.2 多租户
+### 8.2 SLA
+* [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
+
+### 8.3 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
 ## 9.读书笔记
