@@ -5,4 +5,4 @@
 * [弹性 elasticity](./elasticity.md)
 * [云原生 cloud native](./what-is-cloud-native.md)
 * [可观测性 Observability](./observability.md)
-* [4A、SSO、IAM](./4a-sso-iam.md)
+* [Access Control、SSO、4A、IAM](./ac-sso-4a-iam.md)
