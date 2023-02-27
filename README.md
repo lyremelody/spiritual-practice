@@ -1,6 +1,16 @@
 # Architect Notes from LU Yuan
 ## [0.学习资料](./info-list.md)
-## 1.各种发展史
+## 1.概念理解和各种发展史
+### 1.1 概念理解
+* [可用性 availability](./concepts/availability.md)
+* [容错 fault tolerance](./concepts/fault-tolerance.md)
+* [可伸缩性 scalability](./concepts/scalability.md)
+* [弹性 elasticity](./concepts/elasticity.md)
+* [云原生 cloud native](./concepts/what-is-cloud-native.md)
+* [可观测性 Observability](./concepts/observability.md)
+* [4A、SSO、IAM](./concepts/4a-sso-iam.md)
+
+### 1.2 各种发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
