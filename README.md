@@ -64,33 +64,34 @@
 
 ## 6.基础设施
 ### 6.1 操作系统
-### 6.2 Docker
-* [那些年踩过的坑--Docker篇](./infrastructure/docker-practice-20170713.md)
-* [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker-practice-20180204.md)
 
-### 6.3 Kubernetes
-* [Kubernetes是什么？](./infrastructure/what-is-kubernetes.md)
-* [Kubernetes 核心概念](./infrastructure/kubernetes-core-concepts.md)
-* [Kubernetes - Namespace](./infrastructure/kubernetes-core-concepts-namespace.md)
-* [Kubernetes - Pod](./infrastructure/kubernetes-core-concepts-pod.md)
-* [Kubernetes - Service](./infrastructure/kubernetes-core-concepts-service.md)
-* [Kubernetes - Volume](./infrastructure/kubernetes-core-concepts-volume.md)
-* [Kubernetes - IP](./infrastructure/kubernetes-some-concepts-ip.md)
-* [使用 kubectl](./infrastructure/kubernetes-use-kubectl.md)
-* [Pod 健康检查](./infrastructure/kubernetes-pod-health-check.md)
-
-### 6.4 Helm
-* [Helm是什么？](./infrastructure/what-is-helm.md)
-
-### 6.5 数据库
-
-### 6.6 消息队列
+### 6.2 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
-  
-### 6.7 搜索引擎
+
+### 6.3 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
-* [Elasticsearch Rally](./infrastructure/elasticsearch-rally-20180123.md)
-* [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch-hot-warm-20181211.md)
+
+### 6.4 Docker
+* [那些年踩过的坑--Docker篇](./infrastructure/docker/docker-practice-20170713.md)
+* [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker/docker-practice-20180204.md)
+
+### 6.5 Kubernetes
+* [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
+* [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-core-concepts.md)
+* [Kubernetes - Namespace](./infrastructure/kubernetes/kubernetes-core-concepts-namespace.md)
+* [Kubernetes - Pod](./infrastructure/kubernetes/kubernetes-core-concepts-pod.md)
+* [Kubernetes - Service](./infrastructure/kubernetes/kubernetes-core-concepts-service.md)
+* [Kubernetes - Volume](./infrastructure/kubernetes/kubernetes-core-concepts-volume.md)
+* [Kubernetes - IP](./infrastructure/kubernetes/kubernetes-some-concepts-ip.md)
+* [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
+* [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
+
+### 6.6 Helm
+* [Helm是什么？](./infrastructure/helm/what-is-helm.md)
+
+### 6.7 Elasticsearch
+* [Elasticsearch Rally](./elasticsearch/elasticsearch-rally-20180123.md)
+* [Elasticsearch 热温数据迁移验证](./elasticsearch/elasticsearch-hot-warm-20181211.md)
 
 ## 7.问题视角
 * [全球化系统中的日期时间处理问题](./problems/globalization-datatime.md)
