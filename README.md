@@ -2,6 +2,7 @@
 ## [0.学习资料](./info-list.md)
 ## 1.概念理解和各种发展史
 ### 1.1 概念理解
+* [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
 * [可用性 availability](./concepts/availability.md)
 * [容错 fault tolerance](./concepts/fault-tolerance.md)
 * [可伸缩性 scalability](./concepts/scalability.md)
@@ -39,17 +40,13 @@
 ### 5.1 软件过程
 
 ### 5.2 建模
-* [架构概念总览](./architecture.md)
 
-#### 5.2.1 架构目标
-* [非功能性需求](./non-functional-requirements/)
+#### 5.2.1 理解需求
+* [需求](./software-engineering/requirements/README.md)
+* [非功能性需求](./software-engineering/requirements/README.md)
 
-#### 5.2.2 概念理解
-* [可用性](./concepts/availability.md)
-* [容错](./concepts/fault-tolerance.md)
-* [云原生](./concepts/what-is-cloud-native.md)
-* [可观测性 Observability](./concepts/observability.md)
-* [谈谈设计之「自顶向下」和「自底向上」](./talk-about-top-down-and-bottom-up.md)
+#### 5.2.2 设计
+* [架构概念总览](./software-engineering/architecture.md)
 
 #### 5.2.3 架构设计
 * [架构风格](./software-engineering/architecture-styles/)
