@@ -30,7 +30,6 @@
 ## 3.原则
 * [软件工程实践原则](./principles/software-engineering-principles.md)
 * [软件项目管理原则 (Boehm W5HH原则)](./principles/software-project-management-principles.md)
-* [指导软件过程的原则](./principles/software-process-principles.md)
 
 ## 4.解决方案架构
 * [解决方案架构](./solution-architecture/)
