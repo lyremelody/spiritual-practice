@@ -61,6 +61,4 @@ TODO：简化的过程框架图
 
 ## 参考资料
 1. 《软件工程 - 实践者的研究方法》
-## 参考资料
-1. 《软件工程 - 实践者的研究方法》
 2. [Seven Principles Of Software Development](https://wiki.c2.com/?SevenPrinciplesOfSoftwareDevelopment)
