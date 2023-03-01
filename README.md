@@ -1,4 +1,4 @@
-# Architect Notes from LU Yuan
+# Architect Notes
 ## [0.学习资料](./info-list.md)
 ## 1.概念理解和各种发展史
 ### 1.1 概念理解
