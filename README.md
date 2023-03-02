@@ -9,7 +9,7 @@
 * [弹性 elasticity](./concepts/elasticity.md)
 * [云原生 cloud native](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
-* [Access Control、SSO、4A、IAM](./concepts/ac-sso-4a-iam.md)
+* [访问控制 Access Control](./concepts/access-control.md)
 
 ### 1.2 各种发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
