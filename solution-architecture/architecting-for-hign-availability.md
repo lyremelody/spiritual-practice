@@ -335,3 +335,4 @@ TODO：图
 3. [Oracle: High Availability Concepts and Best Practices](https://docs.oracle.com/cd/A91202_01/901_doc/rac.901/a89867/pshavdtl.htm)
 4. 《阿里云云计算架构师ACE认证培训课程》
 5. [5分钟搞懂 Availability/Durability/MTTR/MTBF/RTO/RPO](https://zhuanlan.zhihu.com/p/569502612)
+6. 《SRE Google 运维解密》
