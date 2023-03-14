@@ -18,18 +18,19 @@
 * [DevOps起源](./timelines/devops-timeline.md)
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
-## 2.程序设计与实现
-### 2.1 基础算法与数据结构
+## 2.原则
+* [软件工程实践原则](./principles/software-engineering-principles.md)
+
+## 3.计算机基础
+### 3.1 程序设计
+#### 3.1.1 基础算法与数据结构
 * [快速排序](./programming/primary-algorithms/quick-sort.md)
 * [最大堆和堆排序](./programming/primary-algorithms/heap-sort.md)
 * [Trie](./programming/data-structures/trie.md)
 
-### 2.2 实践和题解
+#### 3.1.2 实践和题解
 * [Leetcode](https://github.com/lyremelody/leetcode)
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
-
-## 3.原则
-* [软件工程实践原则](./principles/software-engineering-principles.md)
 
 ## 4.解决方案架构
 * [解决方案架构](./solution-architecture/)
@@ -60,20 +61,18 @@
 
 ### 5.4 软件项目管理
 
-## 6.基础设施
-### 6.1 操作系统
-
-### 6.2 消息队列
+## 6.基础设施(工具视角)
+### 6.1 消息队列
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
 
-### 6.3 搜索引擎
+### 6.2 搜索引擎
 * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 
-### 6.4 Docker
+### 6.3 Docker
 * [那些年踩过的坑--Docker篇](./infrastructure/docker/docker-practice-20170713.md)
 * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker/docker-practice-20180204.md)
 
-### 6.5 Kubernetes
+### 6.4 Kubernetes
 * [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
 * [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-core-concepts.md)
 * [Kubernetes - Namespace](./infrastructure/kubernetes/kubernetes-core-concepts-namespace.md)
@@ -84,10 +83,10 @@
 * [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
 * [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
 
-### 6.6 Helm
+### 6.5 Helm
 * [Helm是什么？](./infrastructure/helm/what-is-helm.md)
 
-### 6.7 Elasticsearch
+### 6.6 Elasticsearch
 * [Elasticsearch Rally](./elasticsearch/elasticsearch-rally-20180123.md)
 * [Elasticsearch 热温数据迁移验证](./elasticsearch/elasticsearch-hot-warm-20181211.md)
 
