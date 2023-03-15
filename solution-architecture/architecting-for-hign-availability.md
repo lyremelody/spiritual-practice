@@ -1060,7 +1060,7 @@ graph LR
         B[服务] --> DB2[("数据库")]
         B --重新生成session--> B
     end
-    A --回源读取session--> B[服务2]
+    A --回源读取session--> B[服务]
     A --二次读取账号--> B
     subgraph MQ ["消息队列-新建账号"]
      C[" "]
