@@ -1155,10 +1155,10 @@ graph LR
 ## 9 通过提升可观测性来预防不可用问题
 
 ## 参考资料
-1. 《可伸缩架构-云环境下的高可用与风险管理》
+1. [《可伸缩架构-云环境下的高可用与风险管理》](https://book.douban.com/subject/35178755/)
 2. [酷壳-关于高可用的系统](https://coolshell.cn/articles/17459.html)
 3. [Oracle: High Availability Concepts and Best Practices](https://docs.oracle.com/cd/A91202_01/901_doc/rac.901/a89867/pshavdtl.htm)
-4. 《阿里云云计算架构师ACE认证培训课程》
-5. [5分钟搞懂 Availability/Durability/MTTR/MTBF/RTO/RPO](https://zhuanlan.zhihu.com/p/569502612)
-6. 《SRE Google 运维解密》
-7. 《从零开始学架构》
+4. [5分钟搞懂 Availability/Durability/MTTR/MTBF/RTO/RPO](https://zhuanlan.zhihu.com/p/569502612)
+5. [《SRE Google 运维解密》](https://book.douban.com/subject/26875239/)
+6. [《从零开始学架构》](https://book.douban.com/subject/30335935/)
+7. 《阿里云云计算架构师ACE认证培训课程》
