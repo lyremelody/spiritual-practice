@@ -35,6 +35,7 @@
 ## 4.解决方案架构
 * [解决方案架构](./solution-architecture/)
 * [高可用架构设计](./solution-architecture/architecting-for-high-availability.md)
+* [高性能架构设计](./solution-architecture/architecting-for-high-performance.md)
 
 ## 5.软件工程
 * [软件工程总览](./software-engineering/software-engineering.md)
