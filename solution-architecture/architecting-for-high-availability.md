@@ -138,14 +138,14 @@
 #### 2.1.1 业界总结的服务不可用的因素
 在业界中，会把服务不可用的因素分成两种：一种是有计划的，一种是无计划的。前面列出来的这些基本上属于“无计划的”。
 
-<div align=center><img src="./architecting-for-hign-availability/001.png"></div>
+<div align=center><img src="./architecting-for-high-availability/001.png"></div>
 
 **无计划的**：
 * 系统级的故障 –  包括主机、操作系统、中间件、数据库、网络、电源以及外围设备
 * 数据和中介的故障 – 包括人员误操作、硬盘故障、数据乱了
 * 还有：自然灾害、人为破坏、以及供电问题。
 
-<div align=center><img src="./architecting-for-hign-availability/002.png"></div>
+<div align=center><img src="./architecting-for-high-availability/002.png"></div>
 
 **有计划的**：
 * 日常任务：备份，容量规划，用户和安全管理，后台批处理应用
@@ -209,7 +209,7 @@
 * MTTR：全称 Mean Time To Repair，即平均修复时间。
 * MTBF：全称 Mean Time Between Failure，即平均故障间隔时间。
 
-<div align=center><img src="./architecting-for-hign-availability/MTTF-MTTR-MTBF.png"></div>
+<div align=center><img src="./architecting-for-high-availability/MTTF-MTTR-MTBF.png"></div>
 
 各时间段说明：
 * t1时间段，出现问题到发现问题
@@ -238,7 +238,7 @@
 **RPO(Recovery Point Objective)** 即数据恢复点目标，主要指的是业务系统所能容忍的数据丢失量。
 **RTO(Recovery Time Objective)** 即恢复时间目标，主要指的是所能容忍的业务停止服务的最长时间，也就是从灾难发生到业务系统恢复服务功能所需要的最短时间周期。
 
-<div align=center><img src="./architecting-for-hign-availability/003.png"></div>
+<div align=center><img src="./architecting-for-high-availability/003.png"></div>
 
 详见 [RPO & RTO](./concepts/RPO-RTO.md) 。
 
