@@ -76,10 +76,6 @@
 ### 6.4 Kubernetes
 * [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
 * [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-core-concepts.md)
-* [Kubernetes - Namespace](./infrastructure/kubernetes/kubernetes-core-concepts-namespace.md)
-* [Kubernetes - Pod](./infrastructure/kubernetes/kubernetes-core-concepts-pod.md)
-* [Kubernetes - Service](./infrastructure/kubernetes/kubernetes-core-concepts-service.md)
-* [Kubernetes - Volume](./infrastructure/kubernetes/kubernetes-core-concepts-volume.md)
 * [Kubernetes - IP](./infrastructure/kubernetes/kubernetes-some-concepts-ip.md)
 * [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
 * [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
