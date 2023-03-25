@@ -12,8 +12,7 @@
 
 ## Kubernetes
 * [Kubernetes是什么？](./kubernetes/what-is-kubernetes.md)
-* [Kubernetes 核心概念](./kubernetes/kubernetes-core-concepts.md)
-* [Kubernetes - IP](./kubernetes/kubernetes-some-concepts-ip.md)
+* [Kubernetes 核心概念](./kubernetes/kubernetes-concepts.md)
 * [使用 kubectl](./kubernetes/kubernetes-use-kubectl.md)
 * [Pod 健康检查](./kubernetes/kubernetes-pod-health-check.md)
 
