@@ -13,6 +13,15 @@
     - [3.7 分析类](#37-分析类)
     - [3.8 设计类](#38-设计类)
     - [3.9 关系](#39-关系)
+      - [3.9.1 关联关系(association)](#391-关联关系association)
+      - [3.9.2 依赖关系(dependency)](#392-依赖关系dependency)
+      - [3.9.3 扩展关系(extends)](#393-扩展关系extends)
+      - [3.9.4 包含关系(include)](#394-包含关系include)
+      - [3.9.5 实现关系(realize)](#395-实现关系realize)
+      - [3.9.6 精化关系(refine)](#396-精化关系refine)
+      - [3.9.7 泛化关系(generalization)](#397-泛化关系generalization)
+      - [3.9.8 聚合关系(aggregation)](#398-聚合关系aggregation)
+      - [3.9.9 组合关系(composition)](#399-组合关系composition)
     - [3.10 组件](#310-组件)
     - [3.11 节点](#311-节点)
   - [4 UML核心视图](#4-uml核心视图)
@@ -44,8 +53,34 @@
 ## 1 为什么需要UML？
 ## 2 UML是什么？
 ## 3 UML核心元素
+```plantuml
+@startuml
+actor actor参与者
+
+usecase use_case用例
+usecase (business_use_case业务用例)/
+usecase (business_use_case_realization业务用例实现)/ #line.dashed;
+
+rectangle rectangle边界
+
+entity business_entity业务实体
+
+package package包
+
+boundary boundary边界类
+control control控制类
+entity entity实体类
+
+component component
+
+node node
+@enduml
+```
+
+
 ### 3.1 版型
 ### 3.2 参与者
+**参与者(actor)** 是在系统之外与系统交互的某人或者某物。
 ### 3.3 用例
 ### 3.4 边界
 ### 3.5 业务实体
@@ -53,6 +88,123 @@
 ### 3.7 分析类
 ### 3.8 设计类
 ### 3.9 关系
+#### 3.9.1 关联关系(association)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -- B
+@enduml
+```
+
+**关联关系** 描述不同类的对象之间的结构关系，它是一段时间内将多个类的实例连接在一起。关联关系是一种静态关系，通常与运行状态无关，而是由“常识”、“规则”、“法律”等因素决定的，所以关联关系是一种“强关联”的关系。关联关系用来定义对象之间静态的、天然的结构。这与依赖关系是不同的，依赖关系表达的是对象之间的临时的、动态的关系。在最终的代码里，关联对象通常是以实例变量(成员变量)的形式实现的。
+
+#### 3.9.2 依赖关系(dependency)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -[dashed]-> B
+note right: A依赖于B
+@enduml
+```
+
+**依赖关系** 描述一个对象在运行期会使用到另一个对象的关系。与关联关系不同的是，依赖关系是一种临时性的关系，它通常都是在运行期产生，并且随着运行场景的不同，依赖关系也可能发生变化。依赖关系是一种“弱”关系，它不是天然存在的，并且会随着运行场景的变化而变化。一般而言，依赖关系在最终的代码里体现为类构造方法、类方法的传入参数。
+
+#### 3.9.3 扩展关系(extends)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -[dashed]-> B: <<extend>>
+note right: A扩展出B
+@enduml
+```
+
+**扩展关系** 用于在用例模型中说明向基本用例中的某个扩展点插入扩展用例。一般来说，扩展用例是带有抽象性质的，它表示了用例场景中的某个“支流”，由特定的扩展点触发而被启动。所以严格来说扩展用例应当用在概念用例模型中，通过分析业务用例场景抽象出关键的可选核心业务而形成扩展用例。不过，在业务模型当中使用也是可以接受的，它可以更显示地表示出一个复杂业务用例的各个“分支”。与包含关系不同的是，扩展表示的是“可选”，而不是“必需”，这意味着即使没有扩展用例，基本用例也是完整的；如果没有基本用例，扩展用例是不能单独存在的；如果有多个扩展用例，同一时间用例实例也只会使用其中的一个。
+
+#### 3.9.4 包含关系(include)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -[dashed]-> B: <<include>>
+note right: A包含B
+@enduml
+```
+
+**包含关系** 用于用例模型，说明在执行基本用例的用例实例过程中插入的行为段。包含用例总是带有抽象性质的，基本用例可控制与包含用例的关系，并可依赖于执行包含用例所得的结果，但基本用例和包含用例都不能访问对方的属性。从这种意义上讲，包含用例是被封装的，它代表可在各种不同基本用例中复用的行为。因此，与扩展用例一样，包含用例也应当用在概念用例模型中，通过分析业务用例场景而抽象出关键的必选的核心业务而形成包含用例。同样，在业务模型中使用也是可以接受的，它可以显式地表现出那些可复用的业务过程。
+
+#### 3.9.5 实现关系(realize)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -[dashed]-|> B
+note right: A实现B
+@enduml
+```
+
+#### 3.9.6 精化关系(refine)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A -[dashed]-|> B: <<refine>>
+note right: A精化了B
+@enduml
+```
+
+#### 3.9.7 泛化关系(generalization)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A --|> B
+note right: A继承自B
+@enduml
+```
+
+#### 3.9.8 聚合关系(aggregation)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A --o B
+note right: A聚合到B上，或者说B由A组成
+@enduml
+```
+
+#### 3.9.9 组合关系(composition)
+
+```plantuml
+@startuml
+class A
+class B
+left to right direction
+A --* B
+note right: A组合成B，或者说B由A构成
+@enduml
+```
+
+
+
 ### 3.10 组件
 ### 3.11 节点
 
