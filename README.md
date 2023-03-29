@@ -88,21 +88,24 @@
 * [Elasticsearch Rally](./elasticsearch/elasticsearch-rally-20180123.md)
 * [Elasticsearch 热温数据迁移验证](./elasticsearch/elasticsearch-hot-warm-20181211.md)
 
-## 7.问题视角
+## 7.Troubleshooting 故障排查
+* [Kubernetes Troubleshooting](./troubleshooting/kubernetes-troubleshooting.md)
+
+## 8.问题视角
 * [全球化系统中的日期时间处理问题](./problems/globalization-datatime.md)
 
-## 8.[软技能](./soft-skills/README.md)
+## 9.[软技能](./soft-skills/README.md)
 
-## 9.论文学习
-### 9.1 Openness
+## 10.论文学习
+### 10.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 9.2 SLA
+### 10.2 SLA
 * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 
-### 9.3 多租户
+### 10.3 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
 
-## 10.读书笔记
+## 11.读书笔记
 * [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
