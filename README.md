@@ -5,6 +5,7 @@
 * [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
 * [可用性 availability](./concepts/availability.md)
 * [容错 fault tolerance](./concepts/fault-tolerance.md)
+* [可靠性 reliability](./concepts/reliability.md)
 * [可伸缩性 scalability](./concepts/scalability.md)
 * [弹性 elasticity](./concepts/elasticity.md)
 * [云原生 cloud native](./concepts/what-is-cloud-native.md)

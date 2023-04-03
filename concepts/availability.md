@@ -6,7 +6,7 @@
 
 「Availability」，相关翻译「可用性」。要注意跟「Usability」的区别，这个也经常翻译成「可用性」，今天我们讨论的不是这个「Usability」。
 
-直观地讲，「Availability」可用性就是系统能不能正常工作的一种属性。可用性跟前几天总结的容错性有些区别，有兴趣可以看看《[「fault tolerance」容错 5 分钟入门](http://mp.weixin.qq.com/s?\_\_biz=MjM5MTM4NDE3Mg==\&mid=2247484102\&idx=1\&sn=fb0f38030c287dcf577bca526c879187\&chksm=a6b715c591c09cd3fbb8e3bafa3baf0f527d63de7cec57df2e02a5c421c7776fa7b85b0755fe\&scene=21#wechat\_redirect)》。
+直观地讲，「Availability」可用性就是系统能不能正常工作的一种属性。可用性跟 [容错性](./fault-tolerance.md) 有些区别。
 
 下面分别整理了几个领域关于可用性的定义。实际上我们日常说的每个概念，都是自带上下文的，这是容易忽视的。
 
