@@ -11,7 +11,8 @@
 * [云原生 cloud native](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
 * [访问控制 Access Control](./concepts/access-control.md)
-* [RPO & RTO](./concepts/RPO-RTO.md)
+* [RPO/RTO](./concepts/RPO-RTO.md)
+* [CAP/ACID/BASE](./concepts/CAP-ACID-BASE.md)
 
 ### 1.2 各种发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
@@ -86,8 +87,8 @@
 * [Helm是什么？](./infrastructure/helm/what-is-helm.md)
 
 ### 6.6 Elasticsearch
-* [Elasticsearch Rally](./elasticsearch/elasticsearch-rally-20180123.md)
-* [Elasticsearch 热温数据迁移验证](./elasticsearch/elasticsearch-hot-warm-20181211.md)
+* [Elasticsearch Rally](./infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
+* [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
 
 ## 7.Troubleshooting 故障排查
 * [Kubernetes Troubleshooting](./troubleshooting/kubernetes-troubleshooting.md)
