@@ -19,10 +19,12 @@
 * 弱一致性 Weak Consistency
 * 最终一致性 Eventual Consistency
 * 因果一致性 Causal Consistency
-* “读你所写”一致性 Read Your Write Consistency
+* “读你所写”一致性 Read-your-write Consistency
 * 会话一致性
 * 单调读一致性 Monotonic-read Consistency
 * 单调写一致性 Monotonic-write Consistency
+
+<div align=center><img src="./consistency/relationship.png"></div>
 
 ```plantuml
 @startuml
@@ -47,7 +49,6 @@ rectangle 弱一致性 {
 对于连接到数据库的所有进程，看到的关于某数据的数据值是一致的，如果某进程对数据进行了更新，所有进程对后续读操作都会以这个更新后的值为基准，直到这个数据被其他进程改变为止。
 
 <div align=center><img src="./consistency/strict-consistency.png"></div>
-
 
 上图是在上文设定的场景下强一致性模型的具象说明，进程 A 通过 write(x,v2) 将x的数值由v1更新为v2后，所有进程在这个操作之后都会看到x最新的取值v2。而所谓“弱一致性”，即不能满足强一致性的情形皆可统称为弱一致性。
 
