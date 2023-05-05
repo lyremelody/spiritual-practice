@@ -50,8 +50,7 @@
 ### 5.2 建模
 
 #### 5.2.1 理解需求
-* [需求](./software-engineering/requirements/README.md)
-* [非功能性需求](./software-engineering/requirements/README.md)
+* [需求工程](./software-engineering/requirements/requirement-engineering.md)
 
 #### 5.2.2 设计
 * [架构概念总览](./software-engineering/architecture.md)
