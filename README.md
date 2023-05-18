@@ -43,7 +43,6 @@
 
 ## 5.软件工程
 * [软件工程总览](./software-engineering/software-engineering.md)
-* [UML](./software-engineering/uml/README.md)
 
 ### 5.1 软件过程
 
@@ -59,6 +58,7 @@
 * [架构风格](./software-engineering/architecture-styles/)
 * [架构视图模型](./software-engineering/architecture-view-models/)
   * [C4模型](./software-engineering/architecture-view-models/c4-model.md)
+  * [UML](./software-engineering/architecture-view-models/uml.md)
 * [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
 * [设计模式](./software-engineering/design-patterns/)
 
