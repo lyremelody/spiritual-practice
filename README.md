@@ -58,6 +58,7 @@
 #### 5.2.3 架构设计
 * [架构风格](./software-engineering/architecture-styles/)
 * [架构视图模型](./software-engineering/architecture-view-models/)
+  * [C4模型](./software-engineering/architecture-view-models/c4-model.md)
 * [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
 * [设计模式](./software-engineering/design-patterns/)
 
