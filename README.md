@@ -56,6 +56,10 @@
   * [解决方案架构](./software-engineering/architecture-design/architecture-description/solution-architecture.md)
     * [解决方案架构文档模版](./software-engineering/architecture-design/architecture-description/solution-architecture-document.md)
 * [企业架构框架](./software-engineering/architecture-design/enterprise-architecture-frameworks/)
+* [解决方案架构设计](./software-engineering/architecture-design/solution-architecture)
+  * [高可用架构设计](./software-engineering/architecture-design/solution-architecture/architecting-for-high-availability.md)
+  * [高性能架构设计](./software-engineering/architecture-design/solution-architecture/architecting-for-high-performance.md)
+  * [RESTful API 设计](./software-engineering/architecture-design/solution-architecture/restful-api-design.md)
 
 #### 4.2.3 组件级设计(component-level design)
 * [设计模式](./software-engineering/component-level-design/design-patterns/)
@@ -67,10 +71,6 @@
 
 ### 4.4 软件项目管理
 
-## 5.解决方案架构
-* [高可用架构设计](./solution-architecture/architecting-for-high-availability.md)
-* [高性能架构设计](./solution-architecture/architecting-for-high-performance.md)
-* [RESTful API 设计](./solution-architecture/restful-api-design.md)
 
 ## 6.基础设施(工具视角)
 ### 6.1 消息队列
