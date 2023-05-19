@@ -46,22 +46,24 @@
 #### 4.2.1 理解需求
 * [需求工程](./software-engineering/requirements/requirement-engineering.md)
 
-#### 4.2.2 设计
-* [架构概念总览](./software-engineering/architecture.md)
+#### 4.2.2 架构设计(architecture design)
+* [架构概念总览](./software-engineering/architecture-design/architecture.md)
+* [架构风格](./software-engineering/architecture-design/architecture-styles/)
+* [架构描述](./software-engineering/architecture-design/architecture-description/)
+  * [“4+1”视图模型](./software-engineering/architecture-design/architecture-description/4%2B1-architectural-view-model.md)
+  * [C4模型](./software-engineering/architecture-design/architecture-description/c4-model.md)
+  * [UML](./software-engineering/architecture-design/architecture-description/uml.md)
+  * [解决方案架构](./software-engineering/architecture-design/architecture-description/solution-architecture.md)
+    * [解决方案架构文档模版](./software-engineering/architecture-design/architecture-description/solution-architecture-document.md)
+* [企业架构框架](./software-engineering/architecture-design/enterprise-architecture-frameworks/)
 
-#### 4.2.3 架构设计
-* [架构风格](./software-engineering/architecture-styles/)
-* [架构描述](./software-engineering/architecture-description/)
-  * [“4+1”视图模型](./software-engineering/architecture-description/4%2B1-architectural-view-model.md)
-  * [C4模型](./software-engineering/architecture-description/c4-model.md)
-  * [UML](./software-engineering/architecture-description/uml.md)
-  * [解决方案架构](./software-engineering/architecture-description/solution-architecture.md)
-    * [解决方案架构文档模版](./software-engineering/architecture-description/solution-architecture-document.md)
-* [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
-* [设计模式](./software-engineering/design-patterns/)
+#### 4.2.3 组件级设计(component-level design)
+* [设计模式](./software-engineering/component-level-design/design-patterns/)
 
 ### 4.3 质量与安全
-* [软件质量](./software-engineering/software-quality/)
+* [什么是质量](./software-engineering/software-quality/what-is-quality.md)
+* [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
+* [实现软件质量](./software-engineering/software-quality/implement-software-quality.md)
 
 ### 4.4 软件项目管理
 
