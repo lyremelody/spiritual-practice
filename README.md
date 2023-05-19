@@ -35,38 +35,40 @@
 * [Leetcode](https://github.com/lyremelody/leetcode)
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
-## 4.解决方案架构
-* [解决方案架构](./solution-architecture/)
-* [高可用架构设计](./solution-architecture/architecting-for-high-availability.md)
-* [高性能架构设计](./solution-architecture/architecting-for-high-performance.md)
-* [RESTful API 设计](./solution-architecture/restful-api-design.md)
 
-## 5.软件工程
+## 4.软件工程
 * [软件工程总览](./software-engineering/software-engineering.md)
 
-### 5.1 软件过程
+### 4.1 软件过程
 
-### 5.2 建模
+### 4.2 建模
 
-#### 5.2.1 理解需求
+#### 4.2.1 理解需求
 * [需求工程](./software-engineering/requirements/requirement-engineering.md)
 
-#### 5.2.2 设计
+#### 4.2.2 设计
 * [架构概念总览](./software-engineering/architecture.md)
 
-#### 5.2.3 架构设计
+#### 4.2.3 架构设计
 * [架构风格](./software-engineering/architecture-styles/)
-* [架构视图模型](./software-engineering/architecture-view-models/)
-  * [“4+1”视图模型](./software-engineering/architecture-view-models/4%2B1-architectural-view-model.md)
-  * [C4模型](./software-engineering/architecture-view-models/c4-model.md)
-  * [UML](./software-engineering/architecture-view-models/uml.md)
+* [架构描述](./software-engineering/architecture-description/)
+  * [“4+1”视图模型](./software-engineering/architecture-description/4%2B1-architectural-view-model.md)
+  * [C4模型](./software-engineering/architecture-description/c4-model.md)
+  * [UML](./software-engineering/architecture-description/uml.md)
+  * [解决方案架构](./software-engineering/architecture-description/solution-architecture.md)
+    * [解决方案架构文档模版](./software-engineering/architecture-description/solution-architecture-document.md)
 * [企业架构框架](./software-engineering/enterprise-architecture-frameworks/)
 * [设计模式](./software-engineering/design-patterns/)
 
-### 5.3 质量与安全
+### 4.3 质量与安全
 * [软件质量](./software-engineering/software-quality/)
 
-### 5.4 软件项目管理
+### 4.4 软件项目管理
+
+## 5.解决方案架构
+* [高可用架构设计](./solution-architecture/architecting-for-high-availability.md)
+* [高性能架构设计](./solution-architecture/architecting-for-high-performance.md)
+* [RESTful API 设计](./solution-architecture/restful-api-design.md)
 
 ## 6.基础设施(工具视角)
 ### 6.1 消息队列
