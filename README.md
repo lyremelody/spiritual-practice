@@ -55,7 +55,7 @@
 * [架构概念总览](./software-engineering/architecture-design/architecture.md)
 * [架构风格](./software-engineering/architecture-design/architecture-styles/)
 * [架构描述](./software-engineering/architecture-design/architecture-description/)
-  * [“4+1”视图模型](./software-engineering/architecture-design/architecture-description/4%2B1-architectural-view-model.md)
+  * [“4+1”视图模型](./software-engineering/architecture-design/architecture-description/4+1-architectural-view-model.md)
   * [C4模型](./software-engineering/architecture-design/architecture-description/c4-model.md)
   * [UML](./software-engineering/architecture-design/architecture-description/uml.md)
   * [解决方案架构](./software-engineering/architecture-design/architecture-description/solution-architecture.md)
