@@ -1,6 +1,6 @@
 # "4+1"视图模型
 
-- [“4+1”视图模型](#41视图模型)
+- ["4+1"视图模型](#41视图模型)
   - [1 简介](#1-简介)
     - [1.1 “4+1”视图模型是什么？](#11-41视图模型是什么)
   - [2 逻辑架构](#2-逻辑架构)
@@ -49,10 +49,10 @@
 ### 2.2 逻辑视图的表示法
 逻辑视图的标记方法来自 Booch 标记法。当仅考虑具有架构意义的条目时，这种表示法相当简单。特别是在这种设计级别上，大量的修饰作用不大。我们使用 Rational Rose 来支持逻辑架构的设计。
 #### 2.2.1 符号
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/logical-view-notation.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/logical-view-notation.png"></div>
 
 #### 2.2.2 例子
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/logical-view-example.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/logical-view-example.png"></div>
 
 ## 3 过程架构
 ### 3.1 过程分解
@@ -67,10 +67,10 @@
 ### 3.2 过程视图的表示法
 我们所使用的过程视图的表示方法是从Booch最初为 Ada 任务推荐的表示方法扩展而来。同样，用来所使用的表示法关注在架构上具有重要意义的元素。
 #### 3.2.1 符号
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/process-view-notation.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/process-view-notation.png"></div>
 
 #### 3.2.2 例子
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/process-view-example.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/process-view-example.png"></div>
 
 ## 4 开发架构
 ### 4.1 子系统分解
@@ -83,10 +83,10 @@
 ### 4.2 开发视图的表示方法
 同样，使用 Booch 方法的变形，仅考虑具有架构意义的项。
 #### 4.2.1 符号
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/development-view-notation.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/development-view-notation.png"></div>
 
 #### 4.2.2 例子
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/development-view-example.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/development-view-example.png"></div>
 
 ## 5 物理架构
 ### 5.1 软件至硬件的映射
@@ -95,14 +95,14 @@
 ### 5.2 物理视图的表示法
 大型系统中的物理视图会变得非常混乱，所以它们可以采用多种形式，有或者没有来自进程视图的映射均可。
 #### 5.2.1 符号
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/physical-view-notation.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/physical-view-notation.png"></div>
 
 #### 5.2.2 例子
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/physical-view-example-1.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/physical-view-example-1.png"></div>
 
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/physical-view-example-2.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/physical-view-example-2.png"></div>
 
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/physical-view-example-3.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/physical-view-example-3.png"></div>
 
 ## 6 场景
 ### 6.1 综合所有的视图
@@ -115,7 +115,7 @@
 ### 6.2 场景的表示法
 场景表示法与组件逻辑视图非常相似，但它使用过程视图的连接符来表示对象之间的交互，注意对象实例使用实线来表达。至于逻辑视图，我们使用 Rational Rose 来捕获并管理对象场景。
 #### 6.2.1 例子
-<div align=center><img src="./4+1-architectural-view-mode/../4+1-architectural-view-model/scenario-example.png"></div>
+<div align=center><img src="./4+1-architectural-view-model/scenario-example.png"></div>
 
 上图显示了小型 PABX 场景的片段，相应的过程如下：
 1. Joe 的电话控制器检测并验证从挂机到摘机的转换并发送一个消息唤醒相应的终端对象。
