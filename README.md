@@ -50,7 +50,8 @@
 
 #### 4.2.1 理解需求
 * [需求工程](./software-engineering/requirements/requirement-engineering.md)
-* [方法：事件风暴](./software-engineering/requirements/event-storming.md)
+* [需求建模(Requirement Modeling)](./software-engineering/requirements/requirement-modeling.md)
+* [方法：事件风暴(Event Storming)](./software-engineering/requirements/event-storming.md)
 
 #### 4.2.2 架构设计(architecture design)
 * [架构概念总览](./software-engineering/architecture-design/architecture.md)
