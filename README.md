@@ -1,4 +1,4 @@
-# Architect Notes
+# 架构师笔记 Architect Notes
 
 ## [0.学习资料](./info-list.md)
 
@@ -27,7 +27,7 @@
 
 ## 2.原则(Principles)
 * [软件工程实践原则](./principles/software-engineering-principles.md)
-
+* [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
 
 ## 3.计算机基础
 ### 3.1 程序设计
@@ -106,7 +106,8 @@
 * Elasticsearch
   * [Elasticsearch Rally](./infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
   * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
-
+* Redis
+* MongoDB
 
 ## 6.Troubleshooting 故障排查
 * [Kubernetes Troubleshooting](./troubleshooting/kubernetes-troubleshooting.md)
