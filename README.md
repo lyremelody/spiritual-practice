@@ -25,23 +25,32 @@
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
 
-## 2.原则
+## 2.原则(Principles)
 * [软件工程实践原则](./principles/software-engineering-principles.md)
 
 
 ## 3.计算机基础
 ### 3.1 程序设计
-#### 3.1.1 基础算法与数据结构
-* [快速排序](./programming/primary-algorithms/quick-sort.md)
-* [最大堆和堆排序](./programming/primary-algorithms/heap-sort.md)
-* [Trie](./programming/data-structures/trie.md)
-
-#### 3.1.2 实践和题解
+#### 3.1.1 实践和题解
 * [Leetcode](https://github.com/lyremelody/leetcode)
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
+### 3.2 数据结构(Data Structure)
+* [Trie](./fundamentals/data-structures/trie.md)
 
-## 4.软件工程
+### 3.3 基础算法(Primary Algorithms)
+* [快速排序](./fundamentals/primary-algorithms/quick-sort.md)
+* [最大堆和堆排序](./fundamentals/primary-algorithms/heap-sort.md)
+
+### 3.4 计算机系统(Computer System)
+
+### 3.5 操作系统(Operating System)
+
+### 3.6 计算机网络(Network)
+
+### 3.7 数据库(Database)
+
+## 4.软件工程(Software Engineering)
 * [软件工程总览](./software-engineering/software-engineering.md)
 
 ### 4.1 软件过程
