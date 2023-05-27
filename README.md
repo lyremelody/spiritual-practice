@@ -17,6 +17,7 @@
 * [RPO/RTO](./concepts/RPO-RTO.md)
 * [CAP/ACID/BASE](./concepts/CAP-ACID-BASE.md)
 * [一致性 Consistency](./concepts/consistency.md)
+* [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
 
 ### 1.2 各种发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
