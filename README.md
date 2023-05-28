@@ -29,6 +29,7 @@
 ## 2.原则(Principles)
 * [软件工程实践原则](./principles/software-engineering-principles.md)
 * [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
+* [简约之美：软件设计之道](./principles/code-simplicity-the-science-of-development.png)
 
 ## 3.计算机基础
 ### 3.1 程序设计
@@ -129,7 +130,3 @@
   * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 * 多租户
   * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
-
-
-## 10.读书
-* [简约之美：软件设计之道](./books-reading/code-simplicity-the-science-of-development.png)
