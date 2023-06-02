@@ -1,9 +1,9 @@
 # 架构师笔记 Architect Notes
 
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
-  - [1.概念理解和各种发展史](#1概念理解和各种发展史)
+  - [1.概念和发展史](#1概念和发展史)
     - [1.1 概念理解](#11-概念理解)
-    - [1.2 各种发展史](#12-各种发展史)
+    - [1.2 发展史](#12-发展史)
   - [2.原则(Principles)](#2原则principles)
   - [3.技术能力](#3技术能力)
     - [3.1 计算机基础](#31-计算机基础)
@@ -26,11 +26,13 @@
     - [4.3 质量与安全](#43-质量与安全)
     - [4.4 软件项目管理](#44-软件项目管理)
   - [5.业务与市场](#5业务与市场)
+    - [5.1 Content Service Platforms](#51-content-service-platforms)
+    - [5.2 Monitoring, Observability](#52-monitoring-observability)
   - [6.软技能](#6软技能)
   - [7.学习和论文翻译](#7学习和论文翻译)
 
 
-## 1.概念理解和各种发展史
+## 1.概念和发展史
 ### 1.1 概念理解
 * [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
 * [可用性 availability](./concepts/availability.md)
@@ -47,7 +49,7 @@
 * [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
 * [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
 
-### 1.2 各种发展史
+### 1.2 发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
@@ -148,7 +150,8 @@
 
 
 ## 5.业务与市场
-* Content Service Platforms
+### 5.1 Content Service Platforms
+### 5.2 Monitoring, Observability
 
 
 ## 6.[软技能](./soft-skills/README.md)
