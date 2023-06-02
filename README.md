@@ -1,6 +1,33 @@
 # 架构师笔记 Architect Notes
 
-## [0.学习资料](./info-list.md)
+- [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
+  - [1.概念理解和各种发展史](#1概念理解和各种发展史)
+    - [1.1 概念理解](#11-概念理解)
+    - [1.2 各种发展史](#12-各种发展史)
+  - [2.原则(Principles)](#2原则principles)
+  - [3.技术能力](#3技术能力)
+    - [3.1 计算机基础](#31-计算机基础)
+      - [3.1.1 程序设计](#311-程序设计)
+      - [3.1.2 数据结构(Data Structure)](#312-数据结构data-structure)
+      - [3.1.3 基础算法(Primary Algorithms)](#313-基础算法primary-algorithms)
+      - [3.1.4 计算机系统(Computer System)](#314-计算机系统computer-system)
+      - [3.1.5 操作系统(Operating System)](#315-操作系统operating-system)
+      - [3.1.6 计算机网络(Network)](#316-计算机网络network)
+      - [3.1.7 数据库(Database)](#317-数据库database)
+      - [3.1.8 实践和题解](#318-实践和题解)
+    - [3.2 基础设施(工具视角)](#32-基础设施工具视角)
+    - [3.3 其他技术问题](#33-其他技术问题)
+  - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
+    - [4.1 软件过程](#41-软件过程)
+    - [4.2 建模](#42-建模)
+      - [4.2.1 理解需求](#421-理解需求)
+      - [4.2.2 架构设计(architecture design)](#422-架构设计architecture-design)
+      - [4.2.3 组件级设计(component-level design)](#423-组件级设计component-level-design)
+    - [4.3 质量与安全](#43-质量与安全)
+    - [4.4 软件项目管理](#44-软件项目管理)
+  - [5.业务与市场](#5业务与市场)
+  - [6.软技能](#6软技能)
+  - [7.学习和论文翻译](#7学习和论文翻译)
 
 
 ## 1.概念理解和各种发展史
@@ -32,26 +59,55 @@
 * [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
 * [简约之美：软件设计之道](./principles/code-simplicity-the-science-of-development.png)
 
-## 3.计算机基础
-### 3.1 程序设计
-#### 3.1.1 实践和题解
-* [Leetcode](https://github.com/lyremelody/leetcode)
-* [ProjectEuler](https://github.com/lyremelody/projecteuler)
+## 3.技术能力
+### 3.1 计算机基础
+#### 3.1.1 程序设计
 
-### 3.2 数据结构(Data Structure)
+#### 3.1.2 数据结构(Data Structure)
 * [Trie](./fundamentals/data-structures/trie.md)
 
-### 3.3 基础算法(Primary Algorithms)
+#### 3.1.3 基础算法(Primary Algorithms)
 * [快速排序](./fundamentals/primary-algorithms/quick-sort.md)
 * [最大堆和堆排序](./fundamentals/primary-algorithms/heap-sort.md)
 
-### 3.4 计算机系统(Computer System)
+#### 3.1.4 计算机系统(Computer System)
 
-### 3.5 操作系统(Operating System)
+#### 3.1.5 操作系统(Operating System)
 
-### 3.6 计算机网络(Network)
+#### 3.1.6 计算机网络(Network)
 
-### 3.7 数据库(Database)
+#### 3.1.7 数据库(Database)
+
+#### 3.1.8 实践和题解
+* [Leetcode](https://github.com/lyremelody/leetcode)
+* [ProjectEuler](https://github.com/lyremelody/projecteuler)
+
+### 3.2 基础设施(工具视角)
+* [Podman vs Docker，有哪些差异？](./infrastructure/podman-vs-docker.md)
+* [什么是消息队列？](./infrastructure/what-is-message-queue.md)
+* 搜索引擎
+  * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
+* Docker
+  * [那些年踩过的坑--Docker篇](./infrastructure/docker/docker-practice-20170713.md)
+  * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker/docker-practice-20180204.md)
+* Kubernetes
+  * [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
+  * [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-concepts.md)
+  * [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
+  * [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
+* Helm
+  * [Helm是什么？](./infrastructure/helm/what-is-helm.md)
+* Elasticsearch
+  * [Elasticsearch Rally](./infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
+  * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
+* Redis
+* MongoDB
+
+### 3.3 其他技术问题
+* Troubleshooting 故障排查
+  * [Kubernetes Troubleshooting](./others/troubleshooting/kubernetes-troubleshooting.md)
+* [全球化系统中的日期时间处理问题](./others/problems/globalization-datatime.md)
+
 
 ## 4.软件工程(Software Engineering)
 * [软件工程总览](./software-engineering/software-engineering.md)
@@ -91,41 +147,15 @@
 ### 4.4 软件项目管理
 
 
-## 5.基础设施(工具视角)
-* [Podman vs Docker，有哪些差异？](./infrastructure/podman-vs-docker.md)
-* [什么是消息队列？](./infrastructure/what-is-message-queue.md)
-* 搜索引擎
-  * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
-* Docker
-  * [那些年踩过的坑--Docker篇](./infrastructure/docker/docker-practice-20170713.md)
-  * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker/docker-practice-20180204.md)
-* Kubernetes
-  * [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
-  * [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-concepts.md)
-  * [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
-  * [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
-* Helm
-  * [Helm是什么？](./infrastructure/helm/what-is-helm.md)
-* Elasticsearch
-  * [Elasticsearch Rally](./infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
-  * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
-* Redis
-* MongoDB
-
-## 6.其他技术问题
-* Troubleshooting 故障排查
-  * [Kubernetes Troubleshooting](./others/troubleshooting/kubernetes-troubleshooting.md)
-* [全球化系统中的日期时间处理问题](./others/problems/globalization-datatime.md)
-
-
-## 7.业务与市场分析
+## 5.业务与市场
 * Content Service Platforms
 
 
-## 8.[软技能](./soft-skills/README.md)
+## 6.[软技能](./soft-skills/README.md)
 
 
-## 9.论文翻译&学习
+## 7.学习和论文翻译
+* [学习资料](./info-list.md)
 * Openness
   * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
   * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
