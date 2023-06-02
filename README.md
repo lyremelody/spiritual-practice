@@ -29,6 +29,10 @@
     - [5.1 Content Service Platforms](#51-content-service-platforms)
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
   - [6.软技能(Soft-Skills)](#6软技能soft-skills)
+    - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
+    - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
+    - [6.3 情绪管理(Emotion Management)](#63-情绪管理emotion-management)
+    - [6.4 时间管理(Time Management)](#64-时间管理time-management)
   - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
 
 
@@ -155,7 +159,10 @@
 
 
 ## 6.软技能(Soft-Skills)
-
+### 6.1 目标管理(Management by Objectives)
+### 6.2 沟通管理(Communication Management)
+### 6.3 情绪管理(Emotion Management)
+### 6.4 时间管理(Time Management)
 
 ## 7.学习和论文翻译(Studis and Papers)
 * [学习资料](./info-list.md)
