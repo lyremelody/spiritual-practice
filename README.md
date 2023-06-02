@@ -92,8 +92,8 @@
 
 
 ## 5.基础设施(工具视角)
-* 消息队列
-  * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
+* [Podman vs Docker，有哪些差异？](./infrastructure/podman-vs-docker.md)
+* [什么是消息队列？](./infrastructure/what-is-message-queue.md)
 * 搜索引擎
   * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
 * Docker
@@ -112,12 +112,14 @@
 * Redis
 * MongoDB
 
-## 6.Troubleshooting 故障排查
-* [Kubernetes Troubleshooting](./troubleshooting/kubernetes-troubleshooting.md)
+## 6.其他技术问题
+* Troubleshooting 故障排查
+  * [Kubernetes Troubleshooting](./others/troubleshooting/kubernetes-troubleshooting.md)
+* [全球化系统中的日期时间处理问题](./others/problems/globalization-datatime.md)
 
 
-## 7.问题视角
-* [全球化系统中的日期时间处理问题](./problems/globalization-datatime.md)
+## 7.业务与市场分析
+* Content Service Platforms
 
 
 ## 8.[软技能](./soft-skills/README.md)
