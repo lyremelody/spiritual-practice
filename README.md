@@ -26,7 +26,7 @@
     - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
     - [4.4 软件项目管理(Software Project Management)](#44-软件项目管理software-project-management)
   - [5.业务与市场(Business and Market)](#5业务与市场business-and-market)
-    - [5.1 Content Service Platforms](#51-content-service-platforms)
+    - [5.1 Content Services](#51-content-services)
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
   - [6.软技能(Soft-Skills)](#6软技能soft-skills)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
@@ -154,7 +154,7 @@
 
 
 ## 5.业务与市场(Business and Market)
-### 5.1 Content Service Platforms
+### 5.1 Content Services
 ### 5.2 Monitoring, Observability
 
 
