@@ -1,39 +1,39 @@
 # 架构师笔记 Architect Notes
 
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
-  - [1.概念和发展史](#1概念和发展史)
-    - [1.1 概念理解](#11-概念理解)
-    - [1.2 发展史](#12-发展史)
+  - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
+    - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
+    - [1.2 发展史(Timelines)](#12-发展史timelines)
   - [2.原则(Principles)](#2原则principles)
-  - [3.技术能力](#3技术能力)
-    - [3.1 计算机基础](#31-计算机基础)
-      - [3.1.1 程序设计](#311-程序设计)
+  - [3.技术能力(Technical Skills)](#3技术能力technical-skills)
+    - [3.1 计算机基础(Computer Fundamentals)](#31-计算机基础computer-fundamentals)
+      - [3.1.1 程序设计(Programming)](#311-程序设计programming)
       - [3.1.2 数据结构(Data Structure)](#312-数据结构data-structure)
       - [3.1.3 基础算法(Primary Algorithms)](#313-基础算法primary-algorithms)
       - [3.1.4 计算机系统(Computer System)](#314-计算机系统computer-system)
       - [3.1.5 操作系统(Operating System)](#315-操作系统operating-system)
       - [3.1.6 计算机网络(Network)](#316-计算机网络network)
       - [3.1.7 数据库(Database)](#317-数据库database)
-      - [3.1.8 实践和题解](#318-实践和题解)
-    - [3.2 基础设施(工具视角)](#32-基础设施工具视角)
-    - [3.3 其他技术问题](#33-其他技术问题)
+      - [3.1.8 实践和题解(Practice)](#318-实践和题解practice)
+    - [3.2 基础设施组件(Infrastructure Components)](#32-基础设施组件infrastructure-components)
+    - [3.3 其他技术问题(Others)](#33-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
-    - [4.1 软件过程](#41-软件过程)
-    - [4.2 建模](#42-建模)
-      - [4.2.1 理解需求](#421-理解需求)
-      - [4.2.2 架构设计(architecture design)](#422-架构设计architecture-design)
-      - [4.2.3 组件级设计(component-level design)](#423-组件级设计component-level-design)
-    - [4.3 质量与安全](#43-质量与安全)
-    - [4.4 软件项目管理](#44-软件项目管理)
-  - [5.业务与市场](#5业务与市场)
+    - [4.1 软件过程(Software Process)](#41-软件过程software-process)
+    - [4.2 建模(Modeling)](#42-建模modeling)
+      - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
+      - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
+      - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
+    - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
+    - [4.4 软件项目管理(Software Project Management)](#44-软件项目管理software-project-management)
+  - [5.业务与市场(Business and Market)](#5业务与市场business-and-market)
     - [5.1 Content Service Platforms](#51-content-service-platforms)
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
-  - [6.软技能](#6软技能)
-  - [7.学习和论文翻译](#7学习和论文翻译)
+  - [6.软技能(Soft-Skills)](#6软技能soft-skills)
+  - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
 
 
-## 1.概念和发展史
-### 1.1 概念理解
+## 1.概念和发展史(Concepts and Timelines)
+### 1.1 概念理解(Understanding Concepts)
 * [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
 * [可用性 availability](./concepts/availability.md)
 * [容错 fault tolerance](./concepts/fault-tolerance.md)
@@ -49,7 +49,7 @@
 * [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
 * [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
 
-### 1.2 发展史
+### 1.2 发展史(Timelines)
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
@@ -61,9 +61,9 @@
 * [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
 * [简约之美：软件设计之道](./principles/code-simplicity-the-science-of-development.png)
 
-## 3.技术能力
-### 3.1 计算机基础
-#### 3.1.1 程序设计
+## 3.技术能力(Technical Skills)
+### 3.1 计算机基础(Computer Fundamentals)
+#### 3.1.1 程序设计(Programming)
 
 #### 3.1.2 数据结构(Data Structure)
 * [Trie](./fundamentals/data-structures/trie.md)
@@ -80,11 +80,11 @@
 
 #### 3.1.7 数据库(Database)
 
-#### 3.1.8 实践和题解
+#### 3.1.8 实践和题解(Practice)
 * [Leetcode](https://github.com/lyremelody/leetcode)
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
-### 3.2 基础设施(工具视角)
+### 3.2 基础设施组件(Infrastructure Components)
 * [Podman vs Docker，有哪些差异？](./infrastructure/podman-vs-docker.md)
 * [什么是消息队列？](./infrastructure/what-is-message-queue.md)
 * 搜索引擎
@@ -105,7 +105,7 @@
 * Redis
 * MongoDB
 
-### 3.3 其他技术问题
+### 3.3 其他技术问题(Others)
 * Troubleshooting 故障排查
   * [Kubernetes Troubleshooting](./others/troubleshooting/kubernetes-troubleshooting.md)
 * [全球化系统中的日期时间处理问题](./others/problems/globalization-datatime.md)
@@ -114,16 +114,16 @@
 ## 4.软件工程(Software Engineering)
 * [软件工程总览](./software-engineering/software-engineering.md)
 
-### 4.1 软件过程
+### 4.1 软件过程(Software Process)
 
-### 4.2 建模
+### 4.2 建模(Modeling)
 
-#### 4.2.1 理解需求
+#### 4.2.1 理解需求(Understanding Requirements)
 * [需求工程](./software-engineering/requirements/requirement-engineering.md)
 * [需求建模(Requirement Modeling)](./software-engineering/requirements/requirement-modeling.md)
 * [方法：事件风暴(Event Storming)](./software-engineering/requirements/event-storming.md)
 
-#### 4.2.2 架构设计(architecture design)
+#### 4.2.2 架构设计(Architectural Design)
 * [架构概念总览](./software-engineering/design/architecture-design/architecture.md)
 * [架构风格](./software-engineering/design/architecture-design/architecture-styles/)
 * [架构描述](./software-engineering/design/architecture-design/architecture-description/)
@@ -138,26 +138,26 @@
   * [高性能架构设计](./software-engineering/design/architecture-design/solution-architecture/architecting-for-high-performance.md)
   * [RESTful API 设计](./software-engineering/design/architecture-design/solution-architecture/restful-api-design.md)
 
-#### 4.2.3 组件级设计(component-level design)
+#### 4.2.3 组件级设计(Component-level Design)
 * [设计模式](./software-engineering/design/component-level-design/design-patterns/)
 
-### 4.3 质量与安全
+### 4.3 质量与安全(Quality and Security)
 * [什么是质量](./software-engineering/software-quality/what-is-quality.md)
 * [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
 * [实现软件质量](./software-engineering/software-quality/implement-software-quality.md)
 
-### 4.4 软件项目管理
+### 4.4 软件项目管理(Software Project Management)
 
 
-## 5.业务与市场
+## 5.业务与市场(Business and Market)
 ### 5.1 Content Service Platforms
 ### 5.2 Monitoring, Observability
 
 
-## 6.[软技能](./soft-skills/README.md)
+## 6.软技能(Soft-Skills)
 
 
-## 7.学习和论文翻译
+## 7.学习和论文翻译(Studis and Papers)
 * [学习资料](./info-list.md)
 * Openness
   * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
