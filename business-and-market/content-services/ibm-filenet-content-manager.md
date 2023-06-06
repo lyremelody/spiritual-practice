@@ -323,3 +323,4 @@ Kubernetes 兼容性大致：
 3. [What is IBM Cloud Pak for Business Automation](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.2?topic=overview-what-is-cloud-pak-business-automation)
 4. [FileNet P8 Platform 5.5.x](https://www.ibm.com/docs/zh/filenet-p8-platform/5.5.x)
 5. [Detailed system requirements for a specific product, IBM](https://www.ibm.com/software/reports/compatibility/clarity/softwareReqsForProduct.html)
+6. [IBM Content Services, AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xxnek4yehitqi)
