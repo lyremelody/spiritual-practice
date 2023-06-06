@@ -23,9 +23,10 @@
         - [2.3.2.4 IBM Content Collector](#2324-ibm-content-collector)
         - [2.3.2.5 IBM Case Manager](#2325-ibm-case-manager)
     - [2.4 物理视图和伸缩性](#24-物理视图和伸缩性)
-    - [2.5 可用性](#25-可用性)
-    - [2.6 开放性](#26-开放性)
-    - [2.7 适应性](#27-适应性)
+    - [2.5 可视化仪表盘和可扩展性](#25-可视化仪表盘和可扩展性)
+    - [2.6 可用性](#26-可用性)
+    - [2.7 开放性](#27-开放性)
+    - [2.8 适应性](#28-适应性)
   - [参考资料](#参考资料)
 
 
@@ -170,10 +171,46 @@ FileNet P8 组件通过多层分布式架构支持企业级可伸缩性。尤其
 * 用户可以使用跨对象存储库 (即联合) 搜索来访问已分布在不同对象存储库中的内容。
 * 可以轻松地将 Web 站点部署到多个目标以处理大量用户。
 
-### 2.5 可用性
+### 2.5 可视化仪表盘和可扩展性
+FileNet P8 提供了用于监视和分析系统性能的工具。
+IBM System Dashboard for Enterprise Content Management 是一种机制，用于在独立于操作系统的站点上安装的各种 IBM Enterprise Content Management (ECM) 产品上收集和分发性能数据。System Dashboard for Enterprise Content Management 由两个主要组件组成: 监听器和管理器。
+
+**监听器**：从应用程序接收事件流和其他性能信息，并将数据发送到管理器以进行分析和存储。监听器相当于 SNMP 代理程序，它使客户机能够选择性地累积和聚集一段时间内的性能数据。监听器以被动方式等待管理员连接到它并查询其性能计数器值。 在没有 "管理器" 连接的情况下，外部观察者几乎无法看到监听器组件的存在。仪表板提供监听器的 Java 和 Microsoft C++ 实现。
+由监听器公开的数据分为三类: 环境，静态和动态。
+* 环境数据是有关应用程序操作环境的信息，例如操作系统名称和版本号，CPU 数量和类型，可用内存量等。
+* 静态数据特定于实施 "仪表板" 功能的应用程序，但不会随着应用程序的运行而更改。静态数据的示例包括应用程序的名称和版本号。Java 应用程序的静态数据还包含有关 Java 运行时环境的信息，例如其版本号，最大内存等。
+* 动态数据包括操作系统提供的数据，例如 CPU 负载，正在使用的内存，网络流量等，以及特定于应用程序的数据 (计数器，持续时间以及应用程序提供给管理器的其他数据)。因此，动态数据的数量和类型因应用程序中实现的检测级别而异，并且可以随产品的发行版而变化。
+
+**管理器**：连接到监听器并从监听器检索报告，并处理收集的数据，例如存储数据，以图形方式显示数据或使用数据执行其他特定于应用程序的任务。"仪表板" 提供了两个管理器: "仪表板"和"归档管理器"。
+* 仪表板：显示性能统计信息。
+* 归档管理器：将从集群中的侦听器收集的历史或实时数据保存到随后可在仪表板中装入以进行分析，报告等的文件。
+
+下图是仪表板的架构：
+
+<div align=center><img src="./images/system_dashboard_system_overview.png"></div>
+
+
+TCP 套接字连接仪表板和监听器。每个监听器都维护其应用程序事件的历史记录。管理器可以随时请求此历史信息。仪表板一旦连接到每个监听器，就会自动请求此历史记录。可以使用仪表板或独立归档管理器来保存监听器的历史记录以供以后进行分析。
+
+下表是 FileNet P8 以及与仪表板集成的相关组件：
+
+| FileNet P8 组件                                            | 包含的组件                                                                 |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------- |
+| IBM Case Foundation                                        | - Content Platform Engine和 Case Analyzer 的监听器 <br> - 仪表板           |
+| IBM FileNet Content Federation Services for Image Services | - IBM FileNet Content Federation Services for Image Services <br> - 仪表板 |
+| IBM FileNet Content Manager                                | - Application Engine 和 Content Platform Engine 的监听器 <br> - 仪表板     |
+| IBM Case Manager                                           | - IBM Case Manager 的监听器 <br> - 仪表板                                  |
+| Image Manager                                              | - IBM FileNet Image Services <br> - 仪表板                                 |
+| Image Services Resource Adapter                            | - Image Services Resource Adapter 的监听器 <br> - 仪表板                   |
+| IBM Enterprise Records                                     | - IBM Enterprise Records 的监听器 <br> - 仪表板                            |
+| IDM Web Service/Open Client                                | - Web Service 和 Open Client 的监听器 <br> - 仪表板                        |
+
+**从上面来看，实际上FileNet P8提供了一种基于监听器和管理器的扩展机制，即新增的组件，通过提供监听器和仪表板，按照一定的规则即可接入 IBM System Dashboard for Enterprise Content Management**。
+
+### 2.6 可用性
 主要基于服务器场和服务器集群技术来保证高可用。比如负载均衡器、数据库集群等。
 
-### 2.6 开放性
+### 2.7 开放性
 为了提升开放式可扩展环境， FileNet P8 提供了用于开发定制应用程序的 API。
 * 用于应用程序开发的 XML
   * FileNet P8 API ，应用程序和服务以多种方式支持和使用 XML。
@@ -182,7 +219,7 @@ FileNet P8 组件通过多层分布式架构支持企业级可伸缩性。尤其
 * Java Platform, Enterprise Edition 支持
   * IBM 提供了在 Java EE 产品 (应用程序服务器) (例如 IBM WebSphere® Application Server 和 Oracle WebLogic 服务器) 中运行的 Java Platform, Enterprise Edition (Java EE) 应用程序组件和系统组件。 此外， FileNet P8 应用程序使用 Java EE 应用程序模型来构建多层应用程序，以交付企业应用程序所需的可伸缩性，辅助功能选项和管理。
 
-### 2.7 适应性
+### 2.8 适应性
 <div align=center><img src="./images/ibm_diag_capabilities.png"></div>
 
 IBM FileNet Content Manager 支持容器化部署、传统非容器化部署。
