@@ -41,12 +41,12 @@
 
 ## 1 IBM CSP 产品关系
 ### 1.1 IBM 业务单元
-<div align=center><img src="./images/Figure_2_IBM_Business_Units.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/Figure_2_IBM_Business_Units.png"></div>
 
 **IBM Cloud Pak for Business Automation 是 IBM Software 的一部份。**
 
 ### 1.2 IBM CSP (Conent Services Platforms)
-<div align=center><img src="./images/ibm_diag_capabilities.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/ibm_diag_capabilities.png"></div>
 
 **IBM的 CSP(Conent Services Platforms) 是 IBM Cloud Pak for Business Automation 的一部份。**
 
@@ -111,23 +111,23 @@ IBM FileNet Content Manager, 一种云原生内容服务解决方案，用于管
 * **统一内容治理**：通过单一、全面且可扩展的解决方案更安全、一致和智能地管理来自所有存储库和文件共享的内容。
 
 ### 2.2 组件视图
-<div align=center><img src="./images/filenet_p8_system_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_system_overview.png"></div>
 
 **从整体来看，FileNet P8 遵循了模块化和组件化的思想，通过产品系列和服务(组件)的组合来实现整个业务领域的覆盖**。
 
 ### 2.3 运行视图
-<div align=center><img src="./images/filenet_p8_system_overview_process.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_system_overview_process.png"></div>
 
 ### 2.4 组件说明
 #### 2.4.1 IBM FileNet P8 Platform
 ##### 2.4.1.1 Content Platform Engine
 **Content Platform Engine** 是一个 FileNet P8 组件，旨在处理大型企业的大量处理需求。它可以通过提供功能强大且易于使用的管理工具来管理企业范围的工作流程对象，定制对象和文档。通过使用这些工具，管理员可以创建和管理构成企业内容管理 (ECM) 系统基础的类、属性、存储和元数据。
 
-<div align=center><img src="./images/filenet_p8_content_platform_engine_system_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_content_platform_engine_system_overview.png"></div>
 
 ###### 2.4.1.1.1 内容服务
 **Content Platform Engine 内容服务负责添加和删除内容以及从对象存储库中检索对象和内容**。除了为来自企业内容管理 (ECM) 应用程序的请求提供服务外，内容服务还会托管各种后台任务，以维护与每个对象存储库相关联的所有资源。
-<div align=center><img src="./images/filenet_p8_content_platform_engine_content_service_system_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_content_platform_engine_content_service_system_overview.png"></div>
 
 **Content Platform Engine 内容服务包括如下组件或服务**：
 * **Security(安全)**: 提供用于授权访问对象和内容的细颗粒度安全模型；与目录服务产品交互以认证用户并检索用户和组帐户信息。
@@ -144,7 +144,7 @@ IBM FileNet Content Manager, 一种云原生内容服务解决方案，用于管
 
 ###### 2.4.1.1.2 流程服务
 **Content Platform Engine 流程服务提供软件服务，用于管理业务流程(也称为工作流程)的所有方面，例如工作流程执行、工作流程路由、规则管理、流程模拟和建模以及工作流程分析**。用户可以使用工作流程系统组件来创建、修改和管理工作流程。这些工作流程由应用程序、企业用户或外部用户(例如合作伙伴和客户)实施。
-<div align=center><img src="./images/filenet_p8_content_platform_engine_process_service_system_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_content_platform_engine_process_service_system_overview.png"></div>
 
 Content Platform Engine 流程服务包括如下组件或服务：
 * **Email notification(电子邮件通知)**：允许在发生指定流程相关事件时自动向用户传输电子邮件；电子邮件通知还可用于跟踪工作流程。
@@ -192,7 +192,7 @@ Content Federation Services for Image Services 使 FileNet P8 应用程序和服
 **IBM Case Manager** 简化了设计和构建案例管理系统的工作，并为案例工作者提供图形用户界面以轻松管理案例。IBM Case Manager 部署在应用程序服务器中，并使用 FileNet P8 来访问和存储内容和解决方案资产。
 
 ### 2.5 物理视图和伸缩性
-<div align=center><img src="./images/filenet_p8_deployment_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/filenet_p8_deployment_overview.png"></div>
 
 FileNet P8 组件通过多层分布式架构支持企业级可伸缩性。为了满足各种可伸缩性需求，FileNet P8 提供垂直和水平可伸缩性解决方案。
 * 服务器的垂直可伸缩性可以定义为其通过增加比例的处理能力来处理额外工作负载的能力。
@@ -209,6 +209,14 @@ FileNet P8 组件通过多层分布式架构支持企业级可伸缩性。为了
 * 可以在数据库和机器之间分布多个对象库，从而允许同一系统为多个应用程序提供服务。
 * 用户可以使用跨对象存储库 (即联合) 搜索来访问已分布在不同对象存储库中的内容。
 * 可以轻松地将 Web 站点部署到多个目标以处理大量用户。
+
+在容器化部署的场景下：
+* (v5.5.8以上版本)可以使用自动伸缩来扩展或缩减Content Platform Engine部署的Pod数。技术使用的Kubernetes HPA机制。
+* Content Search Services 不支持自动缩放功能
+
+**总的来说，在伸缩性这块，FileNet P8提供多层分布式架构，在服务、Web站点、数据库、存储服务等分别提供垂直和水平伸缩的能力**：
+* 在主机部署场景下，通过伸缩集群规模来实现能力伸缩；
+* 在容器化部署场景下，伸缩性和资源管理主要是依赖于Kubernetes本身的能力提供自动伸缩。
 
 ### 2.6 可视化仪表盘和可扩展性
 FileNet P8 提供了用于监视和分析系统性能的工具。
@@ -227,7 +235,7 @@ FileNet P8 提供了用于监视和分析系统性能的工具。
 
 下图是仪表板的架构：
 
-<div align=center><img src="./images/system_dashboard_system_overview.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/system_dashboard_system_overview.png"></div>
 
 
 TCP 套接字连接仪表板和监听器。每个监听器都维护其应用程序事件的历史记录。管理器可以随时请求此历史信息。仪表板一旦连接到每个监听器，就会自动请求此历史记录。可以使用仪表板或独立归档管理器来保存监听器的历史记录以供以后进行分析。
@@ -259,7 +267,7 @@ TCP 套接字连接仪表板和监听器。每个监听器都维护其应用程�
 主要基于服务器场和服务器集群技术来保证高可用。比如负载均衡器、数据库集群等。
 
 ### 2.8 适应性
-<div align=center><img src="./images/ibm_diag_capabilities.png"></div>
+<div align=center><img src="./ibm-filenet-content-manager/ibm_diag_capabilities.png"></div>
 
 **IBM FileNet Content Manager 支持容器化部署、传统非容器化部署**。
 
@@ -288,9 +296,9 @@ Kubernetes 兼容性大致：
 * FileNet P8 和 SharePoint 技术是免费解决方案，当它们一起使用时，它们提供了一个环境，业务用户可以在此环境中轻松协作处理中的工作文档和任务，但在整个企业中遵守内容和合规性计划。SharePoint用户可以继续使用SharePoint易于使用和熟悉的界面，而 FileNet P8 提供对用户透明的强大内容，流程和合规性基础结构。通过此方法，业务用户可以将SharePoint服务站点和SharePoint Portal用于大多数日常内容，流程和合规性活动，而不必学习新应用程序或执行其他内容或合规性管理任务。
 
 #### 2.9.2 内容存储库集成
-使用 IBM FileNet Content Federation Services 能够将外部存储库中的数据与 FileNet P8 集成，并访问文档，就像它们存储在对象存储库中一样。外部存储库类似于 Content Platform Engine 系统的虚拟存储区。
+**使用 IBM FileNet Content Federation Services 能够将外部存储库中的数据与 FileNet P8 集成，并访问文档，就像它们存储在对象存储库中一样**。外部存储库类似于 Content Platform Engine 系统的虚拟存储区。
 
-**Content Federation Services 实现对象元数据管理、以及对象与文档对象属性映射管理**：
+**IBM FileNet Content Federation Services 实现对象元数据管理、以及对象与文档对象属性映射管理**：
 * 在指向外部存储库中的源文档的对象库中创建引用：对象存储库中的文档仅由元数据表示; 外部存储库中的文档包含其所有原始内容。
 * Content Federation Services 提供了一种用于将源文档元数据映射到 Content Platform Engine 文档属性的机制（他们成这个映射过程为“联合/federation”）。
 
@@ -311,6 +319,8 @@ Kubernetes 兼容性大致：
     * 用于数据交换的XML：XML用于导入和导出对象和元数据定义。
 * Java Platform, Enterprise Edition 支持
   * IBM提供了在Java EE产品(应用程序服务器) (例如IBM WebSphere Application Server和Oracle WebLogic服务器)中运行的 Java Platform、Enterprise Edition(Java EE)应用程序组件和系统组件。此外，FileNet P8 应用程序使用Java EE应用程序模型来构建多层应用程序，以交付企业应用程序所需的可伸缩性，辅助功能选项和管理。
+* IBM Content Services GraphQL API(选装服务)
+  * Content Services GraphQL API 提供了一个架构和一个易于理解的查询语言系统，可简化Content Platform Engine的应用程序开发。
 
 **核心能力(内容引擎)的开放率**：
 * Content Engine Java API 提供内容引擎的全部能力
@@ -320,7 +330,8 @@ Kubernetes 兼容性大致：
 ## 参考资料
 1. [Market Guide for Content Services Platforms, 2023, Gartner](https://www.gartner.com/document/4022795)
 2. [Vendor Rating: IBM, 2023, Gartner](https://www.gartner.com/document/4397199)
-3. [What is IBM Cloud Pak for Business Automation](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.2?topic=overview-what-is-cloud-pak-business-automation)
-4. [FileNet P8 Platform 5.5.x](https://www.ibm.com/docs/zh/filenet-p8-platform/5.5.x)
-5. [Detailed system requirements for a specific product, IBM](https://www.ibm.com/software/reports/compatibility/clarity/softwareReqsForProduct.html)
-6. [IBM Content Services, AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xxnek4yehitqi)
+3. [FileNet, wikipedia](https://en.wikipedia.org/wiki/FileNet)
+4. [What is IBM Cloud Pak for Business Automation](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.2?topic=overview-what-is-cloud-pak-business-automation)
+5. [FileNet P8 Platform 5.5.x](https://www.ibm.com/docs/zh/filenet-p8-platform/5.5.x)
+6. [Detailed system requirements for a specific product, IBM](https://www.ibm.com/software/reports/compatibility/clarity/softwareReqsForProduct.html)
+7. [IBM Content Services, AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xxnek4yehitqi)
