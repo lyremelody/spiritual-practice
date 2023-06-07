@@ -156,6 +156,7 @@
 ## 5.业务与市场(Business and Market)
 ### 5.1 Content Services
 * [IBM FileNet Content Manager 架构分析](./business-and-market/content-services/ibm-filenet-content-manager.md)
+* [OpenText Documentum 架构分析](./business-and-market/content-services/opentext-documentum.md)
 
 ### 5.2 Monitoring, Observability
 
