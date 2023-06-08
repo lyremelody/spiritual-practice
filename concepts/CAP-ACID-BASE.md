@@ -1,5 +1,7 @@
 # CAP/ACID/BASE
 
+<strong><font color="red">最后修改于2023-06-08</font></strong>
+
 - [CAP/ACID/BASE](#capacidbase)
   - [1 CAP](#1-cap)
     - [1.1 CAP(1999)](#11-cap1999)

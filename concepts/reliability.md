@@ -1,5 +1,7 @@
 # 「Reliability」 可靠性
 
+<strong><font color="red">最后修改于2023-06-08</font></strong>
+
 - [「Reliability」 可靠性](#reliability-可靠性)
   - [1 软件质量模型中的「可靠性」(Reliability)](#1-软件质量模型中的可靠性reliability)
   - [2 计算机存储领域的「数据可靠性」(Data Reliability)](#2-计算机存储领域的数据可靠性data-reliability)

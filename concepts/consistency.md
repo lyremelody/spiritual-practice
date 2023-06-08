@@ -1,5 +1,7 @@
 # Consistency 一致性
 
+<strong><font color="red">最后修改于2023-06-08</font></strong>
+
 - [Consistency 一致性](#consistency-一致性)
   - [1 一致性模型分类](#1-一致性模型分类)
     - [1.1 强一致性 Strict Consistency](#11-强一致性-strict-consistency)

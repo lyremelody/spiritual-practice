@@ -1,5 +1,7 @@
 # 开放平台: How, When and Why?
 
+<strong><font color="red">最后修改于2022-05-03</font></strong>
+
 这篇论文写于 2008-08-31，
 发于Harvard Business School Entrepreneurial Management Working Paper No. 09-030。
 

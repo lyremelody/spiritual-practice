@@ -1,5 +1,7 @@
 # 「Openness」开放性：一个框架及简史
 
+<strong><font color="red">最后修改于2022-05-01</font></strong>
+
 最近在考虑软件系统的开放性，看到了 Journal of Information Technology 的这篇论文。原文发表于 2017 年。
 
 看完，对于了解和理解「Openness」开放性很有帮助。

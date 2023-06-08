@@ -1,5 +1,7 @@
 # 开放和开放性 Open and Openness
 
+<strong><font color="red">最后修改于2023-06-08</font></strong>
+
 - [开放和开放性 Open and Openness](#开放和开放性-open-and-openness)
   - [Google 定义的 Open](#google-定义的-open)
 

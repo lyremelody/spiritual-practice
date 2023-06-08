@@ -1,5 +1,7 @@
 # 「fault tolerance」容错
 
+<strong><font color="red">最后修改于2022-04-14</font></strong>
+
 最近需要处理一些系统稳定性问题，所以整理记录一下。
 
 「fault tolerance」，相关的翻译「容错」、「容错性」、「故障容许度」、「故障容忍度」。

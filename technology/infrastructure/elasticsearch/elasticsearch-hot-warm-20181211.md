@@ -1,8 +1,18 @@
----
-description: '2018-12-11'
----
-
 # Elasticsearch热温数据迁移验证
+
+<strong><font color="red">最后修改于2018-12-11</font></strong>
+
+- [Elasticsearch热温数据迁移验证](#elasticsearch热温数据迁移验证)
+  - [1.目的](#1目的)
+  - [2.环境配置](#2环境配置)
+    - [2.1 存储配置](#21-存储配置)
+    - [2.2 Elasticsearch配置](#22-elasticsearch配置)
+      - [2.2.1 ES Node1数据存储使用SSD（/usrvol/ssd），配置为热节点](#221-es-node1数据存储使用ssdusrvolssd配置为热节点)
+      - [2.2.2 ES Node2数据存储使用SATA（/usrvol/sata），配置为温节点](#222-es-node2数据存储使用satausrvolsata配置为温节点)
+  - [3.热数据到温数据的迁移](#3热数据到温数据的迁移)
+    - [3.1执行数据切换过程](#31执行数据切换过程)
+    - [3.2 结果](#32-结果)
+
 
 ## 1.目的
 
