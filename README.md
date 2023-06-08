@@ -70,11 +70,35 @@
 #### 3.1.1 程序设计(Programming)
 
 #### 3.1.2 数据结构(Data Structure)
-* [Trie](./fundamentals/data-structures/trie.md)
+* 栈和队列
+* 链表
+* 散列表
+* 二叉搜索树
+* [前缀树 Trie](./technology/fundamentals/data-structures/trie.md)
+* 红黑树
+* B树
+* 斐波那契堆
+* 图
+* 最小生成树
 
 #### 3.1.3 基础算法(Primary Algorithms)
-* [快速排序](./fundamentals/primary-algorithms/quick-sort.md)
-* [最大堆和堆排序](./fundamentals/primary-algorithms/heap-sort.md)
+* 算法分析
+* 分治策略
+* 插入排序
+* [快速排序](./technology/fundamentals/primary-algorithms/quick-sort.md)
+* [最大堆和堆排序](./technology/fundamentals/primary-algorithms/heap-sort.md)
+* 线性时间排序
+  * 计数排序
+  * 基数排序
+  * 桶排序
+* 动态规划
+* 贪心算法
+* 摊还分析
+* 图算法
+  * 广度优先搜索
+  * 深度优先搜索
+  * 拓扑排序
+* Kruskal算法和Prim算法
 
 #### 3.1.4 计算机系统(Computer System)
 
@@ -89,30 +113,30 @@
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
 ### 3.2 基础设施组件(Infrastructure Components)
-* [Podman vs Docker，有哪些差异？](./infrastructure/podman-vs-docker.md)
-* [什么是消息队列？](./infrastructure/what-is-message-queue.md)
+* [Podman vs Docker，有哪些差异？](./technology/infrastructure/podman-vs-docker.md)
+* [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
 * 搜索引擎
-  * [初识搜索引擎](./infrastructure/search-engine-20180427.md)
+  * [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
 * Docker
-  * [那些年踩过的坑--Docker篇](./infrastructure/docker/docker-practice-20170713.md)
-  * [那些年踩过的坑--Docker篇（二）数据持久化](./infrastructure/docker/docker-practice-20180204.md)
+  * [那些年踩过的坑--Docker篇](./technology/infrastructure/docker/docker-practice-20170713.md)
+  * [那些年踩过的坑--Docker篇（二）数据持久化](./technology/infrastructure/docker/docker-practice-20180204.md)
 * Kubernetes
-  * [Kubernetes是什么？](./infrastructure/kubernetes/what-is-kubernetes.md)
-  * [Kubernetes 核心概念](./infrastructure/kubernetes/kubernetes-concepts.md)
-  * [使用 kubectl](./infrastructure/kubernetes/kubernetes-use-kubectl.md)
-  * [Pod 健康检查](./infrastructure/kubernetes/kubernetes-pod-health-check.md)
+  * [Kubernetes是什么？](./technology/infrastructure/kubernetes/what-is-kubernetes.md)
+  * [Kubernetes 核心概念](./technology/infrastructure/kubernetes/kubernetes-concepts.md)
+  * [使用 kubectl](./technology/infrastructure/kubernetes/kubernetes-use-kubectl.md)
+  * [Pod 健康检查](./technology/infrastructure/kubernetes/kubernetes-pod-health-check.md)
 * Helm
-  * [Helm是什么？](./infrastructure/helm/what-is-helm.md)
+  * [Helm是什么？](./technology/infrastructure/helm/what-is-helm.md)
 * Elasticsearch
-  * [Elasticsearch Rally](./infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
-  * [Elasticsearch 热温数据迁移验证](./infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
+  * [Elasticsearch Rally](./technology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
+  * [Elasticsearch 热温数据迁移验证](./technology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
 * Redis
 * MongoDB
 
 ### 3.3 其他技术问题(Others)
 * Troubleshooting 故障排查
-  * [Kubernetes Troubleshooting](./others/troubleshooting/kubernetes-troubleshooting.md)
-* [全球化系统中的日期时间处理问题](./others/problems/globalization-datatime.md)
+  * [Kubernetes Troubleshooting](./technology/others/troubleshooting/kubernetes-troubleshooting.md)
+* [全球化系统中的日期时间处理问题](./technology/others/problems/globalization-datatime.md)
 
 
 ## 4.软件工程(Software Engineering)
