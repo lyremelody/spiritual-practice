@@ -1,5 +1,7 @@
 # 方法：事件风暴(Event Storming)
 
+<strong><font color="red">最后修改于2023-06-08</font></strong>
+
 - [方法：事件风暴(Event Storming)](#方法事件风暴event-storming)
   - [1 简介](#1-简介)
     - [1.1 事件风暴是什么？](#11-事件风暴是什么)
