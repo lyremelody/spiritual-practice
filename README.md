@@ -16,6 +16,11 @@
       - [3.1.7 数据库(Database)](#317-数据库database)
       - [3.1.8 实践和题解(Practice)](#318-实践和题解practice)
     - [3.2 基础设施组件(Infrastructure Components)](#32-基础设施组件infrastructure-components)
+      - [3.2.1 容器(Container)](#321-容器container)
+      - [3.2.2 关系数据库(Database)](#322-关系数据库database)
+      - [3.2.3 消息队列(Message Queue)](#323-消息队列message-queue)
+      - [3.2.4 搜索引擎(Search Engine)](#324-搜索引擎search-engine)
+      - [3.2.5 NoSQL](#325-nosql)
     - [3.3 故障排查(Troubleshooting)](#33-故障排查troubleshooting)
     - [3.4 其他技术问题(Others)](#34-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
@@ -114,10 +119,8 @@
 * [ProjectEuler](https://github.com/lyremelody/projecteuler)
 
 ### 3.2 基础设施组件(Infrastructure Components)
+#### 3.2.1 容器(Container)
 * [Podman vs Docker，有哪些差异？](./technology/infrastructure/podman-vs-docker.md)
-* [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
-* 搜索引擎
-  * [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
 * Docker
   * [那些年踩过的坑--Docker篇](./technology/infrastructure/docker/docker-practice-20170713.md)
   * [那些年踩过的坑--Docker篇（二）数据持久化](./technology/infrastructure/docker/docker-practice-20180204.md)
@@ -128,9 +131,21 @@
   * [Pod 健康检查](./technology/infrastructure/kubernetes/kubernetes-pod-health-check.md)
 * Helm
   * [Helm是什么？](./technology/infrastructure/helm/what-is-helm.md)
+
+#### 3.2.2 关系数据库(Database)
+* MySQL
+* MariaDB
+
+#### 3.2.3 消息队列(Message Queue)
+* [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
+
+#### 3.2.4 搜索引擎(Search Engine)
+* [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
 * Elasticsearch
   * [Elasticsearch Rally](./technology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
   * [Elasticsearch 热温数据迁移验证](./technology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
+
+#### 3.2.5 NoSQL
 * Redis
 * MongoDB
 
