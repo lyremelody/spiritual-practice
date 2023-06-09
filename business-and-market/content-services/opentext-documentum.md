@@ -1,9 +1,12 @@
 # OpenText Documentum 架构分析
 
-<strong><font color="red">最后修改于2023-06-08</font></strong>
+<strong><font color="red">最后修改于2023-06-09</font></strong>
 
 - [OpenText Documentum 架构分析](#opentext-documentum-架构分析)
   - [1 产品关系](#1-产品关系)
+    - [1.1 OpenText CSP](#11-opentext-csp)
+    - [1.2 OpenText CSP三大产品的定位差异](#12-opentext-csp三大产品的定位差异)
+    - [1.3 OpenText产品交付模式](#13-opentext产品交付模式)
   - [2 OpenText Documentum](#2-opentext-documentum)
     - [2.1 产品概览](#21-产品概览)
       - [2.1.1 产品定义](#211-产品定义)
@@ -12,8 +15,10 @@
     - [2.2 组件视图](#22-组件视图)
       - [2.2.1 业务视图](#221-业务视图)
       - [2.2.2 (产品)组件列表](#222-产品组件列表)
-    - [2.3 运行视图](#23-运行视图)
-    - [2.4 组件(产品)说明](#24-组件产品说明)
+    - [2.3 运行视图(非官方)](#23-运行视图非官方)
+      - [2.3.1 Content Server 运行架构](#231-content-server-运行架构)
+      - [2.3.2 集成目录服务](#232-集成目录服务)
+    - [2.4 组件(主要产品)说明](#24-组件主要产品说明)
       - [2.4.1 OpenText™ Documentum™ Platform](#241-opentext-documentum-platform)
       - [2.4.2 OpenText™ Documentum™ Governance \& Compliance](#242-opentext-documentum-governance--compliance)
       - [2.4.3 OpenText™ Documentum™ D2](#243-opentext-documentum-d2)
@@ -27,7 +32,9 @@
       - [2.4.11 OpenText™ InfoArchive](#2411-opentext-infoarchive)
       - [2.4.12 OpenText™ Intelligent Capture](#2412-opentext-intelligent-capture)
     - [2.5 物理视图和伸缩性](#25-物理视图和伸缩性)
-      - [2.5.1 伸缩性](#251-伸缩性)
+      - [2.5.1 (v16.7)运行时容器列表](#251-v167运行时容器列表)
+      - [2.5.2 AWS部署架构](#252-aws部署架构)
+      - [2.5.3 伸缩性](#253-伸缩性)
     - [2.6 可扩展性](#26-可扩展性)
     - [2.7 可用性](#27-可用性)
     - [2.8 适应性](#28-适应性)
@@ -35,6 +42,7 @@
   - [参考资料](#参考资料)
 
 ## 1 产品关系
+### 1.1 OpenText CSP
 <div align=center><img src="./opentext-documentum/opentext_products_overview.png"></div>
 
 **OpenText的CSP平台包含在 Content Cloud 产品系列**。OpenText Content Cloud 提供了一套端到端的企业内容管理解决方案，从捕获到完整生命周期管理再到归档。Content Cloud与生产和消费信息的系统相集成，将企业级内容管理更深入地扩展到组织中，并促进结构化和非结构化数据的无缝访问、分发和使用。
@@ -44,10 +52,14 @@
 * **OpenText Extended ECM** （**以前称为 OpenText Extended ECM Platform 和 OpenText Content Suite Platform**）将业务内容与领先的 ERP、CRM、HCM 应用相集成，将人与信息无缝连接，加速端到端业务。核心目标是**实现信息与业务流程的连接**。
 * **OpenText Core** 将两者的优点结合在一个敏捷、快速部署的公共云产品中，提供的是多租户的 SaaS 服务。宣称支持 “run anywhere”，如AWS、Azure、Google Cloud。
 
+### 1.2 OpenText CSP三大产品的定位差异
 **我觉得OpenText CSP的三大产品之间的定位差异**：
 * OpenText Documentum 侧重内容管理
 * OpenText Extended ECM 侧重业务连接
 * OpenText Core 是多租户SaaS
+
+### 1.3 OpenText产品交付模式
+<div align=center><img src="./opentext-documentum/opentext_options_for_cloud_adoption.png"></div>
 
 ## 2 OpenText Documentum
 ### 2.1 产品概览
@@ -79,9 +91,15 @@ Documentum 帮助企业：
 #### 2.2.2 (产品)组件列表
 <div align=center><img src="./opentext-documentum/opentext_csp_documentum_components_list_overview.png"></div>
 
-### 2.3 运行视图
+### 2.3 运行视图(非官方)
+#### 2.3.1 Content Server 运行架构
+<div align=center><img src="./opentext-documentum/opentext_content_server_architecture.png"></div>
 
-### 2.4 组件(产品)说明
+#### 2.3.2 集成目录服务
+<div align=center><img src="./opentext-documentum/opentext_content_server_architecture_directory_service_integration.png"></div>
+
+
+### 2.4 组件(主要产品)说明
 **从整体来看，OpenText 遵循了模块化和组件化的思想，通过产品系列和服务(组件)的组合来实现整个业务领域的覆盖**。
 
 OpenText Documentum 实际上是一个产品系列，包含这些产品(组件)：
@@ -98,7 +116,7 @@ OpenText Documentum 实际上是一个产品系列，包含这些产品(组件)�
 * OpenText™ InfoArchive，归档服务
 * OpenText™ Intelligent Capture，智能采集服务
 
-**其中 OpenText™ Documentum™ Platform 是核心组件**。
+**其中 OpenText™ Documentum™ Platform 是核心组件**，其他组件基于之上进行扩展，从而满足不同的业务场景需求。
 
 #### 2.4.1 OpenText™ Documentum™ Platform
 OpenText™ Documentum™ Platform 组织、保存信息并使信息易于访问，同时确保其遵守所有隐私和安全协议。
@@ -160,17 +178,17 @@ OpenText™ InfoArchive 是一种现代归档解决方案，为归档内容和�
 OpenText™ Intelligent Capture 使用机器学习和 AI 来自动化手动内容流程，例如应付账款、后台文件转换和入职，并将纸质和数字内容转换为可操作的数据。组织可以安全高效地将信息路由到正确的用户和系统，确保在需要的时间和地点提供准确的信息。
 
 ### 2.5 物理视图和伸缩性
-
+#### 2.5.1 (v16.7)运行时容器列表
 <div align=center><img src="./opentext-documentum/documentum_plan_2019_2.png"></div>
 
-**这是 Documentum 在2019年容器化的规划，从这里能看出，以上OpenText产品运行时的服务(容器)，可以看到上面提到的产品，可能每个产品对应到一两个容器**。
+**这是 Documentum 在2019年容器化的规划，从这里能看出，以上OpenText产品运行时的服务(容器)，可以看到上面提到的产品，可能每个产品对应到一两个容器**。如，D2、xCP等
 
+#### 2.5.2 AWS部署架构
 <div align=center><img src="./opentext-documentum/opentext_documentum_aws.png"></div>
 
 这是OpenText近期基于AWS的部署架构。OpenText实现了基于容器化和云原生架构，整体通过多层分布式架构支持企业级可伸缩性。
 
-#### 2.5.1 伸缩性
-
+#### 2.5.3 伸缩性
 <div align=center><img src="./opentext-documentum/documentum_plan_2019_3.png"></div>
 <div align=center><img src="./opentext-documentum/documentum_plan_2019_4.png"></div>
 
@@ -182,17 +200,34 @@ OpenText™ Intelligent Capture 使用机器学习和 AI 来自动化手动内�
 
 ### 2.6 可扩展性
 ### 2.7 可用性
-从上面来看，OpenText Documentum 主要基于云原生和服务器集群技术来保证高可用。比如负载均衡器、数据库集群、Kubernetes等。
+从上面来看，OpenText Documentum 主要基于云原生和服务器集群技术来保证高可用。比如负载均衡器、数据库集群、云基础设施服务、Kubernetes等。
 
 ### 2.8 适应性
+<div align=center><img src="./opentext-documentum/documentum_containerization.png"></div>
+
+**基于容器化来实现各种环境的适应性**。
+
 ### 2.9 生态与开放性
 
 ## 参考资料
 1. [Content Services Platforms](https://www.opentext.com/products/content-services-platforms)
-2. [Content Services Platforms - OpenText Documentum](https://www.opentext.com/products/documentum)
-3. [Content Services Platforms - OpenText Documentum Platform](https://www.opentext.com/products/documentum-platform)
-4. [Content Services - OpenText Extended ECM](https://www.opentext.com/products/extended-ecm)
+2. [Products - OpenText Documentum](https://www.opentext.com/products/documentum)
+3. [Products - OpenText Documentum Platform](https://www.opentext.com/products/documentum-platform)
+4. [Products - OpenText Extended ECM](https://www.opentext.com/products/extended-ecm)
 5. [Product Overview - OpenText Documentum](https://www.opentext.com/file_source/OpenText/en_US/PDF/opentext-documentum-product-overview.pdf)
 6. [How OpenText Documentum on AWS Maximizes the Value of Enterprise Information](https://aws.amazon.com/cn/blogs/apn/how-opentext-documentum-on-aws-maximizes-the-value-of-enterprise-information/)
 7. [Docker and Kubernetes: Changing the OpenText Documentum deployment model](https://opentext.com/file_source/OpenText/en_US/PDF/opentext-wp-docker-and-kubernetes.pdf)
 8. [What’s new in OpenText Documentum](https://blogs.opentext.com/whats-new-in-opentext-documentum/)
+9. [5 ways containerization can help Documentum administrators](https://blogs.opentext.com/5-ways-containerization-can-help-documentum-administrators/)
+10. [Products - Documentum Governance & Compliance](https://www.opentext.com/products/documentum-protection-and-governance)
+11. [Products - OpenText Documentum D2](https://www.opentext.com/products/documentum-d2)
+12. [Products - OpenText Documentum xCP](https://www.opentext.com/products/documentum-xcp)
+13. [Products - Documentum Enterprise Applications Integration](https://www.opentext.com/products/documentum-enterprise-applications-integration)
+14. [Products - Documentum Integration with Microsoft](https://www.opentext.com/products/documentum-microsoft-integration)
+15. [Products - OpenText Documentum Add-Ons](https://www.opentext.com/products/documentum-add-ons)
+16. [Products - OpenText Extended ECM Documentum for Salesforce](https://www.opentext.com/products/extended-ecm-documentum-for-salesforce)
+17. [Products - OpenText Extended ECM Documentum for SAP Solutions](https://www.opentext.com/products/extended-ecm-documentum-for-sap-solutions)
+18. [Products - OpenText Documentum for Life Sciences](https://www.opentext.com/products/documentum-for-life-sciences)
+19. [Products - OpenText InfoArchive](https://www.opentext.com/products/infoarchive)
+20. [Products - OpenText Intelligent Capture](https://www.opentext.com/products/intelligent-capture)
+21. [OpentText Content Server Architecture, YouTube](https://www.youtube.com/watch?v=HEOwjtgmmr4)
