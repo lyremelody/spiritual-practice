@@ -16,7 +16,8 @@
       - [3.1.7 数据库(Database)](#317-数据库database)
       - [3.1.8 实践和题解(Practice)](#318-实践和题解practice)
     - [3.2 基础设施组件(Infrastructure Components)](#32-基础设施组件infrastructure-components)
-    - [3.3 其他技术问题(Others)](#33-其他技术问题others)
+    - [3.3 故障排查(Troubleshooting)](#33-故障排查troubleshooting)
+    - [3.4 其他技术问题(Others)](#34-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
     - [4.1 软件过程(Software Process)](#41-软件过程software-process)
     - [4.2 建模(Modeling)](#42-建模modeling)
@@ -133,9 +134,11 @@
 * Redis
 * MongoDB
 
-### 3.3 其他技术问题(Others)
-* Troubleshooting 故障排查
-  * [Kubernetes Troubleshooting](./technology/others/troubleshooting/kubernetes-troubleshooting.md)
+### 3.3 故障排查(Troubleshooting)
+* [Kubernetes Troubleshooting](./technology/troubleshooting/kubernetes-troubleshooting.md)
+
+
+### 3.4 其他技术问题(Others)
 * [全球化系统中的日期时间处理问题](./technology/others/problems/globalization-datatime.md)
 
 
