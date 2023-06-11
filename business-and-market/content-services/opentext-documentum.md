@@ -95,6 +95,12 @@ Documentum 帮助企业：
 #### 2.3.1 Content Server 运行架构
 <div align=center><img src="./opentext-documentum/opentext_content_server_architecture.png"></div>
 
+大致看出 Content Server 分为四层服务：
+1. 负载均衡
+2. 前端服务
+3. 后端服务
+4. 数据存储：数据库、分布式存储、索引服务等
+
 #### 2.3.2 集成目录服务
 <div align=center><img src="./opentext-documentum/opentext_content_server_architecture_directory_service_integration.png"></div>
 
@@ -203,11 +209,15 @@ OpenText™ Intelligent Capture 使用机器学习和 AI 来自动化手动内�
 从上面来看，OpenText Documentum 主要基于云原生和服务器集群技术来保证高可用。比如负载均衡器、数据库集群、云基础设施服务、Kubernetes等。
 
 ### 2.8 适应性
+<div align=center><img src="./opentext-documentum/documentum_plan_2019_1.png"></div>
+
 <div align=center><img src="./opentext-documentum/documentum_containerization.png"></div>
 
 **基于容器化来实现各种环境的适应性**。
 
 ### 2.9 生态与开放性
+<div align=center><img src="./opentext-documentum/extended_ecm_integration_architecture.png"></div>
+
 
 ## 参考资料
 1. [Content Services Platforms](https://www.opentext.com/products/content-services-platforms)
@@ -231,3 +241,4 @@ OpenText™ Intelligent Capture 使用机器学习和 AI 来自动化手动内�
 19. [Products - OpenText InfoArchive](https://www.opentext.com/products/infoarchive)
 20. [Products - OpenText Intelligent Capture](https://www.opentext.com/products/intelligent-capture)
 21. [OpentText Content Server Architecture, YouTube](https://www.youtube.com/watch?v=HEOwjtgmmr4)
+22. [Extended ECM Platform Development Integrations](https://www.opentext.com/assets/documents/en-US/pdf/opentext-eb-platform-development-integrations-en.pdf)
