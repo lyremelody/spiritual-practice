@@ -39,6 +39,8 @@
     - [2.7 可用性](#27-可用性)
     - [2.8 适应性](#28-适应性)
     - [2.9 生态与开放性](#29-生态与开放性)
+      - [2.9.1 集成技术](#291-集成技术)
+      - [2.9.2 Extended ECM集成架构](#292-extended-ecm集成架构)
   - [参考资料](#参考资料)
 
 ## 1 产品关系
@@ -216,6 +218,10 @@ OpenText™ Intelligent Capture 使用机器学习和 AI 来自动化手动内�
 **基于容器化来实现各种环境的适应性**。
 
 ### 2.9 生态与开放性
+#### 2.9.1 集成技术
+Documentum REST Services 提供了一个可部署的 Java Web 存档 (WAR) 文件，该文件在 Java EE 应用程序服务器的 Web 容器中运行。WAR 文件将接口公开为由 URI 标识的网络可访问资源。通过安装 Documentum REST Services，可以提供 RESTful API，并通过这些API扩展平台能力。
+
+#### 2.9.2 Extended ECM集成架构
 <div align=center><img src="./opentext-documentum/extended_ecm_integration_architecture.png"></div>
 
 
