@@ -112,6 +112,21 @@
 * Kruskal算法和Prim算法
 
 #### 3.1.4 计算机系统(Computer System)
+* 计算机系统概述
+* 程序结构和执行
+  * 信息的表示和处理
+  * 程序的机器级表示
+  * 处理器体系结构
+  * 优化程序性能
+  * 存储器层次结构
+* 在系统上运行程序
+  * 链接
+  * 异常控制流
+  * 虚拟内存
+* 程序间的交互和通信
+  * 系统级I/O
+  * 网络编程
+  * 并发编程
 
 #### 3.1.5 操作系统(Operating System)
 
@@ -191,6 +206,32 @@
 
 #### 4.2.3 组件级设计(Component-level Design)
 * [设计模式](./software-engineering/design/component-level-design/design-patterns/)
+  * 创建型模式
+    * 抽象工厂模式(Abstract Factory Pattern)
+    * 生成器模式(Builder Pattern)
+    * 工厂方法模式(Factory Method Pattern)
+    * 原型模式(Prototype Pattern)
+    * 单例模式(Singleton Pattern)
+  * 结构型模式
+    * 适配器模式(Adapter Pattern)
+    * 桥接模式(Bridge Pattern)
+    * 装饰者模式(Decorator Pattern)
+    * 组合模式(Composite Pattern)
+    * 外观模式(Facade Pattern)
+    * 享元模式(Flyweight Pattern)
+    * 代理模式(Proxy Pattern)
+  * 行为型模式
+    * 责任链模式(Chain of Responsibility)
+    * 命令模式(Command Pattern)
+    * 解释器模式(Interpreter Pattern)
+    * 迭代器模式(Iterator Pattern)
+    * 中介者模式(Mediator Pattern)
+    * 备忘录模式(Memento Pattern)
+    * 观察者模式(Observer Pattern)
+    * 状态模式(State Pattern)
+    * 策略模式(Strategy Pattern)
+    * 模版方法模式(Template Method Pattern)
+    * 访问者模式(Visitor Pattern)
 
 ### 4.3 质量与安全(Quality and Security)
 * [什么是质量](./software-engineering/software-quality/what-is-quality.md)
