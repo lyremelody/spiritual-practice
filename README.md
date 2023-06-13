@@ -31,16 +31,30 @@
     - [3.6 其他技术问题(Others)](#36-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
     - [4.1 软件过程(Software Process)](#41-软件过程software-process)
+      - [4.1.1 软件过程模型(Software Process Models)](#411-软件过程模型software-process-models)
+      - [4.1.2 敏捷(Agile)](#412-敏捷agile)
     - [4.2 建模(Modeling)](#42-建模modeling)
       - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
       - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
       - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
-      - [4.2.4 用户体验设计](#424-用户体验设计)
+      - [4.2.4 用户体验设计(User Experience Design)](#424-用户体验设计user-experience-design)
     - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
+      - [4.3.1 软件质量保证(Software Quality Assurance)](#431-软件质量保证software-quality-assurance)
+      - [4.3.2 软件安全性工程(Software Security Engineering)](#432-软件安全性工程software-security-engineering)
+      - [4.3.3 软件测试(Software Testing)](#433-软件测试software-testing)
+      - [4.3.4 软件配置管理(Software Configuration Management)](#434-软件配置管理software-configuration-management)
+      - [4.3.5 软件度量和分析(Software Measurement and Analytics)](#435-软件度量和分析software-measurement-and-analytics)
     - [4.4 软件项目管理(Software Project Management)](#44-软件项目管理software-project-management)
+      - [4.4.1 软件计划(Software Project Plans)](#441-软件计划software-project-plans)
+      - [4.4.2 风险管理(Risk Management)](#442-风险管理risk-management)
+      - [4.4.3 软件支持(Software Support)](#443-软件支持software-support)
   - [5.业务与市场(Business and Market)](#5业务与市场business-and-market)
     - [5.1 Content Services](#51-content-services)
+      - [5.1.1 市场分析](#511-市场分析)
+      - [5.1.2 产品分析](#512-产品分析)
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
+      - [5.2.1 市场分析](#521-市场分析)
+      - [5.2.2 产品分析](#522-产品分析)
   - [6.软技能(Soft-Skills)](#6软技能soft-skills)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
@@ -262,9 +276,8 @@
 * [软件工程总览](./software-engineering/software-engineering.md)
 
 ### 4.1 软件过程(Software Process)
-* 软件过程模型
-* 敏捷和敏捷过程
-* 软件工程的人员方面
+#### 4.1.1 软件过程模型(Software Process Models)
+#### 4.1.2 敏捷(Agile)
 
 ### 4.2 建模(Modeling)
 #### 4.2.1 理解需求(Understanding Requirements)
@@ -319,7 +332,7 @@
     * 模版方法模式(Template Method Pattern)
     * 访问者模式(Visitor Pattern)
 
-#### 4.2.4 用户体验设计
+#### 4.2.4 用户体验设计(User Experience Design)
 * 用户体验设计元素
 * 黄金规则
 * 用户界面分析和设计
@@ -333,30 +346,41 @@
 * [什么是质量](./software-engineering/software-quality/what-is-quality.md)
 * [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
 * [实现软件质量](./software-engineering/software-quality/implement-software-quality.md)
-* 软件质量保证
-* 软件安全性工程
+
+#### 4.3.1 软件质量保证(Software Quality Assurance)
+
+#### 4.3.2 软件安全性工程(Software Security Engineering)
+
+#### 4.3.3 软件测试(Software Testing)
 * 软件测试-组件级
 * 软件测试-集成级
 * 软件测试-专门的移动性测试
-* 软件配置管理
-* 软件度量和分析
+
+#### 4.3.4 软件配置管理(Software Configuration Management)
+#### 4.3.5 软件度量和分析(Software Measurement and Analytics)
 
 ### 4.4 软件项目管理(Software Project Management)
 * 项目管理概念
-* 指定可行的软件计划
-* 风险管理
-* 软件支持策略
+
+#### 4.4.1 软件计划(Software Project Plans)
+* 制定可行的软件计划
+
+#### 4.4.2 风险管理(Risk Management)
+#### 4.4.3 软件支持(Software Support)
 
 ## 5.业务与市场(Business and Market)
 * PMF
 * NPS
 
 ### 5.1 Content Services
+#### 5.1.1 市场分析
+#### 5.1.2 产品分析
 * [IBM FileNet Content Manager 架构分析](./business-and-market/content-services/ibm-filenet-content-manager.md)
 * [OpenText Documentum 架构分析](./business-and-market/content-services/opentext-documentum.md)
 
 ### 5.2 Monitoring, Observability
-
+#### 5.2.1 市场分析
+#### 5.2.2 产品分析
 
 ## 6.软技能(Soft-Skills)
 ### 6.1 目标管理(Management by Objectives)
