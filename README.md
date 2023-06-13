@@ -61,6 +61,9 @@
     - [6.3 情绪管理(Emotion Management)](#63-情绪管理emotion-management)
     - [6.4 时间管理(Time Management)](#64-时间管理time-management)
   - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
+    - [7.1 Openness](#71-openness)
+    - [7.2 SLA](#72-sla)
+    - [7.3多租户](#73多租户)
 
 
 ## 1.概念和发展史(Concepts and Timelines)
@@ -390,10 +393,13 @@
 
 ## 7.学习和论文翻译(Studis and Papers)
 * [学习资料](./info-list.md)
-* Openness
-  * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
-  * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
-* SLA
-  * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
-* 多租户
-  * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
+
+### 7.1 Openness
+* [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
+* [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
+
+### 7.2 SLA
+* [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
+
+### 7.3多租户
+* [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
