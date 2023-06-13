@@ -298,7 +298,7 @@
 * [架构概念总览](./software-engineering/design/architectural-design/architecture.md)
 
 ##### 4.2.2.1 架构风格(Architectural Styles)
-* [架构风格](./software-engineering/design/architectural-design/architecture-styles/)
+* [架构风格](./software-engineering/design/architectural-design/architectural-styles/)
   * 数据流风格(Data-flow Styles)
   * 管道和过滤器风格(Pipe and Filter，PF)
   * 统一管道和过滤器风格(Uniform Pipe and Filter，UPF)
@@ -336,12 +336,12 @@
 * [企业架构框架](./software-engineering/design/architectural-design/enterprise-architecture-frameworks/)
 
 ##### 4.2.2.3 架构描述(Architectural Description)
-* [架构描述](./software-engineering/design/architectural-design/architecture-description/)
-  * [“4+1”视图模型](./software-engineering/design/architectural-design/architecture-description/4+1-architectural-view-model.md)
-  * [C4模型](./software-engineering/design/architectural-design/architecture-description/c4-model.md)
-  * [UML](./software-engineering/design/architectural-design/architecture-description/uml.md)
-  * [解决方案架构](./software-engineering/design/architectural-design/architecture-description/solution-architecture.md)
-    * [解决方案架构文档模版](./software-engineering/design/architectural-design/architecture-description/solution-architecture-document.md)
+* [架构描述](./software-engineering/design/architectural-design/architectural-description/)
+  * [“4+1”视图模型](./software-engineering/design/architectural-design/architectural-description/4+1-architectural-view-model.md)
+  * [C4模型](./software-engineering/design/architectural-design/architectural-description/c4-model.md)
+  * [UML](./software-engineering/design/architectural-design/architectural-description/uml.md)
+  * [解决方案架构](./software-engineering/design/architectural-design/architectural-description/solution-architecture.md)
+    * [解决方案架构文档模版](./software-engineering/design/architectural-design/architectural-description/solution-architecture-document.md)
 
 ##### 4.2.2.4 解决方案架构
 * [解决方案架构设计](./software-engineering/design/architectural-design/solution-architecture)
