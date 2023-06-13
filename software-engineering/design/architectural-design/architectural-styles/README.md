@@ -1,12 +1,12 @@
-# Architecture Style 架构风格
+# Architectural Style 架构风格
 
 <strong><font color="red">最后修改于2023-06-08</font></strong>
 
-- [Architecture Style 架构风格](#architecture-style-架构风格)
+- [Architectural Style 架构风格](#architectural-style-架构风格)
   - [Architectual Pattern 架构模式](#architectual-pattern-架构模式)
 
 
-Architecture Style，架构风格，也有翻译成体系结构风格。
+Architectural Style，架构风格，也有翻译成体系结构风格。
 Component，组件，也有翻译成构建。
 
 架构风格就是施加在整个系统设计上的一种变换，目的是为系统中所有组件建立一个结构。
