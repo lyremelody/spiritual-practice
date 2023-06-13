@@ -26,14 +26,16 @@
       - [3.2.3 消息队列(Message Queue)](#323-消息队列message-queue)
       - [3.2.4 搜索引擎(Search Engine)](#324-搜索引擎search-engine)
       - [3.2.5 NoSQL](#325-nosql)
-    - [3.3 故障排查(Troubleshooting)](#33-故障排查troubleshooting)
-    - [3.4 其他技术问题(Others)](#34-其他技术问题others)
+    - [3.4 云技术 (Cloud Technology)](#34-云技术-cloud-technology)
+    - [3.5 故障排查(Troubleshooting)](#35-故障排查troubleshooting)
+    - [3.6 其他技术问题(Others)](#36-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
     - [4.1 软件过程(Software Process)](#41-软件过程software-process)
     - [4.2 建模(Modeling)](#42-建模modeling)
       - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
       - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
       - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
+      - [4.2.4 用户体验设计](#424-用户体验设计)
     - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
     - [4.4 软件项目管理(Software Project Management)](#44-软件项目管理software-project-management)
   - [5.业务与市场(Business and Market)](#5业务与市场business-and-market)
@@ -65,6 +67,8 @@
 * [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
 
 ### 1.2 发展史(Timelines)
+* 操作系统发展史
+* 计算机网络发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
@@ -239,16 +243,18 @@
 * Elasticsearch
   * [Elasticsearch Rally](./technology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
   * [Elasticsearch 热温数据迁移验证](./technology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
+* OpenSearch
 
 #### 3.2.5 NoSQL
 * Redis
 * MongoDB
 
-### 3.3 故障排查(Troubleshooting)
+### 3.4 云技术 (Cloud Technology)
+### 3.5 故障排查(Troubleshooting)
 * [Kubernetes Troubleshooting](./technology/troubleshooting/kubernetes-troubleshooting.md)
 
 
-### 3.4 其他技术问题(Others)
+### 3.6 其他技术问题(Others)
 * [全球化系统中的日期时间处理问题](./technology/others/problems/globalization-datatime.md)
 
 
@@ -256,13 +262,16 @@
 * [软件工程总览](./software-engineering/software-engineering.md)
 
 ### 4.1 软件过程(Software Process)
+* 软件过程模型
+* 敏捷和敏捷过程
+* 软件工程的人员方面
 
 ### 4.2 建模(Modeling)
-
 #### 4.2.1 理解需求(Understanding Requirements)
 * [需求工程](./software-engineering/requirements/requirement-engineering.md)
 * [需求建模(Requirement Modeling)](./software-engineering/requirements/requirement-modeling.md)
 * [方法：事件风暴(Event Storming)](./software-engineering/requirements/event-storming.md)
+* 方法：实例化需求
 
 #### 4.2.2 架构设计(Architectural Design)
 * [架构概念总览](./software-engineering/design/architectural-design/architecture.md)
@@ -274,6 +283,8 @@
   * [解决方案架构](./software-engineering/design/architectural-design/architecture-description/solution-architecture.md)
     * [解决方案架构文档模版](./software-engineering/design/architectural-design/architecture-description/solution-architecture-document.md)
 * [企业架构框架](./software-engineering/design/architectural-design/enterprise-architecture-frameworks/)
+* 架构模式
+  * 微服务架构
 * [解决方案架构设计](./software-engineering/design/architectural-design/solution-architecture)
   * [高可用架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md)
   * [高性能架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-performance.md)
@@ -308,15 +319,38 @@
     * 模版方法模式(Template Method Pattern)
     * 访问者模式(Visitor Pattern)
 
+#### 4.2.4 用户体验设计
+* 用户体验设计元素
+* 黄金规则
+* 用户界面分析和设计
+* 用户体验分析
+* 用户体验设计
+* 设计评估
+* 用户界面设计模式
+* 移动设计模式
+
 ### 4.3 质量与安全(Quality and Security)
 * [什么是质量](./software-engineering/software-quality/what-is-quality.md)
 * [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
 * [实现软件质量](./software-engineering/software-quality/implement-software-quality.md)
+* 软件质量保证
+* 软件安全性工程
+* 软件测试-组件级
+* 软件测试-集成级
+* 软件测试-专门的移动性测试
+* 软件配置管理
+* 软件度量和分析
 
 ### 4.4 软件项目管理(Software Project Management)
-
+* 项目管理概念
+* 指定可行的软件计划
+* 风险管理
+* 软件支持策略
 
 ## 5.业务与市场(Business and Market)
+* PMF
+* NPS
+
 ### 5.1 Content Services
 * [IBM FileNet Content Manager 架构分析](./business-and-market/content-services/ibm-filenet-content-manager.md)
 * [OpenText Documentum 架构分析](./business-and-market/content-services/opentext-documentum.md)
