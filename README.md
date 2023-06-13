@@ -36,6 +36,10 @@
     - [4.2 建模(Modeling)](#42-建模modeling)
       - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
       - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
+        - [4.2.2.1 架构风格(Architectural Styles)](#4221-架构风格architectural-styles)
+        - [4.2.2.2 架构模式(Architectural Patterns)](#4222-架构模式architectural-patterns)
+        - [4.2.2.3 架构描述(Architectural Description)](#4223-架构描述architectural-description)
+        - [4.2.2.4 解决方案架构](#4224-解决方案架构)
       - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
       - [4.2.4 用户体验设计(User Experience Design)](#424-用户体验设计user-experience-design)
     - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
@@ -55,15 +59,16 @@
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
       - [5.2.1 市场分析](#521-市场分析)
       - [5.2.2 产品分析](#522-产品分析)
-  - [6.软技能(Soft-Skills)](#6软技能soft-skills)
+  - [6.管理能力(Management)](#6管理能力management)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
     - [6.3 情绪管理(Emotion Management)](#63-情绪管理emotion-management)
     - [6.4 时间管理(Time Management)](#64-时间管理time-management)
-  - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
-    - [7.1 Openness](#71-openness)
-    - [7.2 SLA](#72-sla)
-    - [7.3多租户](#73多租户)
+  - [7.领导力(Leadership)](#7领导力leadership)
+  - [8.学习和论文翻译(Studis and Papers)](#8学习和论文翻译studis-and-papers)
+    - [8.1 Openness](#81-openness)
+    - [8.2 SLA](#82-sla)
+    - [8.3多租户](#83多租户)
 
 
 ## 1.概念和发展史(Concepts and Timelines)
@@ -291,16 +296,54 @@
 
 #### 4.2.2 架构设计(Architectural Design)
 * [架构概念总览](./software-engineering/design/architectural-design/architecture.md)
+
+##### 4.2.2.1 架构风格(Architectural Styles)
 * [架构风格](./software-engineering/design/architectural-design/architecture-styles/)
+  * 数据流风格(Data-flow Styles)
+  * 管道和过滤器风格(Pipe and Filter，PF)
+  * 统一管道和过滤器风格(Uniform Pipe and Filter，UPF)
+  * 复制风格(Replication Styles)
+  * 复制仓库风格(Replicated Repository，RR)
+  * 缓存风格(Cache，$)
+  * 分层风格(Hierarchical Styles)
+  * 客户-服务器风格(Client-Server，CS)
+  * 分层系统风格(Layered System，LS)
+  * 分层-客户-服务器风格(Layered-Client-Server，LCS)
+  * 客户-无状态-服务器风格(Client-Stateless-Server，CSS)
+  * 客户-缓存-无状态-服务器风格(Client-Cache-Stateless-Server，C$SS)
+  * 分层-客户-缓存-无状态-服务器风格(Layered-Client-Cache-Stateless-Server，LC$SS)
+  * 远程会话风格(Remote Session，RS)
+  * 远程数据访问风格(Remote Data Access，RDA)
+  * 移动代码风格(Mobile Code Styles)
+  * 虚拟机风格(Virtual Machine，VM)
+  * 远程求值风格(Remote Evaluation，REV)
+  * 按需代码风格(Code on Demand，COD)
+  * 分层-按需代码-客户-缓存-无状态-服务器风格(Layered-Code-on-Demand-Client-Cache-Stateless-Server，LCODC$SS)
+  * 移动代理风格(Mobile Agent，MA)
+  * 点对点风格(Peer-to-Peer Styles)
+  * 基于事件的集成风格(Event-based Integration，EBI)
+    * 基于事件的集成风格也被称作隐式调用(implicit invocation)风格或者事件系统(event system)风格
+  * C2风格
+  * 分布式对象风格(Distributed Objects，DO)
+  * 被代理的分布式对象风格(Brokered Distributed Objects，BDO)
+  * 面向对象
+  * REST架构风格(表述性状态转移架构风格)
+  * SOA
+
+##### 4.2.2.2 架构模式(Architectural Patterns)
+* 架构模式
+  * 微服务架构
+* [企业架构框架](./software-engineering/design/architectural-design/enterprise-architecture-frameworks/)
+
+##### 4.2.2.3 架构描述(Architectural Description)
 * [架构描述](./software-engineering/design/architectural-design/architecture-description/)
   * [“4+1”视图模型](./software-engineering/design/architectural-design/architecture-description/4+1-architectural-view-model.md)
   * [C4模型](./software-engineering/design/architectural-design/architecture-description/c4-model.md)
   * [UML](./software-engineering/design/architectural-design/architecture-description/uml.md)
   * [解决方案架构](./software-engineering/design/architectural-design/architecture-description/solution-architecture.md)
     * [解决方案架构文档模版](./software-engineering/design/architectural-design/architecture-description/solution-architecture-document.md)
-* [企业架构框架](./software-engineering/design/architectural-design/enterprise-architecture-frameworks/)
-* 架构模式
-  * 微服务架构
+
+##### 4.2.2.4 解决方案架构
 * [解决方案架构设计](./software-engineering/design/architectural-design/solution-architecture)
   * [高可用架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md)
   * [高性能架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-performance.md)
@@ -385,21 +428,23 @@
 #### 5.2.1 市场分析
 #### 5.2.2 产品分析
 
-## 6.软技能(Soft-Skills)
+## 6.管理能力(Management)
 ### 6.1 目标管理(Management by Objectives)
 ### 6.2 沟通管理(Communication Management)
 ### 6.3 情绪管理(Emotion Management)
 ### 6.4 时间管理(Time Management)
 
-## 7.学习和论文翻译(Studis and Papers)
+## 7.领导力(Leadership)
+
+## 8.学习和论文翻译(Studis and Papers)
 * [学习资料](./info-list.md)
 
-### 7.1 Openness
+### 8.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 7.2 SLA
+### 8.2 SLA
 * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 
-### 7.3多租户
+### 8.3多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
