@@ -9,7 +9,10 @@
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
     - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
     - [1.2 发展史(Timelines)](#12-发展史timelines)
-  - [2.原则(Principles)](#2原则principles)
+  - [2.思想和原则(Culture and Principles)](#2思想和原则culture-and-principles)
+    - [2.1 设计思想](#21-设计思想)
+    - [2.2 思维误区](#22-思维误区)
+    - [2.3 软件工程实践原则](#23-软件工程实践原则)
   - [3.技术能力(Technical Skills)](#3技术能力technical-skills)
     - [3.1 计算机基础(Computer Fundamentals)](#31-计算机基础computer-fundamentals)
       - [3.1.1 程序设计(Programming)](#311-程序设计programming)
@@ -97,10 +100,14 @@
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
 
 
-## 2.原则(Principles)
-* [软件工程实践原则](./principles/software-engineering-principles.md)
-* [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
+## 2.思想和原则(Culture and Principles)
+### 2.1 设计思想
 * [简约之美：软件设计之道](./principles/code-simplicity-the-science-of-development.png)
+
+### 2.2 思维误区
+* [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
+
+### 2.3 [软件工程实践原则](./principles/software-engineering-principles.md)
 
 ## 3.技术能力(Technical Skills)
 ### 3.1 计算机基础(Computer Fundamentals)
@@ -402,6 +409,8 @@
 * 软件测试-专门的移动性测试
 
 #### 4.3.4 软件配置管理(Software Configuration Management)
+* [代码分支模型](./software-engineering/software-configuration-management/source-control-branching-model.md)
+
 #### 4.3.5 软件度量和分析(Software Measurement and Analytics)
 
 ### 4.4 软件项目管理(Software Project Management)
