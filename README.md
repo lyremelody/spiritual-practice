@@ -69,6 +69,9 @@
     - [5.2 Monitoring, Observability](#52-monitoring-observability)
       - [5.2.1 市场分析](#521-市场分析)
       - [5.2.2 产品分析](#522-产品分析)
+    - [5.3 Enterprise Backup and Recovery Software Solutions](#53-enterprise-backup-and-recovery-software-solutions)
+      - [5.3.1 市场分析](#531-市场分析)
+      - [5.3.2 产品分析](#532-产品分析)
   - [6.管理能力(Management)](#6管理能力management)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
@@ -437,6 +440,7 @@
 ## 5.业务与市场(Business and Market)
 * PMF
 * NPS
+* [Market Categories, Gartner](https://www.gartner.com/reviews/markets)
 
 ### 5.1 Content Services
 #### 5.1.1 市场分析
@@ -447,6 +451,10 @@
 ### 5.2 Monitoring, Observability
 #### 5.2.1 市场分析
 #### 5.2.2 产品分析
+
+### 5.3 Enterprise Backup and Recovery Software Solutions
+#### 5.3.1 市场分析
+#### 5.3.2 产品分析
 
 ## 6.管理能力(Management)
 ### 6.1 目标管理(Management by Objectives)
