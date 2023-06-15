@@ -1,9 +1,13 @@
 # 架构师笔记 Architect Notes
 
-<iframe src="https://ghbtns.com/github-btn.html?user=lyremelody&repo=architect-notes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=lyremelody&repo=architect-notes&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="130" height="30" title="GitHub"></iframe>
-
+<p align="left">
+  <a href="https://github.com/lyremelody/architect-notes">
+      <img alt="star" class="no-zoom" src="https://img.shields.io/github/stars/lyremelody/architect-notes?style=social">
+  </a>
+  <a href="https://github.com/lyremelody/architect-notes">
+      <img alt="watch" class="no-zoom" src="https://img.shields.io/github/watchers/lyremelody/architect-notes?style=social">
+  </a>
+</p>
 
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
