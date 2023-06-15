@@ -7,6 +7,9 @@
   <a href="https://github.com/lyremelody/architect-notes">
       <img alt="watch" class="no-zoom" src="https://img.shields.io/github/watchers/lyremelody/architect-notes?style=social">
   </a>
+  <a href="https://github.com/lyremelody/architect-notes">
+      <img alt="last-commit" class="no-zoom" src="https://img.shields.io/github/last-commit/lyremelody/architect-notes?style=social">
+  </a>
 </p>
 
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
