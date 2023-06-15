@@ -12,7 +12,7 @@
   - [2.思想和原则(Culture and Principles)](#2思想和原则culture-and-principles)
     - [2.1 设计思想](#21-设计思想)
     - [2.2 思维误区](#22-思维误区)
-    - [2.3 软件工程实践原则](#23-软件工程实践原则)
+    - [2.3 原则](#23-原则)
   - [3.技术能力(Technical Skills)](#3技术能力technical-skills)
     - [3.1 计算机基础(Computer Fundamentals)](#31-计算机基础computer-fundamentals)
       - [3.1.1 程序设计(Programming)](#311-程序设计programming)
@@ -71,7 +71,7 @@
   - [8.学习和论文翻译(Studis and Papers)](#8学习和论文翻译studis-and-papers)
     - [8.1 Openness](#81-openness)
     - [8.2 SLA](#82-sla)
-    - [8.3多租户](#83多租户)
+    - [8.3 多租户](#83-多租户)
 
 
 ## 1.概念和发展史(Concepts and Timelines)
@@ -107,7 +107,8 @@
 ### 2.2 思维误区
 * [分布式计算的8个错误假设](./principles/8-fallacies-of-distributed-computing.md)
 
-### 2.3 [软件工程实践原则](./principles/software-engineering-principles.md)
+### 2.3 原则
+* [软件工程实践原则](./principles/software-engineering-principles.md)
 
 ## 3.技术能力(Technical Skills)
 ### 3.1 计算机基础(Computer Fundamentals)
@@ -266,6 +267,9 @@
 
 #### 3.2.3 消息队列(Message Queue)
 * [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
+* Kafka
+* NSQ
+* RabbitMQ
 
 #### 3.2.4 搜索引擎(Search Engine)
 * [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
@@ -277,6 +281,7 @@
 #### 3.2.5 NoSQL
 * Redis
 * MongoDB
+* Etcd
 
 ### 3.4 云技术 (Cloud Technology)
 ### 3.5 故障排查(Troubleshooting)
@@ -454,5 +459,5 @@
 ### 8.2 SLA
 * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 
-### 8.3多租户
+### 8.3 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
