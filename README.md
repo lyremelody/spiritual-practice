@@ -371,6 +371,7 @@
 * [RESTful API 设计](./software-engineering/design/architectural-design/solution-architecture/restful-api-design.md)
 
 #### 4.2.3 组件级设计(Component-level Design)
+* [组件级设计概述](./software-engineering/design/component-level-design/README.md)
 * [设计模式](./software-engineering/design/component-level-design/design-patterns/)
   * 创建型模式
     * 抽象工厂模式(Abstract Factory Pattern)
