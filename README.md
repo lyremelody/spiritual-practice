@@ -102,6 +102,7 @@
 * [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
 
 ### 1.2 发展史(Timelines)
+* [计算机发展史](./timelines/computer-timeline.md)
 * 操作系统发展史
 * 计算机网络发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
@@ -372,6 +373,7 @@
 
 #### 4.2.3 组件级设计(Component-level Design)
 * [组件级设计概述](./software-engineering/design/component-level-design/README.md)
+* 面向对象分析与设计
 * [设计模式](./software-engineering/design/component-level-design/design-patterns/)
   * 创建型模式
     * 抽象工厂模式(Abstract Factory Pattern)
