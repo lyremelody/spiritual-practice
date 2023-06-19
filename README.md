@@ -12,6 +12,13 @@
   </a>
 </p>
 
+**基本问题**：
+* [【待完成】软件架构是什么？](./architecture.md#2-软件架构是什么)
+* [【待完成】为何需要软件架构？](./architecture.md#3-为何需要软件架构)
+* [【待完成】软件架构如何设计？](./architecture.md#5-软件架构如何设计)
+* [【待完成】架构设计如何描述？](./architecture.md#6-软件架构如何描述)
+
+**知识体系目录**：
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
     - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
@@ -63,15 +70,18 @@
       - [4.4.2 风险管理(Risk Management)](#442-风险管理risk-management)
       - [4.4.3 软件支持(Software Support)](#443-软件支持software-support)
   - [5.业务与市场(Business and Market)](#5业务与市场business-and-market)
-    - [5.1 Content Services](#51-content-services)
+    - [5.1 Content Services Platform](#51-content-services-platform)
       - [5.1.1 市场分析](#511-市场分析)
       - [5.1.2 产品分析](#512-产品分析)
-    - [5.2 Monitoring, Observability](#52-monitoring-observability)
+    - [5.2 Application Performance Monitoring and Observability](#52-application-performance-monitoring-and-observability)
       - [5.2.1 市场分析](#521-市场分析)
       - [5.2.2 产品分析](#522-产品分析)
     - [5.3 Enterprise Backup and Recovery Software Solutions](#53-enterprise-backup-and-recovery-software-solutions)
       - [5.3.1 市场分析](#531-市场分析)
       - [5.3.2 产品分析](#532-产品分析)
+    - [5.4 Cloud Management Tooling](#54-cloud-management-tooling)
+      - [5.4.1 市场分析](#541-市场分析)
+      - [5.4.2 产品分析](#542-产品分析)
   - [6.管理能力(Management)](#6管理能力management)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
@@ -105,6 +115,7 @@
 * [计算机发展史](./timelines/computer-timeline.md)
 * 操作系统发展史
 * 计算机网络发展史
+* 软件架构发展史
 * [云计算发展史](./timelines/cloud-computing-timeline.md)
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
@@ -318,8 +329,6 @@
 * 方法：实例化需求
 
 #### 4.2.2 架构设计(Architectural Design)
-* [架构概念总览](./software-engineering/design/architectural-design/architecture.md)
-
 ##### 4.2.2.1 架构风格(Architectural Styles)
 * [架构风格概述](./software-engineering/design/architectural-design/architectural-styles/README.md)
 * 数据流风格(Data-flow Styles)
@@ -445,19 +454,39 @@
 * NPS
 * [Market Categories, Gartner](https://www.gartner.com/reviews/markets)
 
-### 5.1 Content Services
+### 5.1 Content Services Platform
+内容服务平台(CSP)是管理和利用组织内内容的基础。CSP技术使员工能够跨设备和组织边界以现代无缝方式检索和处理内容。核心CSP功能包括内容捕获、创建、合并、处理和保留，以支持个人、团队、部门和企业业务运营。
+
+[Content Services Platform, Gartner](https://www.gartner.com/reviews/market/content-services-platforms)
+
 #### 5.1.1 市场分析
 #### 5.1.2 产品分析
 * [IBM FileNet Content Manager 架构分析](./business-and-market/content-services/ibm-filenet-content-manager.md)
 * [OpenText Documentum 架构分析](./business-and-market/content-services/opentext-documentum.md)
 
-### 5.2 Monitoring, Observability
+### 5.2 Application Performance Monitoring and Observability
+Gartner 将应用程序性能监控和可观察性市场定义为能够观察和分析应用程序运行状况和用户体验的软件。目标角色是 IT 运营、站点可靠性工程师、云和平台运营、应用程序开发人员和产品所有者。这些解决方案可以作为供应商管理的托管环境或通过 SaaS 提供自托管部署。
+
+[Application Performance Monitoring and Observability, Gartner](https://www.gartner.com/reviews/market/application-performance-monitoring-and-observability)
+
 #### 5.2.1 市场分析
 #### 5.2.2 产品分析
 
 ### 5.3 Enterprise Backup and Recovery Software Solutions
+企业备份和恢复软件解决方案旨在捕获本地、混合、多云和 SaaS 环境中企业工作负载的时间点副本（备份），并将数据写入二级存储目标以供在丢失的情况下恢复这些数据的目的。备份和恢复解决方案具有多项核心功能。其中包括本地数据中心的操作系统、文件、数据库和应用程序的备份和恢复；公有云IaaS、PaaS、SaaS数据备份与恢复；创建多个备份副本以支持弹性、灾难恢复和其他用例；分配符合组织恢复目标的多个备份和保留策略；报告备份/恢复任务的成功和失败。
+
+[Enterprise Backup and Recovery Software Solutions, Gartner](https://www.gartner.com/reviews/market/enterprise-backup-and-recovery-software-solutions)
+
 #### 5.3.1 市场分析
 #### 5.3.2 产品分析
+
+### 5.4 Cloud Management Tooling
+云管理工具(Cloud Management Tooling) 使组织能够管理混合云和多云（即本地、公共云和边缘）服务和资源，包括为跨多个功能领域的托管云基础设施资源提供治理、生命周期管理、代理和自动化。该工具可由中央 IT 组织（例如，I&O、云卓越中心 [CCOE] 和平台工程/运营）或在特定业务线内采购和运营，并且可以部署在客户公共场所的本地云帐户或作为SaaS服务购买。
+
+[Cloud Management Tooling, Gartner](https://www.gartner.com/reviews/market/cloud-management-tooling)
+
+#### 5.4.1 市场分析
+#### 5.4.2 产品分析
 
 ## 6.管理能力(Management)
 ### 6.1 目标管理(Management by Objectives)
