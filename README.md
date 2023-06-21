@@ -13,10 +13,10 @@
 </p>
 
 **基本问题**：
-* [TODO: 软件架构是什么？](./architecture.md#2-软件架构是什么)
-* [TODO: 为何需要软件架构？](./architecture.md#3-为何需要软件架构)
-* [TODO: 软件架构如何设计？](./architecture.md#5-软件架构如何设计)
-* [TODO: 架构设计如何描述？](./architecture.md#6-软件架构如何描述)
+* [TODO: 软件架构是什么？](./software-architecture.md#2-软件架构是什么)
+* [TODO: 为何需要软件架构？](./software-architecture.md#3-为何需要软件架构)
+* [TODO: 软件架构如何设计？](./software-architecture.md#5-软件架构如何设计)
+* [TODO: 架构设计如何描述？](./software-architecture.md#6-软件架构如何描述)
 
 **知识体系目录**：
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
