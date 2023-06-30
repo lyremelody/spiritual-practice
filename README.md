@@ -111,7 +111,8 @@
 * [一致性 Consistency](./concepts/consistency.md)
 * [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
 * [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
-* [软件引擎 Software Engine](./concepts/software-engine.md)
+* [TODO: 软件引擎 Software Engine](./concepts/software-engine.md)
+* [TODO: 控制反转 Inversion of Control](./concepts/inversion-of-control.md)
 
 ### 1.2 发展史(Timelines)
 * [计算机发展史](./timelines/computer-timeline.md)
