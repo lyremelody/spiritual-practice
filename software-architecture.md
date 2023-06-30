@@ -6,7 +6,7 @@
   - [1 「架构」是什么？](#1-架构是什么)
     - [1.1「架构」的隐喻来源](#11架构的隐喻来源)
     - [1.2 计算机体系架构(Computer Architecture)](#12-计算机体系架构computer-architecture)
-    - [1.3 软件架构(Software Architecture)出现的历史背景](#13-软件架构software-architecture出现的历史背景)
+    - [1.3 软件架构(Software Architecture)发展史](#13-软件架构software-architecture发展史)
   - [2 软件架构是什么？](#2-软件架构是什么)
     - [2.1 软件架构设计的目的](#21-软件架构设计的目的)
     - [2.2 软件架构的定义](#22-软件架构的定义)
@@ -44,7 +44,7 @@ Architecture(建筑)的含义包括：
 
 ### 1.2 计算机体系架构(Computer Architecture)
 
-### 1.3 软件架构(Software Architecture)出现的历史背景
+### 1.3 软件架构(Software Architecture)发展史
 见 [《软件架构发展史》](./timelines/software-architecture-timeline.md)
 
 ## 2 软件架构是什么？
