@@ -18,11 +18,16 @@
 * [TODO: 为何需要软件架构？](./software-architecture.md#3-为何需要软件架构)
 * [TODO: 软件架构如何设计？](./software-architecture.md#5-软件架构如何设计)
 * [TODO: 架构设计如何描述？](./software-architecture.md#6-软件架构如何描述)
+* [TODO：如何评估架构设计的质量？](./software-architecture.md#7-如何评估架构设计的质量)
 
 **知识体系目录**：
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
     - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
+      - [1.1.1 设计相关概念](#111-设计相关概念)
+      - [1.1.2 系统能力和质量属性概念](#112-系统能力和质量属性概念)
+      - [1.1.3 分布式系统概念](#113-分布式系统概念)
+      - [1.1.4 其他领域概念](#114-其他领域概念)
     - [1.2 发展史(Timelines)](#12-发展史timelines)
   - [2.思想和原则(Culture and Principles)](#2思想和原则culture-and-principles)
     - [2.1 设计思想](#21-设计思想)
@@ -59,6 +64,7 @@
     - [4.2 建模(Modeling)](#42-建模modeling)
       - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
       - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
+        - [4.2.2.1 架构框架/架构方法论(Architecture Frameworks)](#4221-架构框架架构方法论architecture-frameworks)
         - [4.2.2.1 架构风格(Architectural Styles)](#4221-架构风格architectural-styles)
         - [4.2.2.2 架构模式(Architectural Patterns)](#4222-架构模式architectural-patterns)
         - [4.2.2.3 架构描述(Architectural Description)](#4223-架构描述architectural-description)
@@ -102,22 +108,29 @@
 
 ## 1.概念和发展史(Concepts and Timelines)
 ### 1.1 概念理解(Understanding Concepts)
+#### 1.1.1 设计相关概念
 * [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
+* [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
+* [TODO: 控制反转 Inversion of Control](./concepts/inversion-of-control.md)
+
+#### 1.1.2 系统能力和质量属性概念
 * [可用性 availability](./concepts/availability.md)
 * [容错 fault tolerance](./concepts/fault-tolerance.md)
 * [可靠性 reliability](./concepts/reliability.md)
 * [可伸缩性 scalability](./concepts/scalability.md)
 * [弹性 elasticity](./concepts/elasticity.md)
+* [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
+
+#### 1.1.3 分布式系统概念
+* [CAP/ACID/BASE](./concepts/CAP-ACID-BASE.md)
+* [一致性 Consistency](./concepts/consistency.md)
+
+#### 1.1.4 其他领域概念
 * [云原生 cloud native](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
 * [访问控制 Access Control](./concepts/access-control.md)
 * [RPO/RTO](./concepts/RPO-RTO.md)
-* [CAP/ACID/BASE](./concepts/CAP-ACID-BASE.md)
-* [一致性 Consistency](./concepts/consistency.md)
-* [开放和开放性 Open and Openness](./concepts/open-and-openness.md)
-* [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
 * [TODO: 软件引擎 Software Engine](./concepts/software-engine.md)
-* [TODO: 控制反转 Inversion of Control](./concepts/inversion-of-control.md)
 
 ### 1.2 发展史(Timelines)
 * [计算机发展史](./timelines/computer-timeline.md)
@@ -367,6 +380,11 @@
 * 方法：实例化需求
 
 #### 4.2.2 架构设计(Architectural Design)
+##### 4.2.2.1 架构框架/架构方法论(Architecture Frameworks)
+* ADMEMS, Architecture Design Method has been Extended to Method System
+* TOGAF, The Open Group Architecture Framework
+* DoDAF
+
 ##### 4.2.2.1 架构风格(Architectural Styles)
 * [架构风格概述](./software-engineering/design/architectural-design/architectural-styles/README.md)
 * 数据流风格(Data-flow Styles)
