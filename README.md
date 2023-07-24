@@ -50,6 +50,7 @@
       - [3.3.2 云原生技术(Cloud Native)](#332-云原生技术cloud-native)
         - [3.3.2.1 容器(Container)](#3321-容器container)
         - [3.3.2.2 服务网格(Service Mesh)](#3322-服务网格service-mesh)
+        - [3.3.2.3 资料(链接)收集](#3323-资料链接收集)
       - [3.3.3 基础设施组件(Infrastructure Components)](#333-基础设施组件infrastructure-components)
         - [3.3.3.1 关系数据库(Database)](#3331-关系数据库database)
         - [3.3.3.2 消息队列(Message Queue)](#3332-消息队列message-queue)
@@ -71,6 +72,8 @@
         - [4.2.2.3 架构描述(Architectural Description)](#4223-架构描述architectural-description)
         - [4.2.2.4 解决方案架构](#4224-解决方案架构)
       - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
+        - [4.2.3.1 API设计](#4231-api设计)
+          - [4.2.3.1.1 资料(链接)收集](#42311-资料链接收集)
       - [4.2.4 用户体验设计(User Experience Design)](#424-用户体验设计user-experience-design)
     - [4.3 质量与安全(Quality and Security)](#43-质量与安全quality-and-security)
       - [4.3.1 软件质量保证(Software Quality Assurance)](#431-软件质量保证software-quality-assurance)
@@ -333,6 +336,36 @@
 
 ##### 3.3.2.2 服务网格(Service Mesh)
 
+##### 3.3.2.3 资料(链接)收集
+* **公司/社区资料**
+  1. [CNCF，云原生计算基金会](https://www.cncf.io/)
+  2. [云原生技术公开课](https://edu.aliyun.com/roadmap/cloudnative)，阿里云
+* **博客/文章**
+  1. [云原生已来，只是分布不均](https://mp.weixin.qq.com/s/apihIHmPwyVdZZi5d7U0Wg)，2020-06-17
+  2. [云原生科普丨云原生才是「吞噬世界」的那条大鱼...](https://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650219017&idx=1&sn=b74b0b438ad9b6883fc1298bb11ba7c4&chksm=befe22288989ab3ee981797797205053d21bfd511feb2d1169fbae9d9e24feadc1c887b79480&scene=0&xtrack=1)，2020-02-05
+  3. [为何云原生在吞噬世界](http://www.sohu.com/a/353123831_465914)，2019-11-11
+  4. [谷歌：云原生架构的5条原则](https://www.infoq.cn/article/B5Zk1p*8SGk5ZIVk27gv)，2019-07-08
+  5. [畅谈云原生（下）：云原生的飞轮理论](https://www.infoq.cn/article/HMizcSG_FgcJKGzkE08L)，2019-03-01
+  6. [畅谈云原生（上）：云原生应用应该是什么样子？](https://www.infoq.cn/article/fA42rfjV*dYGAvRANFqE)，2019-02-27
+  7. [Cloud Native Application Maturity Model](https://dzone.com/articles/cloud-native-application)，2015-03-27
+* **笔记**
+  1. [CloudNative学习笔记](https://skyao.io/learning-cloudnative/)，skyao
+* **Kubernetes资料**
+  1. [深入剖析Kubernetes@极客时间](https://time.geekbang.org/column/intro/116)
+  2. [云原生技术公开课](https://edu.aliyun.com/roadmap/cloudnative)，阿里云
+  3. [Kubernetes指南](https://feisky.gitbooks.io/kubernetes/)，很好的中文资料
+  4. [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)，很好的中文资料
+  5. [Kubernetes中文社区](https://www.kubernetes.org.cn/)
+  6. [Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)，Microsoft Azure
+  7. [Kubernetes production best practices](https://learnk8s.io/production-best-practices)，learnk8s.io
+  8.  [Kubernetes troubleshooting flowchart](https://learnk8s.io/troubleshooting-deployments)，learnk8s.io
+* **Helm资料**
+  1. [Helm 用户指南](https://whmzsu.github.io/helm-doc-zh-cn/)，中文资料
+* **其他**
+  1. [awesome-cloud-native](https://github.com/rootsongjc/awesome-cloud-native)
+  2. [Architecting Cloud-Aware Applications Rev. 1.0](http://www.oaca-project.org/wp-content/uploads/2018/07/Architecting-Cloud-Aware-Applications-Best-Practices-Rev-1.0.pdf)，OPEN DATA CENTER ALLIANCE，PDF 
+
+
 #### 3.3.3 基础设施组件(Infrastructure Components)
 ##### 3.3.3.1 关系数据库(Database)
 * MySQL
@@ -468,6 +501,33 @@
     * 模版方法模式(Template Method Pattern)
     * 访问者模式(Visitor Pattern)
 
+##### 4.2.3.1 API设计
+
+###### 4.2.3.1.1 资料(链接)收集
+* **API**
+  1. [Why should you categorize your APIs? ](https://www.osaango.com/blog/why-should-you-categorize-your-apis)2018-05-13
+  2. [Internal vs External APIs](https://blog.restcase.com/internal-vs-external-apis/), 2017-03-25
+  3. [API Strategy 201: Private APIs vs. Open APIs](https://apiacademy.co/2015/04/api-strategy-201-private-apis-vs-open-apis/), 2015-04-09
+* **论文**
+  1. [《Architectural Styles and the Design of Network-based Software Architectures》](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)，Roy Fielding，2000
+  2. [中文版，《架构风格与基于网络的软件架构设计》](https://www.infoq.cn/article/dissertation-rest-cn)
+* **企业的设计指南**
+  1. [《REST API Guidelines》](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md), Microsoft
+  2. [《API Design Guidelines》](https://github.com/paypal/api-standards/blob/master/api-style-guide.md), PayPal
+  3. [《API 设计指南》](https://cloud.google.com/apis/design/), Google
+  4. [《Zalando RESTful API and Event Scheme Guidelines》](https://opensource.zalando.com/restful-api-guidelines/#), Zalando
+  5. [《REST API Guidelines》](https://github.com/watson-developer-cloud/api-guidelines), IBM Wason
+* **博客**
+  1. [《Best Practices for Designing a Pragmatic RESTful API》](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+  2. [《Idea REST API design》](https://betimdrenica.wordpress.com/2015/03/09/ideal-rest-api-design/)
+  3. [《The Web API Checklist — 43 Things To Think About When Designing, Testing, and Releasing your API》](https://mathieu.fenniak.net/the-api-checklist/)
+  4. [《Richardson Maturity Model》](https://martinfowler.com/articles/richardsonMaturityModel.html)
+* **REST API文档规范**
+  1. [《The OpenAPI Specification》 ](https://github.com/OAI/OpenAPI-Specification)
+* **其他**
+  1. [awesome-rest@GitHub](https://github.com/marmelab/awesome-rest)
+
+
 #### 4.2.4 用户体验设计(User Experience Design)
 * 用户体验设计元素
 * 黄金规则
@@ -554,8 +614,6 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 ## 7.领导力(Leadership)
 
 ## 8.学习和论文翻译(Studis and Papers)
-* [学习资料](./info-list.md)
-
 ### 8.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
