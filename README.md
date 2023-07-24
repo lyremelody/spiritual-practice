@@ -13,7 +13,7 @@
 </p>
 
 **基本问题**：
-* [书单 | 软件架构](https://www.douban.com/doulist/11915500/)
+* [书单-软件架构](https://www.douban.com/doulist/11915500/)
 * [软件架构发展史](./timelines/software-architecture-timeline.md)
 * [TODO: 软件架构是什么？](./software-architecture.md#2-软件架构是什么)
 * [TODO: 为何需要软件架构？](./software-architecture.md#3-为何需要软件架构)
