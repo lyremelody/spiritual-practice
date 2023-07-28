@@ -57,6 +57,7 @@
         - [3.3.3.3 搜索引擎(Search Engine)](#3333-搜索引擎search-engine)
         - [3.3.3.4 NoSQL](#3334-nosql)
       - [3.3.4 信息安全(Information Security)](#334-信息安全information-security)
+      - [3.3.5 通用人工智能(Artificial General Intelligence)](#335-通用人工智能artificial-general-intelligence)
     - [3.4 故障排查(Troubleshooting)](#34-故障排查troubleshooting)
     - [3.5 其他技术问题(Others)](#35-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
@@ -114,7 +115,16 @@
 ### 1.1 概念理解(Understanding Concepts)
 #### 1.1.1 设计相关概念
 * [谈谈设计之「自顶向下」和「自底向上」](./concepts/talk-about-top-down-and-bottom-up.md)
-* [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md) ：模块化、信息隐蔽、功能独立、内聚性、耦合性、求精
+* [抽象和关注点分离](./concepts/abstraction-and-suparation-of-concerns.md)
+  * [Abstraction 抽象](./concepts/abstraction-and-suparation-of-concerns.md#abstraction-抽象)
+  * [关注点分离](./concepts/abstraction-and-suparation-of-concerns.md#关注点分离)
+    * [分而治之](./concepts/abstraction-and-suparation-of-concerns.md#分而治之)
+    * [模块化](./concepts/abstraction-and-suparation-of-concerns.md#模块化)
+    * [信息隐蔽](./concepts/abstraction-and-suparation-of-concerns.md#信息隐蔽)
+    * [功能独立](./concepts/abstraction-and-suparation-of-concerns.md#功能独立)
+    * [内聚性](./concepts/abstraction-and-suparation-of-concerns.md#内聚性)
+    * [耦合性](./concepts/abstraction-and-suparation-of-concerns.md#耦合性)
+    * [求精](./concepts/abstraction-and-suparation-of-concerns.md#求精)
 * [TODO: 控制反转 Inversion of Control](./concepts/inversion-of-control.md)
 
 #### 1.1.2 系统能力和质量属性概念
@@ -133,6 +143,11 @@
 * [云原生 cloud native](./concepts/what-is-cloud-native.md)
 * [可观测性 Observability](./concepts/observability.md)
 * [访问控制 Access Control](./concepts/access-control.md)
+  * [Authentication 身份验证/认证](./concepts/access-control.md#22-authentication-身份验证认证)
+  * [Authorization 授权(OAuth 2.0/SSO)](./concepts/access-control.md#23-authorization-授权)
+  * [Access Control Models 访问控制模型(DAC/MAC/RBAC)](./concepts/access-control.md#24-access-control-models-访问控制模型)
+  * [4A](./concepts/access-control.md#4-4a)
+  * [IAM](./concepts/access-control.md#5-iam)
 * [RPO/RTO](./concepts/RPO-RTO.md)
 * [TODO: 软件引擎 Software Engine](./concepts/software-engine.md)
 
@@ -389,7 +404,9 @@
 * MongoDB
 * Etcd
 
-####  3.3.4 信息安全(Information Security)
+#### 3.3.4 信息安全(Information Security)
+
+#### 3.3.5 通用人工智能(Artificial General Intelligence)
 
 ### 3.4 故障排查(Troubleshooting)
 * [Kubernetes Troubleshooting](./technology/troubleshooting/kubernetes-troubleshooting.md)
@@ -415,7 +432,7 @@
 
 #### 4.2.2 架构设计(Architectural Design)
 ##### 4.2.2.1 架构框架/架构方法论(Architecture Frameworks)
-* ADMEMS, Architecture Design Method has been Extended to Method System
+* [ADMEMS, Architecture Design Method has been Extended to Method System](./software-engineering/design/architectural-design/architecture-frameworks/admems.md)
 * TOGAF, The Open Group Architecture Framework
 * DoDAF
 
