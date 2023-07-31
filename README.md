@@ -160,6 +160,7 @@
 * [云原生发展史](./timelines/cloudnative-timeline.md)
 * [DevOps起源](./timelines/devops-timeline.md)
 * [Kubernetes发展史](./timelines/kubernetes-timeline.md)
+* [消息队列发展史](./timelines/message-queue-timeline.md)
 
 
 ## 2.思想和原则(Culture and Principles)
@@ -484,6 +485,24 @@
 
 ##### 4.2.2.4 解决方案架构
 * [高可用架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md)
+  * [什么是可用性？](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#1-什么是可用性)
+  * [什么会导致了低可用性(不可用)？](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#2-什么会导致了低可用性不可用)
+    * [业界总结的服务不可用的因素](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#21-业界总结的服务不可用的因素)
+    * [总结影响服务不可用的场景和因素](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#22-总结影响服务不可用的场景和因素)
+    * [业界的故障分级](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#23-业界的故障分级)
+  * [系统不可用的影响](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#3-系统不可用的影响)
+  * [如何度量可用性？](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#4-如何度量可用性)
+    * [基于时间度量](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#41-基于时间度量)
+    * [基于请求成功率度量](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#42-基于请求成功率度量)
+  * [高可用技术架构](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#5-高可用技术架构)
+    * [如何梳理可用性需求或者说可用性目标？](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#51-如何梳理可用性需求或者说可用性目标)
+    * [高可用技术架构目标](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#52-高可用技术架构目标)
+    * [高可用架构实现机制](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#53-高可用架构实现机制)
+    * [高可用方案总览](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#54-高可用方案总览)
+    * [服务级高可用设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#55-服务级高可用设计)
+    * [存储高可用设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#56-存储高可用设计)
+    * [计算高可用设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#57-计算高可用设计)
+    * [业务高可用设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md#58-业务高可用设计)
 * [高性能架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-performance.md)
 * [RESTful API 设计](./software-engineering/design/architectural-design/solution-architecture/restful-api-design.md)
 
