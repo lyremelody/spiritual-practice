@@ -21,7 +21,7 @@
 * [TODO: 软件架构如何设计？](./software-architecture.md#5-软件架构如何设计)
 * [TODO: 架构设计如何描述？](./software-architecture.md#6-软件架构如何描述)
 * [TODO：如何评估架构设计的质量？](./software-architecture.md#7-如何评估架构设计的质量)
-* [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
+* [什么是软件质量?](./software-engineering/software-quality/what-is-software-quality.md)
 
 **知识体系目录**：
 - [架构师笔记 Architect Notes](#架构师笔记-architect-notes)
@@ -578,8 +578,8 @@
 * 移动设计模式
 
 ### 4.3 质量与安全(Quality and Security)
-* [什么是质量](./software-engineering/software-quality/what-is-quality.md)
-* [什么是软件质量](./software-engineering/software-quality/what-is-software-quality.md)
+* [什么是质量?](./software-engineering/software-quality/what-is-quality.md)
+* [什么是软件质量?](./software-engineering/software-quality/what-is-software-quality.md)
 * [实现软件质量](./software-engineering/software-quality/implement-software-quality.md)
 
 #### 4.3.1 软件质量保证(Software Quality Assurance)
