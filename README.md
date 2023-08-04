@@ -656,6 +656,7 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 
 #### 5.4.1 市场分析
 #### 5.4.2 产品分析
+* [Microsoft System Center 产品分析](./business-and-market/cloud-management-tooling/microsoft-system-center.md)
 
 ## 6.管理能力(Management)
 ### 6.1 目标管理(Management by Objectives)
