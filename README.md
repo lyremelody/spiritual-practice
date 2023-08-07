@@ -12,6 +12,9 @@
   </a>
 </p>
 
+**学习的思路：What -> How -> Why**
+**实践的思路：Why -> What -> How**
+
 **基本问题**：
 * TODO：能力地图
 * [书单-软件架构](https://www.douban.com/doulist/11915500/)
@@ -73,8 +76,7 @@
       - [4.2.1 理解需求(Understanding Requirements)](#421-理解需求understanding-requirements)
       - [4.2.2 架构设计(Architectural Design)](#422-架构设计architectural-design)
         - [4.2.2.1 架构框架/架构方法论(Architecture Frameworks)](#4221-架构框架架构方法论architecture-frameworks)
-        - [4.2.2.1 架构风格(Architectural Styles)](#4221-架构风格architectural-styles)
-        - [4.2.2.2 架构模式(Architectural Patterns)](#4222-架构模式architectural-patterns)
+        - [4.2.2.2 架构风格/模式(Architectural Styles/Patterns)](#4222-架构风格模式architectural-stylespatterns)
         - [4.2.2.3 架构描述(Architectural Description)](#4223-架构描述architectural-description)
         - [4.2.2.4 解决方案架构](#4224-解决方案架构)
       - [4.2.3 组件级设计(Component-level Design)](#423-组件级设计component-level-design)
@@ -461,8 +463,11 @@
 * TOGAF, The Open Group Architecture Framework
 * DoDAF
 
-##### 4.2.2.1 架构风格(Architectural Styles)
+##### 4.2.2.2 架构风格/模式(Architectural Styles/Patterns)
 * [架构风格概述](./software-engineering/design/architectural-design/architectural-styles/README.md)
+* [事件驱动风格(Event Driven)](./software-engineering/design/architectural-design/architectural-styles/event-driven.md)
+  * 基于事件的集成风格(Event-based Integration，EBI)
+  * 基于事件的集成风格也被称作隐式调用(implicit invocation)风格或者事件系统(event system)风格
 * 数据流风格(Data-flow Styles)
 * 管道和过滤器风格(Pipe and Filter，PF)
 * 统一管道和过滤器风格(Uniform Pipe and Filter，UPF)
@@ -485,19 +490,12 @@
 * 分层-按需代码-客户-缓存-无状态-服务器风格(Layered-Code-on-Demand-Client-Cache-Stateless-Server，LCODC$SS)
 * 移动代理风格(Mobile Agent，MA)
 * 点对点风格(Peer-to-Peer Styles)
-* 基于事件的集成风格(Event-based Integration，EBI)
-  * 基于事件的集成风格也被称作隐式调用(implicit invocation)风格或者事件系统(event system)风格
 * C2风格
 * 分布式对象风格(Distributed Objects，DO)
 * 被代理的分布式对象风格(Brokered Distributed Objects，BDO)
 * 面向对象
 * REST架构风格(表述性状态转移架构风格)
 * SOA
-
-##### 4.2.2.2 架构模式(Architectural Patterns)
-* 架构模式概述
-  * 微服务架构
-* [企业架构框架](./software-engineering/design/architectural-design/enterprise-architecture-frameworks/)
 
 ##### 4.2.2.3 架构描述(Architectural Description)
 * [架构描述概述](./software-engineering/design/architectural-design/architectural-description/README.md)
