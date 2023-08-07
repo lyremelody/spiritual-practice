@@ -16,9 +16,9 @@
 
 **[➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)**
 
-**学习/实践的思路**：
-* **学习：What -> How -> Why**
-* **实践：Why -> What -> How**
+**学习思路：What -> How -> Why**
+
+**实践思路：Why -> What -> How**
 
 **基本问题(What)**：
 * [什么是业务价值？](./concepts/business-value.md)
@@ -30,6 +30,7 @@
 * [TODO: 软件架构如何设计？](./software-architecture.md#5-软件架构如何设计)
 * [TODO: 架构设计如何描述？](./software-architecture.md#6-软件架构如何描述)
 * [TODO: 架构设计的质量如何评估？](./software-architecture.md#7-如何评估架构设计的质量)
+* [高可用架构设计](./software-engineering/design/architectural-design/solution-architecture/architecting-for-high-availability.md)
 
 **基本问题(Why)**：
 * [TODO: 为何需要软件架构？](./software-architecture.md#3-为何需要软件架构)
