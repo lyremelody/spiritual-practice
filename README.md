@@ -12,15 +12,13 @@
   </a>
 </p>
 
-**[➡️ 架构师能力地图](./skillmap.md)**
+**[➡️ 我的架构师能力地图](./skillmap.md)**
 
 **学习/实践的思路**：
 * **学习：What -> How -> Why**
 * **实践：Why -> What -> How**
 
-
 **基本问题**：
-* TODO：能力地图
 * [书单-软件架构](https://www.douban.com/doulist/11915500/)
 * [什么是业务价值？](./concepts/business-value.md)
 * [软件架构发展史](./timelines/software-architecture-timeline.md)
