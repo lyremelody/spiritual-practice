@@ -1,4 +1,4 @@
-# 架构师笔记 Architect Notes
+# 架构师笔记
 
 <p align="left">
   <a href="https://github.com/lyremelody/architect-notes">
@@ -16,9 +16,9 @@
 
 **[➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)**
 
-**学习思路：What -> How -> Why**
-
 **实践思路：Why -> What -> How**
+
+**学习思路：What -> How -> Why**
 
 **基本问题(What)**：
 * [什么是业务价值？](./concepts/business-value.md)
