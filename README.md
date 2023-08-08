@@ -16,6 +16,8 @@
 
 **[➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)**
 
+**[➡️ 我的开源作品(其实还没有‼️ 🥺)](https://github.com/lyremelody/zero-to-one)**
+
 **实践思路：Why -> What -> How**
 
 **学习思路：What -> How -> Why**
