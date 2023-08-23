@@ -593,6 +593,7 @@ TODO：缺一张图
 
 #### 4.3.4 软件配置管理(Software Configuration Management)
 * [代码分支模型](./software-engineering/software-configuration-management/source-control-branching-model.md)
+* [微服务代码仓库管理的选择](./software-engineering/software-configuration-management/source-code-repo-management.md)
 
 #### 4.3.5 软件度量和分析(Software Measurement and Analytics)
 
@@ -608,6 +609,9 @@ TODO：缺一张图
 ## 5.业务与市场(Business and Market)
 * PMF
 * NPS
+* STP(Segmenting、Targeting、Positioning)
+* 4P(Price、Product、Place、Promotion)
+* 创新的扩散
 * [Market Categories, Gartner](https://www.gartner.com/reviews/markets)
 
 ### 5.1 Content Services Platform
