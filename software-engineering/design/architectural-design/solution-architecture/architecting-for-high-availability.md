@@ -1,6 +1,6 @@
 # 高可用架构设计
 
-<strong><font color="red">最后修改于2023-06-08</font></strong>
+<strong><font color="red">最后修改于2023-09-05</font></strong>
 
 > **要实现高可用的系统，不仅仅是在技术层面，还需要一套严谨科学的工程管理**。
 > 其中包括但不限于：
@@ -274,6 +274,8 @@
 * 例如1：线程池隔离，设计服务对每个功能(服务的调用)提供一个线程池。
 * 例如2：拆分微服务，将在不同领域的业务拆分成多个服务。
 
+<div align=center><img src="./architecting-for-high-availability/5-5-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) --x B[功能1]
@@ -289,7 +291,10 @@ graph LR
       D -.- E
     end
 ```
+</div>
 
+<div align=center><img src="./architecting-for-high-availability/5-5-1-image-2.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) --> B[功能1]
@@ -303,22 +308,28 @@ graph LR
       D -.- E3[线程池...]
     end
 ```
+</div>
 
 #### 5.5.2 方案二：应对内部故障-限流
 从用户访问压力角度考虑应对故障：对服务的输入和输出进行限制，以达到保护系统的目的。基于请求限流/基于资源限流：一旦达到限制的阈值，就需要限制流量并采取少量措施以完成限制流量的目的。
 * 例如：对某服务设置线程数 10 个，满了就拒绝请求而不是阻塞或者设置90%CPU，超过就不接收请求
 
+<div align=center><img src="./architecting-for-high-availability/5-5-2-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) --10个并发可用--> B[服务-只提供10个并发]
     A((客户端)) --第11个并发请求拒绝--x B
 ```
+</div>
 
 #### 5.5.3 方案三：应对内部故障-降级
 从功能优先级的角度考虑应对故障：将某些业务或接口的功能降低，只提供部分功能。
 * 例如1：人工配置某服务直接返回认证失败，不提供第三方认证
 * 例如2：实现服务功能管理，配置化管理sharemgnt当前提供的服务能力
 
+<div align=center><img src="./architecting-for-high-availability/5-5-3-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) --x B[功能1]
@@ -331,6 +342,7 @@ graph LR
       D -.- C2
     end
 ```
+</div>
 
 #### 5.5.4 方案四：应对内部故障-超时
 外部服务访问自身：在被上游服务调用时，对外部已断开连接或中断请求，应丢弃对应请求。
@@ -344,6 +356,8 @@ graph LR
 为了保护系统整体可用性应对外部系统故障：当下游服务因为访问压力过大而响应变慢或失败时，可以暂时切断对下游服务的调用。
 * 例如：设计服务统计访问第三方某个接口的结果，超过10次失败，就30s内直接返回503
 
+<div align=center><img src="./architecting-for-high-availability/5-5-6-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) --x B[业务逻辑]
@@ -365,6 +379,7 @@ graph LR
     B -- 失败多次之后不再访问第三方系统接口 --x C[第三方系统]
     B -. 跳过第三方系统接口默认返回失败 .-> B
 ```
+</div>
 
 #### 5.5.7 方案七：应对性能问题-排队
 排队实际上是限流的一个变种，限流是直接拒绝用户，排队是让用户等待很长时间。排队虽然没有直接拒绝用户，但用户等了很长时间后进入系统，体验并不一定比限流好。
@@ -408,13 +423,15 @@ graph LR
 主备复制是最常见也是最简单的一种存储高可用方案，几乎所有的存储系统都提供了主备复制的功能。例如，MySQL、Redis、MongoDB。
 
 基本架构如下：
-
+<div align=center><img src="./architecting-for-high-availability/5-6-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
     A -. 人工恢复后-读/写 .-> C[备机]
     B -- 数据复制 --> C[备机]
 ```
+</div>
 
 **主备复制方案**：
 1. 主机存储数据，通过复制通道将数据复制到备机；
@@ -437,12 +454,16 @@ graph LR
 * 内部的后台管理系统使用主备架构的情况会比较多，如学生管理系统、员工管理系统等。因为**这类系统的数据变更频率很低，即使在某些场景下丢失，也可以通过人工的方式补全**。
 
 #### 5.6.2 主从复制
+
+<div align=center><img src="./architecting-for-high-availability/5-6-2-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
     A -- 读 --> C[从机]
     B -- 数据复制 --> C[从机]
 ```
+</div>
 
 **主从复制方案**：
 1. 主机存储数据，通过复制通道将数据复制到从机；
@@ -493,6 +514,8 @@ graph LR
 ##### 5.6.3.2 常见架构-互连式
 互连式就是指主备机直接建立状态传递的渠道，架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-3-2-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
@@ -500,6 +523,7 @@ graph LR
     B -- 数据复制 --> C
     B -- 状态传递 --> C
 ```
+</div>
 
 在主备复制的架构基础上，主机和备机多了一个“状态传递”的通道，这个通道就是用来传递状态信息的。**这个通道的具体实现可以有很多方式**：
 1. 可以是网络连接(如各开一个端口)，也可以是非网络连接(用串口线连接)；
@@ -518,6 +542,8 @@ graph LR
 
 中介式就是指主备机两者之外引入第三方中介，主备机之间不直接连接，而都去连接中介，并且通过中介来传递状态信息，架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-3-3-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
@@ -526,6 +552,7 @@ graph LR
     C -- 状态上报 --> D[中介]
     B -- 状态上报 --> D
 ```
+</div>
 
 **中介式架构在状态传递和决策上比上面的连接式更简单**，原因如下：
 1. **连接管理更简单**。主备机无须再建立和管理多种类型的状态传递连接通道，只要连接到中介即可，实际上是降低了主备机的连接管理复杂度。例如，互连式要求主机开一个监听端口，备机来获取状态信息；或者要求备机开一个监听端口，主机推送状态信息到备机；如果还采用了串口连接，则需要增加串口连接管理和数据读取。采用中介式后，主备机都只需要把状态信息发送给中介，或者从中介获取对方的状态信息。无论发送、还是获取，主备机都是作为中介的客户端去操作，复杂度会降低很多。
@@ -541,7 +568,8 @@ graph LR
 
 MongoDB 的 Replica Set 采取的就是这种方式，基本架构如下：
 
-
+<div align=center><img src="./architecting-for-high-availability/5-6-3-3-image-2.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((MongoDB Client)) -- 读/写 --> B[MongoDB-M]
@@ -550,6 +578,7 @@ graph LR
     C -- 数据复制 --> B
     D[MongoDB-A] --> C
 ```
+</div>
 
 * MongoDB-M 表示主节点
 * MongoDB-S 表示备节点
@@ -561,6 +590,8 @@ graph LR
 ##### 5.6.3.4 常见架构-模拟式
 模拟式就是指主备机之间并不传递任何状态数据，而是备机模拟成一个客户端，向主机发起模拟的读写操作，根据读写操作的响应情况来判断主机的状态，架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-3-4-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
@@ -568,6 +599,7 @@ graph LR
     B -- 数据复制 --> C
     C -. 模拟-读/写 .-> B
 ```
+</div>
 
 对比互连式倒换架构，模拟式倒换架构的主备机之间只有数据复制通道，而没有状态传递通道，备机通过模拟的读写操作来探测主机的状态，然后根据读写操作的响应情况来进行状态决策。
 
@@ -580,6 +612,8 @@ graph LR
 #### 5.6.4 主主复制
 主主复制指的是两台机器都是主机，互相将数据复制给对方，客户端可以任意挑选其中一台机器进行读写操作，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-4-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     C((客户端)) -- 读/写 --> A[主机A]
@@ -587,6 +621,7 @@ graph LR
     A -- 数据复制 --> B
     B -- 数据复制 --> A
 ```
+</div>
 
 **主主复制方案**：
 1. 两台主机都存储数据，通过复制通道将数据复制到另外一台主机；
@@ -622,6 +657,8 @@ graph LR
 ##### 5.6.5.1 数据集中集群
 数据集中集群与主备、主从这类架构相似，我们也可以称数据集中集群为一主多备或一主多从。无论是一主一备、一主一从、一主多备、一主多从，数据都只能往主机中写，而读操作可以参考主备、主从架构进行灵活多变。下图是读写全部到主机的一种架构：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-5-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((客户端)) -- 读/写 --> B[主机]
@@ -631,6 +668,7 @@ graph LR
       B -- 数据复制 --> E[备机3]
     end
 ```
+</div>
 
 数据集中集群相较于主从、主备，整体复杂度更高一些：
 1. 主机如何将数据复制给备机
@@ -686,12 +724,15 @@ graph LR
 ##### 5.6.6.1 数据分区复制规则-集中式
 **集中式备份指存在一个总的备份中心，所有的分区都将数据备份到备份中心**，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-6-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((北京分区)) -- 数据复制 --> D[西安备份中心]
     B((上海分区)) -- 数据复制 --> D[西安备份中心]
     C((广州分区)) -- 数据复制 --> D[西安备份中心]
 ```
+</div>
 
 集中式备份架构**优点**：
 * **设计简单**，各分区之间并无直接联系，可以做到互不影响；
@@ -703,12 +744,15 @@ graph LR
 ##### 5.6.6.2 数据分区复制规则-互备式
 互备式备份指每个分区备份另外一个分区的数据，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-6-2-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((北京分区)) -- 数据复制 --> B((上海分区))
     B((上海分区)) -- 数据复制 --> C((广州分区))
     C((广州分区)) -- 数据复制 --> A((北京分区))
 ```
+</div>
 
 互备式备份架构的**优点**：
 * **成本低**，直接利用已有的设备。
@@ -720,12 +764,15 @@ graph LR
 ##### 5.6.6.3 数据分区复制规则-独立式
 独立式备份指每个分区自己有独立的备份中心，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-6-6-3-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A((北京分区)) -- 数据复制 --> D[天津备份]
     B((上海分区)) -- 数据复制 --> E[杭州备份]
     C((广州分区)) -- 数据复制 --> F[汕头备份]
 ```
+</div>
 
 独立式备份架构的**优点**：
 * **设计简单**，各分区互不影响；
@@ -748,11 +795,14 @@ graph LR
 #### 5.7.1 主备架构
 主备架构是计算高可用最简单的架构，和存储高可用的主备复制架构类似，但是要更简单一些，因为计算高可用的主备架构无须数据复制，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-7-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     A[任务分配器] -- 计算任务 --> B[主机]
     A -. 人工切换-计算任务 .-> C[备机]
 ```
+</div>
 
 **主备方案**：
 1. 主机执行所有计算任务。例如，读写数据、执行操作等。
@@ -780,11 +830,14 @@ graph LR
 #### 5.7.2 主从架构
 和存储高可用中的主从复制架构类似，计算高可用的主从架构中的从机也是要执行任务的。任务分配器需要将任务进行分类，确定哪些任务可以发送给主机执行，哪些任务可以发送给备机执行。基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-7-2-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     T[任务分配器] -- 计算任务A --> A[主机]
     T -- 计算任务B --> B[从机]
 ```
+</div>
 
 **主从方案**：
 1. 正常情况下，主机执行部分计算任务(如上图中的“计算任务A”)，备机执行部分计算任务(如上图中的“计算任务B”)；
@@ -805,6 +858,8 @@ graph LR
 
 **对称集群更通俗的叫法是负载均衡集群**，基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-7-3-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     T[任务分配器] -- 计算任务 --> A[服务器1]
@@ -812,6 +867,7 @@ graph LR
     T -- 计算任务 --> C[...]
     T -- 计算任务 --> N[服务器n]
 ```
+</div>
 
 **对称集群(负载均衡集群)方案**：
 1. 正常情况下，任务分配器采取某种策略(随机、轮询等)将计算任务分配给集群中的不同服务器；
@@ -825,6 +881,8 @@ graph LR
 #### 5.7.4 非对称集群
 **非对称集群中不同服务器的角色是不同的，不同角色的服务器承担不同的职责**。以Master-Slave为例，部分任务是Master服务器才能执行，部分任务是Slave服务器才能执行。**基本架构如下**：
 
+<div align=center><img src="./architecting-for-high-availability/5-7-4-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     T[任务分配器] -- 计算任务A --> A[Master]
@@ -832,6 +890,7 @@ graph LR
     T -- 计算任务B --> C[...]
     T -- 计算任务B --> N[Slave]
 ```
+</div>
 
 **非对称集群方案**：
 1. 集群会通过某种方式来区分不同服务器的角色。例如通过Paxos算法选举，或者简单地取当前存活服务器中节点ID最小的服务器作为Master服务器。
@@ -910,6 +969,8 @@ graph LR
 
 假设我们需要做一个“用户子系统”，这个子系统负责“注册”、“登录”和“用户信息”三个业务。为了支持海量用户，我们设计了一个“用户分区”的架构，即正常情况下用户属于某个主分区，每个分区都有其他数据的备份，用户用邮箱或手机号注册，路由层拿到邮箱或手机号后，通过Hash计算属于那个中心，然后请求到对应的业务中心。基本架构如下：
 
+<div align=center><img src="./architecting-for-high-availability/5-8-2-1-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     U1((用户256))--> R1[路由1]
@@ -935,6 +996,7 @@ graph LR
     B o--o C
     C o--o A
 ```
+</div>
 
 这样一个系统，如果3个业务都要同时异地多活，就会有如下一些难以解决的问题：
 1. **注册**。
@@ -971,6 +1033,8 @@ graph LR
 
 上面讲到的整体同步方式如下图：
 
+<div align=center><img src="./architecting-for-high-availability/5-8-2-3-image-1.png"></div>
+<div style="display:none">
 ```mermaid
 graph LR
     subgraph "中心A"
@@ -993,6 +1057,7 @@ graph LR
     DB1 --数据库同步密码/用户信息--> DB2
     DB2 --数据库同步密码/用户信息--> DB1
 ```
+</div>
 
 ##### 5.8.2.4 技巧四：只保证绝大部分用户的异地多活
 **在某些场景下，我们无法保证100%的业务可用性，总是会有一定的损失**。例如，密码不同步导致无法登录，用户信息不同步导致用户看到旧的用户信息等，这个问题怎么解决呢？
