@@ -275,8 +275,9 @@
 * 例如2：拆分微服务，将在不同领域的业务拆分成多个服务。
 
 <div align=center><img src="./architecting-for-high-availability/5-5-1-image-1.png"></div>
-<div style="display:none">
-```mermaid
+
+```
+mermaid code
 graph LR
     A((客户端)) --x B[功能1]
     A --x C[功能2]
@@ -291,11 +292,11 @@ graph LR
       D -.- E
     end
 ```
-</div>
 
 <div align=center><img src="./architecting-for-high-availability/5-5-1-image-2.png"></div>
-<div style="display:none">
-```mermaid
+
+```
+mermaid code
 graph LR
     A((客户端)) --> B[功能1]
     A --x C[功能2]
@@ -308,7 +309,6 @@ graph LR
       D -.- E3[线程池...]
     end
 ```
-</div>
 
 #### 5.5.2 方案二：应对内部故障-限流
 从用户访问压力角度考虑应对故障：对服务的输入和输出进行限制，以达到保护系统的目的。基于请求限流/基于资源限流：一旦达到限制的阈值，就需要限制流量并采取少量措施以完成限制流量的目的。
