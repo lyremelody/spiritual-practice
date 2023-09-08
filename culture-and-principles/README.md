@@ -1,4 +1,4 @@
-[返回上层](../README.md)
+[返回上层](../skillmap.md)
 
 ## 2.思想和原则(Culture and Principles)
 ### 2.1 设计思想

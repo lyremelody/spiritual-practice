@@ -14,13 +14,17 @@
 
 **[➡️ 我的架构师能力地图](./skillmap.md)**
 
-**[➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)**
-
 **[➡️ 我的开源作品(其实还没有‼️ 🥺)](https://github.com/lyremelody/zero-to-one)**
 
 **实践思路：Why -> What -> How**
 
 **学习思路：What -> How -> Why**
+
+**书单：**
+* [➡️ 书单-计算机基础](https://www.douban.com/doulist/13915490/)
+* [➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)
+* [➡️ 书单-科技史和商业史](https://www.douban.com/doulist/12785657/)
+* [➡️ 书单-产品和创业](https://www.douban.com/doulist/11858031/)
 
 **基本问题(What)**：
 * [什么是业务价值？](./concepts/business-value.md)
