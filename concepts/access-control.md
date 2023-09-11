@@ -2,15 +2,22 @@
 
 # 访问控制 Access Control
 
-<strong><font color="red">最后修改于2023-06-08</font></strong>
+<strong><font color="red">最后修改于2023-09-11</font></strong>
 
 **本文涉及的概念：**
 * Access Control
   * Identity
   * Authentication
+    * JWT (JSON Web Tokens)
+    * OIDC (Open ID Connect)
+      * ID Token
+      * Access Token
+      * Refresh Token
+    * CAS (Central Authentication Service)
+    * LDAP (Lightweight Directory Access Protocol)
   * Authorization
     * OAuth 2.0
-    * SSO，Single Sign-On、Single Sign-Off
+    * SSO (Single Sign-On、Single Sign-Off)
   * Access Control Models
     * DAC
     * MAC
@@ -23,8 +30,9 @@
   * Access Control Management
   * Account
   * Audit
-* 4A(Authentication、Authorization、Account、Audit)
-* IAM(Identity and Access Management)
+* 4A (Authentication、Authorization、Account、Audit)
+* IAM (Identity and Access Management)
+* IDaaS (Identity as a service)
 
 **TODO：画一张图体现各种概念的关系**
 
@@ -43,18 +51,25 @@
     - [2.1 主体访问客体的过程](#21-主体访问客体的过程)
     - [2.2 Authentication 身份验证/认证](#22-authentication-身份验证认证)
       - [2.2.1 用于身份验证/认证的3种因素](#221-用于身份验证认证的3种因素)
-      - [2.2.2 认证协议](#222-认证协议)
-        - [2.2.2.1 Kerberos](#2221-kerberos)
-        - [2.2.2.2 LDAP](#2222-ldap)
-          - [2.2.2.2.1 目录服务](#22221-目录服务)
-          - [2.2.2.2.2 LDAP 简介](#22222-ldap-简介)
-          - [2.2.2.2.3 LDAP 基本模型](#22223-ldap-基本模型)
-          - [2.2.2.2.4 LDAP 和 AD 的关系](#22224-ldap-和-ad-的关系)
-        - [2.2.2.3 SAML](#2223-saml)
-        - [2.2.2.4 RADIUS](#2224-radius)
-        - [2.2.2.5 OIDC](#2225-oidc)
-        - [2.2.2.6 CAS](#2226-cas)
+      - [2.2.2 认证协议和标准](#222-认证协议和标准)
+        - [2.2.2.1 JWT (JSON Web Tokens)](#2221-jwt-json-web-tokens)
+        - [2.2.2.2 OIDC (Open ID Connect)](#2222-oidc-open-id-connect)
+          - [2.2.2.3.1 ID Token](#22231-id-token)
+          - [2.2.2.3.2 Access Token](#22232-access-token)
+          - [2.2.2.3.3 Refresh Token](#22233-refresh-token)
+          - [2.2.2.3.4 Access Token vs ID Token](#22234-access-token-vs-id-token)
+        - [2.2.2.4 CAS (Central Authentication Service)](#2224-cas-central-authentication-service)
+        - [2.2.2.5 LDAP (Lightweight Directory Access Protocol)](#2225-ldap-lightweight-directory-access-protocol)
+          - [2.2.2.5.1 目录服务](#22251-目录服务)
+          - [2.2.2.5.2 LDAP 简介](#22252-ldap-简介)
+          - [2.2.2.5.3 LDAP 基本模型](#22253-ldap-基本模型)
+          - [2.2.2.5.4 LDAP 和 AD 的关系](#22254-ldap-和-ad-的关系)
+        - [2.2.2.6 Kerberos](#2226-kerberos)
+        - [2.2.2.7 SAML (Security Assertion Markup Language)](#2227-saml-security-assertion-markup-language)
+        - [2.2.2.8 RADIUS (Remote Authentication Dial-In User Service)](#2228-radius-remote-authentication-dial-in-user-service)
       - [2.2.3 认证源](#223-认证源)
+      - [2.2.4 联邦认证](#224-联邦认证)
+        - [2.2.4.1 为什么需要联邦认证？](#2241-为什么需要联邦认证)
     - [2.3 Authorization 授权](#23-authorization-授权)
       - [2.3.1 OAuth 2.0](#231-oauth-20)
         - [2.3.1.1 安全问题：凭据共享与凭据盗用](#2311-安全问题凭据共享与凭据盗用)
@@ -73,7 +88,7 @@
       - [2.4.1 DAC，自主访问控制](#241-dac自主访问控制)
       - [2.4.2 MAC，强制访问控制](#242-mac强制访问控制)
       - [2.4.3 RBAC，角色型访问控制](#243-rbac角色型访问控制)
-        - [2.4.3.1 行业特例-涉密系统三员分立](#2431-行业特例-涉密系统三员分立)
+      - [2.4.4 RBAC的行业特例-涉密系统三员分立](#244-rbac的行业特例-涉密系统三员分立)
     - [2.5 Access Control Methods and Techniques 访问控制方法和技术](#25-access-control-methods-and-techniques-访问控制方法和技术)
       - [2.5.1 Rule-Based Access Control 规则型访问控制](#251-rule-based-access-control-规则型访问控制)
       - [2.5.2 限制性用户接口](#252-限制性用户接口)
@@ -97,11 +112,12 @@
       - [5.1.3 RAM](#513-ram)
     - [5.2 IAM 关注点](#52-iam-关注点)
     - [5.3 企业为什么需要IAM](#53-企业为什么需要iam)
+  - [6 IDaaS](#6-idaas)
   - [参考资料](#参考资料)
 
 
 ## 1 相关场景
-在看 Access Control、SSO、4A、IAM 之前，我们来看下相关场景。
+在看 Access Control、SSO、4A、IAM、IDaaS之前，我们来看下相关场景。
 
 ### 1.1 作为员工/用户
 * 多套账号密码：在CRM中是老杨/密码1234，在OA中是小杨/密码9527，由于账号过多，经常忘记账号、密码，或者干脆设置同样的或简单的密码。
@@ -128,7 +144,7 @@
 TODO: 画一个主体、客体的图
 
 ### 2.1 主体访问客体的过程
-一位用户为了能够访问资源，首先必须证明他是自己所声明的人，拥有必需的凭证，并且具有执行所请求动作的必要权限或特权。一旦这些步骤成功完成，这位用户就能够访问和使用网络资源；然而，我们还需要跟踪该用户的活动以及对其动作实施可问责性。
+**一位用户为了能够访问资源，首先必须证明他是自己所声明的人，拥有必需的凭证，并且具有执行所请求动作的必要权限或特权。一旦这些步骤成功完成，这位用户就能够访问和使用网络资源；然而，我们还需要跟踪该用户的活动以及对其动作实施可问责性**。
 
 **身份标识(Identity)** 描述了一种能够确保主体(用户、程序或进程)就是其所声称实体的方法。通过使用用户名或账号就能够提供身份标识。
 
@@ -136,7 +152,7 @@ TODO: 画一个主体、客体的图
 
 一旦主体提供了其凭证并且被正确标识了身份，主体试图访问的系统就需要确定该主体是否具有执行请求的动作所需的权限和特权。系统会查看某种访问控制矩阵或比较安全标签，以便验证该主体是否确实能够访问请求的资源和执行试图完成的动作。如果系统确定主体可以访问特定的资源，那么就会为该主体授权。
 
-尽管身份标识、身份验证、授权与可问责性都具有完整和互补的定义，然而它们在访问控制过程中都有着自己明确的作用。
+**尽管身份标识、身份验证、授权与可问责性都具有完整和互补的定义，然而它们在访问控制过程中都有着自己明确的作用**。
 * 一个用户可能能够顺利地通过网络上的身份标识和身份验证，但是可能不被授权访问文件服务器上的文件。
 * 另一方面，用户能够被授权访问文件服务器上的文件，但是在未顺利通过身份标识和身份验证之前，他们将无法获取这些资源。
 
@@ -162,28 +178,130 @@ TODO：画一个主体访问客体的4个步骤
 
 **强身份验证**包含上面3种身份验证方法中的两种。也成为**双因素身份验证**。强身份验证有时也叫做多重身份验证，即使用两个或两个以上的方法进行验证。也可以使用**三因素身份验证**，即同时使用所有的验证方法。
 
-#### 2.2.2 认证协议
+#### 2.2.2 认证协议和标准
 认证协议是一种计算机通信协议或密码协议，专门设计用于在两个实体之间传输身份验证数据。它允许接收实体通过声明认证所需的信息类型和语法来认证连接实体(例如，连接到服务器的客户端)以及向连接实体(服务器到客户端)认证自己。它是计算机网络中安全通信所需的最重要的保护层。
 
 **认证协议主要用于在用户、业务系统、身份认证服务之间传递用户信息，告诉业务系统“此用户是谁”**。
 
-主流的认证协议有：
+主流的认证协议和标准有：
+* JWT (JSON Web Tokens)
+* OIDC (OpenID Connect)
+* CAS (Central Authentication Service)
+* LDAP (Lightweight Directory Access Protocol)
 * Kerberos
-* LDAP，Lightweight Directory Access Protocol
-* SAML，Security Assertion Markup Language
-* RADIUS，Remote Authentication Dial-In User Service
-* OIDC，OpenID Connect 
-* CAS
-* Cookie
-* JWT
+* SAML (Security Assertion Markup Language)
+* RADIUS (Remote Authentication Dial-In User Service)
+* Session/Cookie
 * ...
 
-##### 2.2.2.1 Kerberos
-##### 2.2.2.2 LDAP
-###### 2.2.2.2.1 目录服务
+##### 2.2.2.1 JWT (JSON Web Tokens)
+JSON Web Token(JWT，RFC 7519)，是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准(RFC7519)。
+该 token 被设计为紧凑且安全的，特别适用于分布式站点的单点登录(SSO)场景。
+JWT 的声明一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源，也可以增加一些额外的其它业务逻辑所必须的声明信息，该 token 也可直接被用于认证，也可被加密。
+
+##### 2.2.2.2 OIDC (Open ID Connect)
+在 OIDC 协议中，有三种 Token：
+* id_token
+* access_token
+* refresh_token
+
+###### 2.2.2.3.1 ID Token
+OIDC(OpenID Connect)协议对OAuth 2.0协议最主要的一个扩展就是 ID Token 数据结构。
+
+ID Token 相当于用户的身份凭证，开发者的前端访问后端接口时可以携带 ID Token，开发者服务器可以校验用户的 ID Token 以确定用户身份，验证通过后返回相关资源。
+
+ID Token 本质上是一个 JWT Token，包含了该用户身份信息相关的 key/value 键值对，例如：
+```
+{
+   "iss": "https://server.example.com",
+   "sub": "24400320", // subject 的缩写，为用户 ID
+   "aud": "s6BhdRkqt3",
+   "nonce": "n-0S6_WzA2Mj",
+   "exp": 1311281970,
+   "iat": 1311280970,
+   "auth_time": 1311280969,
+   "acr": "urn:mace:incommon:iap:silver"
+}
+```
+
+ID Token 本质上是一个 JWT Token 意味着：
+* 用户的身份信息直接被编码进了 id_token，你不需要额外请求其他的资源来获取用户信息；
+* id_token 可以验证其没有被篡改过
+
+###### 2.2.2.3.2 Access Token
+Access Token 用于基于 Token 的认证模式，允许应用访问一个资源 API。用户认证授权成功后，认证授权服务会签发 Access Token 给应用。应用需要携带 Access Token 访问资源 API，资源服务 API 会通过拦截器查验 Access Token 中的 scope 字段是否包含特定的权限项目，从而决定是否返回资源。
+
+如果你的用户通过社交账号登录，例如微信登录，微信作为身份提供商会颁发自己的 Access Token，你的应用可以利用 Access Token 调用微信相关的 API。这些 Access Token 是由社交账号服务方控制的，格式也是任意的。
+
+**Opaque Access Token**
+
+Opaque Access Token 是一串随机字符串，从中不能获取到任何信息，你需要将它发送到服务器进行解析。只能通过将 Token 发到服务器的方式来验证 Opaque Access Token。
+
+**JWT Access Token**
+
+JWT 全称为 JSON Web Token，遵循 JWT 标准。JWT 中包含了主体、受众、权限、颁发时间、过期时间、用户信息字段等内容且具备签名，不可篡改。因此无需发送到服务器，可以本地验证。
+
+**Access Token示例**
+```
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjF6aXlIVG15M184MDRDOU1jUENHVERmYWJCNThBNENlZG9Wa3VweXdVeU0ifQ.eyJqdGkiOiIzWUJ5eWZ2TDB4b01QNXdwTXVsZ0wiLCJzdWIiOiI2MDE5NDI5NjgwMWRjN2JjMmExYjI3MzUiLCJpYXQiOjE2MTI0NDQ4NzEsImV4cCI6MTYxMzY1NDQ3MSwic2NvcGUiOiJvcGVuaWQgZW1haWwgbWVzc2FnZSIsImlzcyI6Imh0dHBzOi8vc3RlYW0tdGFsay5hdXRoaW5nLmNuL29pZGMiLCJhdWQiOiI2MDE5M2M2MTBmOTExN2U3Y2IwNDkxNTkifQ.cYyZ6buwAjp7DzrYQEhvz5rvUBhkv_s8xzuv2JHgzYx0jbqqsWrA_-gufLTFGmNkZkZwPnF6ktjvPHFT-1iJfWGRruOOMV9QKPhk0S5L2eedtbKJU6XIEkl3F9KbOFwYM53v3E7_VC8RBj5IKqEY0qd4mW36C9VbS695wZlvMYnmXhIopYsd5c83i39fLBF8vEBZE1Rq6tqTQTbHAasR2eUz1LnOqxNp2NNkV2dzlcNIksSDbEGjTNkWceeTWBRtFMi_o9EWaHExdm5574jQ-ei5zE4L7x-zfp9iAe8neuAgTsqXOa6RJswhyn53cW4DwWg_g26lHJZXQvv_RHZRlQ
+```
+
+解析后的内容：
+
+```
+{
+  "jti": "3YByyfvL0xoMP5wpMulgL",
+  "sub": "60194296801dc7bc2a1b2735", // subject 的缩写，为用户 ID
+  "iat": 1612444871,
+  "exp": 1613654471,
+  "scope": "openid email message",
+  "iss": "https://steam-talk.authing.cn/oidc",
+  "aud": "60193c610f9117e7cb049159"
+}
+```
+
+###### 2.2.2.3.3 Refresh Token
+AccessToken和IDToken是JSON Web Token，有效时间通常较短。通常用户在获取资源的时候需要携带AccessToken，当AccessToken过期后，用户需要获取一个新的AccessToken。
+
+Refresh Token用于获取新的AccessToken。这样可以缩短AccessToken的过期时间保证安全，同时又不会因为频繁过期重新要求用户登录。
+
+用户在初次认证时，Refresh Token会和AccessToken、IDToken一起返回。你的应用必须安全地存储Refresh Token，它的重要性和密码是一样的，因为Refresh Token能够一直让用户保持登录。
+
+以下是Token端点返回的Refresh Token：
+```
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InIxTGtiQm8zOTI1UmIyWkZGckt5VTNNVmV4OVQyODE3S3gwdmJpNmlfS2MifQ.eyJqdGkiOiJ4R01uczd5cmNFckxiakNRVW9US1MiLCJzdWIiOiI1YzlmNzVjN2NjZjg3YjA1YTkyMWU5YjAiLCJpc3MiOiJodHRwczovL2F1dGhpbmcuY24iLCJpYXQiOjE1NTQ1Mzc4NjksImV4cCI6MTU1NDU0MTQ2OSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBvZmZsaW5lX2FjY2VzcyBwaG9uZSBlbWFpbCIsImF1ZCI6IjVjYTc2NWUzOTMxOTRkNTg5MWRiMTkyNyJ9.wX05OAgYuXeYM7zCxhrkvTO_taqxrCTG_L2ImDmQjMml6E3GXjYA9EFK0NfWquUI2mdSMAqohX-ndffN0fa5cChdcMJEm3XS9tt6-_zzhoOojK-q9MHF7huZg4O1587xhSofxs-KS7BeYxEHKn_10tAkjEIo9QtYUE7zD7JXwGUsvfMMjOqEVW6KuY3ZOmIq_ncKlB4jvbdrduxy1pbky_kvzHWlE9El_N5qveQXyuvNZVMSIEpw8_y5iSxPxKfrVwGY7hBaF40Oph-d2PO7AzKvxEVMamzLvMGBMaRAP_WttBPAUSqTU5uMXwMafryhGdIcQVsDPcGNgMX6E1jzLA",
+  "expires_in": 3600,
+  "id_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InIxTGtiQm8zOTI1UmIyWkZGckt5VTNNVmV4OVQyODE3S3gwdmJpNmlfS2MifQ.eyJzdWIiOiI1YzlmNzVjN2NjZjg3YjA1YTkyMWU5YjAiLCJub25jZSI6IjIyMTIxIiwiYXRfaGFzaCI6Ik5kbW9iZVBZOEFFaWQ2T216MzIyOXciLCJzaWQiOiI1ODM2NzllNC1lYWM5LTRjNDEtOGQxMS1jZWFkMmE5OWQzZWIiLCJhdWQiOiI1Y2E3NjVlMzkzMTk0ZDU4OTFkYjE5MjciLCJleHAiOjE1NTQ1NDE0NjksImlhdCI6MTU1NDUzNzg2OSwiaXNzIjoiaHR0cHM6Ly9hdXRoaW5nLmNuIn0.IQi5FRHO756e_eAmdAs3OnFMU7QuP-XtrbwCZC1gJntevYJTltEg1CLkG7eVhdi_g5MJV1c0pNZ_xHmwS0R-E4lAXcc1QveYKptnMroKpBWs5mXwoOiqbrjKEmLMaPgRzCOdLiSdoZuQNw_z-gVhFiMNxI055TyFJdXTNtExt1O3KmwqanPNUi6XyW43bUl29v_kAvKgiOB28f3I0fB4EsiZjxp1uxHQBaDeBMSPaRVWQJcIjAJ9JLgkaDt1j7HZ2a1daWZ4HPzifDuDfi6_Ob1ZL40tWEC7xdxHlCEWJ4pUIsDjvScdQsez9aV_xMwumw3X4tgUIxFOCNVEvr73Fg",
+  "refresh_token": "WPsGJbvpBjqXz6IJIr1UHKyrdVF",
+  "scope": "openid profile offline_access phone email",
+  "token_type": "Bearer"
+}
+```
+
+应用携带Refresh Token向Token端点发起请求时，认证授权服务每次都会返回相同的Refresh Token和新的AccessToken、IDToken，直到Refresh Token过期。
+
+###### 2.2.2.3.4 Access Token vs ID Token
+与身份相关的Token有两种：Access Token和ID Token。
+
+**关于形式**：
+* Access Token 的格式可以是 JWT也可以是一个随机字符串。
+* ID Token的格式为JWT
+
+**关于访问鉴权**：
+* 应当携带 Access Token 访问受保护的 API 接口，API 接口应该检验 Access Token 中的 scope 权限项目决定是否返回资源。例如，有一个应用使用了谷歌登录，然后同步用户的日历信息，谷歌会返回 Access Token 给应用。当应用希望读写用户的日历数据时，应用需要携带返回的 Access Token 访问谷歌的 日历 API。
+* 不推荐使用ID Token来进行API的访问鉴权。
+
+**关于认证**：
+* 绝对不要使用 Access Token 做认证。Access Token 本身不能标识用户是否已经认证。Access Token 中只包含了用户 id，在 sub 字段。在你开发的应用中，应该将 Access Token 视为一个随机字符串，不要试图从中解析信息。注意Access Token不包含除id之外的任何用户信息。包含scope权限项目，用于调用受保护的 API接口。所以Access Token用于调用接口，而不是用作用户认证。
+* **ID Token仅适用于认证场景**。例如，有一个应用使用了谷歌登录，然后同步用户的日历信息，谷歌会返回ID Token给这个应用，ID Token中包含用户的基本信息(用户名、头像等)。应用可以解析ID Token然后利用其中的信息，展示用户名和头像。**在使用 ID Token 之前应该先验证合法性**。每个ID Token的受众(aud 参数)是发起认证授权请求的应用的ID (或编程访问账号的AK)。
+
+##### 2.2.2.4 CAS (Central Authentication Service)
+##### 2.2.2.5 LDAP (Lightweight Directory Access Protocol)
+###### 2.2.2.5.1 目录服务
 日常生活中使用的电话薄内记录着亲朋好友的姓名、电话与地址等数据，它就是 telephone directory(电话目录)；计算机中的文件系统(file system)内记录着文件的文件名、大小与日期等数据，它就是 file directory(文件目录)。如果这些目录内的数据能够由系统加以整理，用户就能够容易且迅速地查找到所需的数据，而 directory service(目录服务)提供的服务，就是要达到此目的。**目录服务是一个特殊的非关系型数据库，用来保存描述性的、基于属性的详细信息，支持过滤功能**。这种数据库与我们常⻅的关系型数据库(Mysql、SQL Server、Oracle等)的区别在于目录服务以树状的层次结构来存储数据，就好像 Linux/Unix 系统中的文件目录一样。此外，目录服务是一个专⻔为搜索和浏览而优化的数据库，有着优异的读性能，但写性能差，并且没有事务处理、回滚等复杂功能，不适于存储修改频繁的数据。综上所述，目录服务更适用于存储如组织架构之类的信息。
 
-###### 2.2.2.2.2 LDAP 简介
+###### 2.2.2.5.2 LDAP 简介
 **LDAP(Light Directory Access Portocol)是基于 X.500 标准的轻量级目录访问协议**。LDAP 协议之前有一个 X.500 DAP 协议规范，该协议十分复杂，是一个重量级的协议，后来对 X.500 进行了简化，诞生了 LDAP 协议，与 X.500 相比变得较为轻量，其实 LDAP 协议依然复杂。
 
 LDAP 约定了 Client 与 Server 之间的信息交互格式、使用的端口号、认证方式等内容。而 LDAP 协议的实现，有着众多版本，例如：
@@ -193,7 +311,7 @@ LDAP 约定了 Client 与 Server 之间的信息交互格式、使用的端口�
 * **OpenLDAP** 是可以运行在 Linux 上的 LDAP 协议的开源实现。
 * 而我们平常说的 LDAP Server，一般指的是安装并配置了 Active Directory、OpenLDAP 这些程序的服务器。
 
-###### 2.2.2.2.3 LDAP 基本模型
+###### 2.2.2.5.3 LDAP 基本模型
 每一个系统、协议都会有属于自己的模型，LDAP 也不例外，在了解 LDAP 的基本模型之前我们需要先了解几个 LDAP 的目录树概念:
 1. 目录树：在一个目录服务系统中，整个目录信息集可以表示为一个目录信息树，树中的每个节点是 一个条目。
 2. 条目：每个条目就是一条记录，每个条目有自己的唯一可区别的名称(DN)。
@@ -212,18 +330,32 @@ LDAP 的功能模型中定义了一系列利用 LDAP 协议的操作。它包含
 * **更新操作(Update Operations)**：容许添加(ADD)、删除(Delete)、重命名(Rename)和改变目录(Modify)
 * **认证和管理操作(Authentication And Control Operations)**：容许客户端在目录中识别自己，并且能够控制一个 Session 的性质。
 
-###### 2.2.2.2.4 LDAP 和 AD 的关系
+###### 2.2.2.5.4 LDAP 和 AD 的关系
 Active Directory 是微软基于 LDAP 协议的一套解决方案(LDAP 服务器 + 应用)， 而 LDAP 是与 AD 交互的协议之一。
 
 Active Directory 解决了细粒度的权限控制「谁」以 「什么权限」访问「什么」。AD 在 LDAP v3 规范之上还有自定义扩展，例如，帐户锁定，密码到期等。
 
-##### 2.2.2.3 SAML
-##### 2.2.2.4 RADIUS
-##### 2.2.2.5 OIDC
-##### 2.2.2.6 CAS
-
+##### 2.2.2.6 Kerberos
+##### 2.2.2.7 SAML (Security Assertion Markup Language)
+##### 2.2.2.8 RADIUS (Remote Authentication Dial-In User Service)
 #### 2.2.3 认证源
 认证源指的是用户在登录当前系统时，由第三方提供认证服务，系统信任第三方的认证结果。例如使用微信登录某APP。就是将微信作为认证源。
+
+#### 2.2.4 联邦认证
+在互联网早期，你的各类账号信息分散在不同的站点和应用，这存在以下问题：
+1. 每次访问一个新的站点都要注册一个新的用户名和密码账号。
+2. 这个账户就仅仅被存储在这个站点。
+3. 你无法在不同的站点下保持登录，用户的信息在不同的站点间也无法互通。
+
+联邦认证通过标准协议将不同的身份提供商联合起来对用户进行认证。联邦是一种身份提供商之间的信任关系，建立联邦关系的身份提供商之间可以通过标准协议互相拉取用户信息。
+
+##### 2.2.4.1 为什么需要联邦认证？
+联邦认证是一种分布式的身份认证，当用户在身份提供商登录时，用户可以选择到当前身份提供商信任的联邦身份提供商登录。用户可以通过联邦认证登录一个新的系统，而不必每次在新的系统中注册账号。例如现在许多网站有自己的账密注册登录方式，也有微信扫码直接登录的方式，其中的微信就是这个网站的身份联邦，用户不必填写信息注册账号，直接使用微信就可以登录。
+
+使用联邦认证有以下好处：
+1. 用户不必每次都要创建一个全新的账号。
+2. 接入联邦认证后用户可以在不同的组织和站点中畅游。
+
 
 ### 2.3 Authorization 授权
 > 既然现在我知道你是谁了， 我们看看能让你做些什么。
@@ -342,7 +474,7 @@ SSO为所有其它应用程序和系统，以集中的验证服务器提供身�
 #### 2.4.3 RBAC，角色型访问控制
 * **定义**：RBAC(Role-Based Access Control)，角色型访问控制。
 
-##### 2.4.3.1 行业特例-涉密系统三员分立
+#### 2.4.4 RBAC的行业特例-涉密系统三员分立
 “三员”，在国家保密标准BMB20-2007《涉及国家秘密的信息系统分级保护管理规范》中提出，要求涉密信息系统应当配备系统管理员、安全保密员和安全审计员三类安全保密管理人员（简称为“三员”)，分别负责系统运行、安全保密管理和安全审计工作。
 
 **“三员”并不是特指三个人，而是代表涉密信息系统安全保密管理的三类岗位或角色**，对应不同的职责，由相关人员担任，以相应权限的管理员账号登录设备或系统来完成各项工作。“三员”担负维护系统安全、稳定、可靠运行的重要任务，对涉密信息系统和国家秘密安全具有重要作用。
@@ -463,6 +595,8 @@ IAM 是任何企业安全计划的重要一环，因为在今天的数字化经�
 
 由于混合办公和远程办公证逐渐成为常态，企业不得不考虑部署 IAM 策略。数据泄露的首要原因就是身份泄露，而要解决身份泄露，IAM 或许是企业首选的安全工具。远程环境迫使企业将 IT 总体战略的重心从网络转向人员。今天的 IT 部门主要负责最大限度保护远程员工的身份安全，同时帮助他们安全访问办公所需资源。而 IAM 则进一步推动了这一战略转变，因为 IAM 的核心内容就是个人安全。全面的云 IAM 平台包括目录服务和单点登录（SSO）功能，基于零信任原则将用户连接到所需的 IT 资源，同时让 IT 部门对身份进行主要控制。现代化的 IAM 平台让用户可以记住并使用唯一身份，也为 IT 管理员提供最高级别的集中控制。
 
+## 6 IDaaS
+
 ## 参考资料
 1. [SSO、4A到IAM 的进化](https://zhuanlan.zhihu.com/p/464185329)
 2. [4A](https://baike.baidu.com/item/4A/1825)
@@ -479,3 +613,4 @@ IAM 是任何企业安全计划的重要一环，因为在今天的数字化经�
 13. [Types of Authentication Protocols](https://www.geeksforgeeks.org/types-of-authentication-protocols/)
 14. [LDAP 协议相关, Geekby's Blog](https://www.geekby.site/2020/12/ldap-%E5%8D%8F%E8%AE%AE/)
 15. [浅谈涉密系统三员管理](https://zhuanlan.zhihu.com/p/427733689)
+16. [Authing - 概念](https://docs.authing.cn/v2/concepts/)
