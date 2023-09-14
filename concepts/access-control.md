@@ -70,6 +70,7 @@
       - [2.4.2 MAC，强制访问控制](#242-mac强制访问控制)
       - [2.4.3 RBAC，角色型访问控制](#243-rbac角色型访问控制)
       - [2.4.4 RBAC的行业特例-涉密系统三员分立](#244-rbac的行业特例-涉密系统三员分立)
+      - [2.4.5 ABAC，基于属性的访问控制](#245-abac基于属性的访问控制)
     - [2.5 Access Control Methods and Techniques 访问控制方法和技术](#25-access-control-methods-and-techniques-访问控制方法和技术)
       - [2.5.1 Rule-Based Access Control 规则型访问控制](#251-rule-based-access-control-规则型访问控制)
       - [2.5.2 限制性用户接口](#252-限制性用户接口)
@@ -247,6 +248,9 @@ TODO：画一个主体访问客体的4个步骤
 
 #### 2.4.4 RBAC的行业特例-涉密系统三员分立
 详细见: [RBAC的行业特例-涉密系统三员分立](./RBAC-role-based-access-control.md)
+
+#### 2.4.5 ABAC，基于属性的访问控制
+详细见：[ABAC(Attribute-Based Access Control)](./ABAC-attribute-based-access-control.md)
 
 ### 2.5 Access Control Methods and Techniques 访问控制方法和技术
 #### 2.5.1 Rule-Based Access Control 规则型访问控制
