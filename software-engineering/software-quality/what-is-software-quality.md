@@ -1,6 +1,6 @@
 # 软件质量
 
-<strong><font color="red">最后修改于2023-06-08</font></strong>
+<strong><font color="red">最后修改于2023-09-20</font></strong>
 
 - [软件质量](#软件质量)
   - [1.什么是软件质量？](#1什么是软件质量)
@@ -53,18 +53,50 @@ ISO 25010 质量标准是最新的标准(2011年制定，2017年修订)。
 * 语境覆盖：完整性、灵活性。
 
 #### 2.2.2 产品质量模型
-* 功能适应性：完整、正确、适当。
-* 性能效率：时间、资源利用、容量。
-* 兼容性：共存、互操作性。
-* 可用性：适当性、易学性、可操作性、错误保护、美观性、可访问性。
-* 可靠性：成熟度、可用性、容错性、可恢复性。
-* 安全性：保密性、完整性、可审核性、真实性。
-* 可维护性：模块化、可复用性、可修改性、可测试性。
-* 可移植性：适应性、可安装性、可替换性。
+* **功能适应性(Functional Suitability)**：
+  * 功能完整性(Functional completeness)
+  * 功能正确性(Functional correctness)
+  * 功能适当性(Functional appropriateness)
+* **性能效率(Performance efficiency)**：
+  * 时间行为(Time behaviour)
+  * 资源利用(Resource utilization)
+  * 容量(Capacity)
+* **兼容性(Compatibility)**：
+  * 共存(Co-existence)
+  * 互操作性(Interoperability)
+* **可用性(Usability)**：
+  * 适当性可识别性(Appropriateness recognizability)
+  * 易学性(Learnability)
+  * 可操作性(Operability)
+  * 错误保护(User error protection)
+  * 美观性(User interface aesthetics)
+  * 可访问性(Accessibility)
+* **可靠性(Reliability)**：
+  * 成熟度(Maturity)
+  * 可用性(Availability)
+  * 容错性(Fault tolerance)
+  * 可恢复性(Recoverability)
+* **安全性(Security)**：
+  * 保密性(Confidentiality)
+  * 完整性(Integrity)
+  * 不可否认性(Non-repudiation)
+  * 可问责性(Accountability)
+  * 真实性(Authenticity)
+* **可维护性(Maintainability)**：
+  * 模块化(Modularity)
+  * 可复用性(Reusability)
+  * 可分析性(Analysability)
+  * 可修改性(Modifiability)
+  * 可测试性(Testability)
+* **可移植性(Portability)**：
+  * 适应性(Adaptability)
+  * 可安装性(Installability)
+  * 可替换性(Replaceability)
 
 ## 3.定性质量评估
 
 ## 4.定量质量评估
 
 ## 参考资料
-* 《软件工程 - 实践者的研究方法》
+1. 《软件工程 - 实践者的研究方法》
+2. [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
