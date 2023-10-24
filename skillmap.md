@@ -1,6 +1,6 @@
 [返回首页](./README.md)
 
-# 我的架构师能力地图
+# 能力地图
 
 <p align="left">
   <a href="https://github.com/lyremelody/architect-notes">
@@ -16,7 +16,7 @@
 
 TODO：缺一张图
 
-- [我的架构师能力地图](#我的架构师能力地图)
+- [能力地图](#能力地图)
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
     - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
       - [1.1.1 设计相关概念](#111-设计相关概念)
