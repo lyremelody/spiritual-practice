@@ -8,8 +8,13 @@
 * RTO是反映业务恢复及时性的指标，体现了企业所能容忍的业务系统最长恢复时间。
 * RTO值越小，代表容灾系统的恢复能力越强，但企业投资也越高。
 
+### RTO/RPO的示意图
 <div align=center><img src="./RPO-RTO/RPO-RTO.png"></div>
+
+### RTO/RPO与灾难恢复能力等级的关系
+<div align=center><img src="./RPO-RTO/gbt20988-2007-c1.png"></div>
 
 
 ## 参考资料
 1. [什么是RPO和RTO？](https://support.huaweicloud.com/sdrs_faq/sdrs_06_0440.html)
+2. [GB/T 20988-2007 信息安全技术 信息系统灾难恢复规范](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=B7DDC387ECA63A1C1CEAE15BE01E2A61)
