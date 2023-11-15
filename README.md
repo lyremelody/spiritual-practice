@@ -14,10 +14,6 @@
 
 **[➡️ 能力地图](./skillmap.md)**
 
-**实践思路：Why -> What -> How**
-
-**学习思路：What -> How -> Why**
-
 **书单：**
 * [➡️ 书单-计算机基础](https://www.douban.com/doulist/13915490/)
 * [➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)
