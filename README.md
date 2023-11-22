@@ -12,7 +12,7 @@
   </a>
 </p>
 
-**[➡️ 能力地图](./skillmap.md)**
+**[➡️ 知识体系梳理](./skillmap.md)**
 
 **书单：**
 * [➡️ 书单-计算机基础](https://www.douban.com/doulist/13915490/)

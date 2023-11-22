@@ -1,6 +1,6 @@
 [返回首页](./README.md)
 
-# 能力地图
+# 知识体系梳理
 
 <p align="left">
   <a href="https://github.com/lyremelody/architect-notes">
@@ -16,7 +16,7 @@
 
 TODO：缺一张图
 
-- [能力地图](#能力地图)
+- [知识体系梳理](#知识体系梳理)
   - [1.概念和发展史(Concepts and Timelines)](#1概念和发展史concepts-and-timelines)
     - [1.1 概念理解(Understanding Concepts)](#11-概念理解understanding-concepts)
       - [1.1.1 设计相关概念](#111-设计相关概念)
@@ -40,20 +40,21 @@ TODO：缺一张图
       - [3.1.8 实践和题解(Practice)](#318-实践和题解practice)
     - [3.2 分布式系统(Distributed System)](#32-分布式系统distributed-system)
     - [3.3 领域技术](#33-领域技术)
-      - [3.3.1 云技术 (Cloud Technology)](#331-云技术-cloud-technology)
-      - [3.3.2 云原生技术(Cloud Native)](#332-云原生技术cloud-native)
-        - [3.3.2.1 容器(Container)](#3321-容器container)
-        - [3.3.2.2 微服务框架(Microservice Framework)](#3322-微服务框架microservice-framework)
-        - [3.3.2.3 服务网格(Service Mesh)](#3323-服务网格service-mesh)
-        - [3.3.2.4 分布式应用运行时(Distributed Application Runtime)](#3324-分布式应用运行时distributed-application-runtime)
-        - [3.3.2.5 资料(链接)收集](#3325-资料链接收集)
-      - [3.3.3 数据库(Database)](#333-数据库database)
-        - [3.3.3.1 关系数据库(Relational Database)](#3331-关系数据库relational-database)
-        - [3.3.3.2 NoSQL](#3332-nosql)
-      - [3.3.4 消息队列(Message Queue)](#334-消息队列message-queue)
-      - [3.3.5 搜索引擎(Search Engine)](#335-搜索引擎search-engine)
-      - [3.3.6 信息安全(Information Security)](#336-信息安全information-security)
-      - [3.3.7 通用人工智能(Artificial General Intelligence)](#337-通用人工智能artificial-general-intelligence)
+      - [3.3.1 负载均衡](#331-负载均衡)
+      - [3.3.2 云技术 (Cloud Technology)](#332-云技术-cloud-technology)
+      - [3.3.3 云原生技术(Cloud Native)](#333-云原生技术cloud-native)
+        - [3.3.3.1 容器(Container)](#3331-容器container)
+        - [3.3.3.2 微服务框架(Microservice Framework)](#3332-微服务框架microservice-framework)
+        - [3.3.3.3 服务网格(Service Mesh)](#3333-服务网格service-mesh)
+        - [3.3.3.4 分布式应用运行时(Distributed Application Runtime)](#3334-分布式应用运行时distributed-application-runtime)
+        - [3.3.3.5 资料(链接)收集](#3335-资料链接收集)
+      - [3.3.4 数据库(Database)](#334-数据库database)
+        - [3.3.4.1 关系数据库(Relational Database)](#3341-关系数据库relational-database)
+        - [3.3.4.2 NoSQL](#3342-nosql)
+      - [3.3.5 消息队列(Message Queue)](#335-消息队列message-queue)
+      - [3.3.6 搜索引擎(Search Engine)](#336-搜索引擎search-engine)
+      - [3.3.7 信息安全(Information Security)](#337-信息安全information-security)
+      - [3.3.8 通用人工智能(Artificial General Intelligence)](#338-通用人工智能artificial-general-intelligence)
     - [3.4 故障排查(Troubleshooting)](#34-故障排查troubleshooting)
     - [3.5 其他技术问题(Others)](#35-其他技术问题others)
   - [4.软件工程(Software Engineering)](#4软件工程software-engineering)
@@ -344,9 +345,13 @@ TODO：缺一张图
 
 ### 3.2 分布式系统(Distributed System)
 ### 3.3 领域技术
-#### 3.3.1 云技术 (Cloud Technology)
-#### 3.3.2 云原生技术(Cloud Native)
-##### 3.3.2.1 容器(Container)
+#### 3.3.1 负载均衡
+* LVS(Linux Virtual Server)
+* nginx
+
+#### 3.3.2 云技术 (Cloud Technology)
+#### 3.3.3 云原生技术(Cloud Native)
+##### 3.3.3.1 容器(Container)
 * [Podman vs Docker，有哪些差异？](./technology/cloud-native/podman-vs-docker.md)
 * Docker
   * [那些年踩过的坑--Docker篇](./technology/cloud-native/docker/docker-practice-20170713.md)
@@ -359,15 +364,15 @@ TODO：缺一张图
 * Helm
   * [Helm是什么？](./technology/cloud-native/helm/what-is-helm.md)
 
-##### 3.3.2.2 微服务框架(Microservice Framework)
+##### 3.3.3.2 微服务框架(Microservice Framework)
 
-##### 3.3.2.3 服务网格(Service Mesh)
+##### 3.3.3.3 服务网格(Service Mesh)
 
-##### 3.3.2.4 分布式应用运行时(Distributed Application Runtime)
+##### 3.3.3.4 分布式应用运行时(Distributed Application Runtime)
 * Dapr
 * Layotto
 
-##### 3.3.2.5 资料(链接)收集
+##### 3.3.3.5 资料(链接)收集
 * **公司/社区资料**
   1. [CNCF，云原生计算基金会](https://www.cncf.io/)
   2. [云原生技术公开课](https://edu.aliyun.com/roadmap/cloudnative)，阿里云
@@ -397,32 +402,32 @@ TODO：缺一张图
   2. [Architecting Cloud-Aware Applications Rev. 1.0](http://www.oaca-project.org/wp-content/uploads/2018/07/Architecting-Cloud-Aware-Applications-Best-Practices-Rev-1.0.pdf)，OPEN DATA CENTER ALLIANCE，PDF 
 
 
-#### 3.3.3 数据库(Database)
-##### 3.3.3.1 关系数据库(Relational Database)
+#### 3.3.4 数据库(Database)
+##### 3.3.4.1 关系数据库(Relational Database)
 * MySQL
 * MariaDB
 
-##### 3.3.3.2 NoSQL
+##### 3.3.4.2 NoSQL
 * Redis
 * MongoDB
 * Etcd
 
-#### 3.3.4 消息队列(Message Queue)
+#### 3.3.5 消息队列(Message Queue)
 * [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
 * Kafka
 * NSQ
 * RabbitMQ
 
-#### 3.3.5 搜索引擎(Search Engine)
+#### 3.3.6 搜索引擎(Search Engine)
 * [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
 * Elasticsearch
   * [Elasticsearch Rally](./technology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
   * [Elasticsearch 热温数据迁移验证](./technology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
 * OpenSearch
 
-#### 3.3.6 信息安全(Information Security)
+#### 3.3.7 信息安全(Information Security)
 
-#### 3.3.7 通用人工智能(Artificial General Intelligence)
+#### 3.3.8 通用人工智能(Artificial General Intelligence)
 
 ### 3.4 故障排查(Troubleshooting)
 * [Kubernetes Troubleshooting](./technology/troubleshooting/kubernetes-troubleshooting.md)
