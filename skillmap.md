@@ -95,6 +95,9 @@ TODO：缺一张图
     - [5.4 Enterprise Backup and Recovery Software Solutions](#54-enterprise-backup-and-recovery-software-solutions)
       - [5.4.1 市场分析](#541-市场分析)
       - [5.4.2 产品分析](#542-产品分析)
+    - [5.5 Identity and Access Management](#55-identity-and-access-management)
+      - [5.5.1 市场分析](#551-市场分析)
+      - [5.5.2 产品分析](#552-产品分析)
   - [6.管理能力(Management)](#6管理能力management)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
@@ -105,6 +108,7 @@ TODO：缺一张图
     - [8.1 Openness](#81-openness)
     - [8.2 SLA](#82-sla)
     - [8.3 多租户](#83-多租户)
+
 
 
 ## 1.概念和发展史(Concepts and Timelines)
@@ -655,6 +659,13 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 #### 5.4.1 市场分析
 #### 5.4.2 产品分析
 
+### 5.5 Identity and Access Management
+#### 5.5.1 市场分析
+#### 5.5.2 产品分析
+* Auth0
+* Keycloak
+* ORY
+* Authing
 
 ## 6.管理能力(Management)
 ### 6.1 目标管理(Management by Objectives)
