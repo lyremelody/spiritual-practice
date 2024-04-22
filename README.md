@@ -1,4 +1,4 @@
-# Life Notes
+# 上下求索
 
 <p align="left">
   <a href="https://github.com/lyremelody/life-notes">
@@ -24,7 +24,7 @@
 
 **[➡️ 知识体系梳理](./skillmap.md)**
 * [➡️ 1.1 概念理解(Understanding Concepts)](./concepts/README.md)
-* [➡️ 1.2 发展史(Timelines)](./timelines/README.md)**
+* [➡️ 1.2 发展史(Timelines)](./timelines/README.md)
 * [➡️ 2.思想和原则(Culture and Principles)](./culture-and-principles/README.md)
 * [➡️ 3.技术能力(Technical Skills)](./technology/README.md)
 * [➡️ 4.软件工程(Software Engineering)](./software-engineering/README.md)
