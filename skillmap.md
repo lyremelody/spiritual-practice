@@ -98,16 +98,15 @@ TODO：缺一张图
     - [5.5 Identity and Access Management](#55-identity-and-access-management)
       - [5.5.1 市场分析](#551-市场分析)
       - [5.5.2 产品分析](#552-产品分析)
-  - [6.管理能力(Management)](#6管理能力management)
+  - [6.领导力(Leadership)](#6领导力leadership)
     - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
     - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
     - [6.3 情绪管理(Emotion Management)](#63-情绪管理emotion-management)
     - [6.4 时间管理(Time Management)](#64-时间管理time-management)
-  - [7.领导力(Leadership)](#7领导力leadership)
-  - [8.学习和论文翻译(Studis and Papers)](#8学习和论文翻译studis-and-papers)
-    - [8.1 Openness](#81-openness)
-    - [8.2 SLA](#82-sla)
-    - [8.3 多租户](#83-多租户)
+  - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
+    - [7.1 Openness](#71-openness)
+    - [7.2 SLA](#72-sla)
+    - [7.3 多租户](#73-多租户)
 
 
 
@@ -667,21 +666,19 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 * ORY
 * Authing
 
-## 6.管理能力(Management)
+## 6.领导力(Leadership)
 ### 6.1 目标管理(Management by Objectives)
 ### 6.2 沟通管理(Communication Management)
 ### 6.3 情绪管理(Emotion Management)
 ### 6.4 时间管理(Time Management)
 
-## 7.领导力(Leadership)
-
-## 8.学习和论文翻译(Studis and Papers)
-### 8.1 Openness
+## 7.学习和论文翻译(Studis and Papers)
+### 7.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 8.2 SLA
+### 7.2 SLA
 * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 
-### 8.3 多租户
+### 7.3 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
