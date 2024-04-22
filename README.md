@@ -13,3 +13,10 @@
 </p>
 
 **[➡️ 知识体系梳理](./skillmap.md)**
+**[➡️ 概念理解(Understanding Concepts)](./concepts/)**
+**[➡️ 发展史(Timelines)](./timelines/)**
+**[➡️ 思想和原则(Culture and Principles)](./culture-and-principles/)**
+**[➡️ 技术能力(Technical Skills)](./technology/)**
+**[➡️ 软件工程(Software Engineering)](./software-engineering/)**
+**[➡️ 业务与市场(Business and Market)](./business-and-market/)**
+**➡️ 领导力(Leadership)**
