@@ -1,4 +1,4 @@
-[返回上层](../skillmap.md)
+[返回首页](../README.md)
 
 ### 1.2 发展史(Timelines)
 * [计算机发展史](./computer-timeline.md)

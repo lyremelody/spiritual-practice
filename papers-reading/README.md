@@ -1,4 +1,4 @@
-[返回上层](../skillmap.md)
+[返回首页](../README.md)
 
 ## 8.学习和论文翻译(Studis and Papers)
 ### 8.1 Openness
