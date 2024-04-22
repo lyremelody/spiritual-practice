@@ -28,7 +28,7 @@ TODO：缺一张图
     - [2.1 设计思想](#21-设计思想)
     - [2.2 思维误区](#22-思维误区)
     - [2.3 原则](#23-原则)
-  - [3.技术能力(Technical Skills)](#3技术能力technical-skills)
+  - [3.计算机与信息技术(Computer and Infomation Technology)](#3计算机与信息技术computer-and-infomation-technology)
     - [3.1 计算机基础(Computer Fundamentals)](#31-计算机基础computer-fundamentals)
       - [3.1.1 程序设计(Programming)](#311-程序设计programming)
       - [3.1.2 数据结构(Data Structure)](#312-数据结构data-structure)
@@ -204,7 +204,7 @@ TODO：缺一张图
   - [软件项目管理原则-Boehm W5HH原则](./culture-and-principles/software-engineering-principles.md#61-软件项目管理原则-boehm-w5hh原则)
   - [TODO: 软件项目管理-项目进度安排-基本原则](./culture-and-principles/software-engineering-principles.md#62-软件项目管理-项目进度安排-基本原则)
 
-## 3.技术能力(Technical Skills)
+## 3.计算机与信息技术(Computer and Infomation Technology)
 ### 3.1 计算机基础(Computer Fundamentals)
 #### 3.1.1 程序设计(Programming)
 
@@ -213,7 +213,7 @@ TODO：缺一张图
 * 链表
 * 散列表
 * 二叉搜索树
-* [前缀树 Trie](./technology/fundamentals/data-structures/trie.md)
+* [前缀树 Trie](./cs-a n d/fundamentals/data-structures/trie.md)
 * 红黑树
 * B树
 * 斐波那契堆
@@ -224,8 +224,8 @@ TODO：缺一张图
 * 算法分析
 * 分治策略
 * 插入排序
-* [快速排序](./technology/fundamentals/primary-algorithms/quick-sort.md)
-* [最大堆和堆排序](./technology/fundamentals/primary-algorithms/heap-sort.md)
+* [快速排序](./cs-and-it-tectnology/fundamentals/primary-algorithms/quick-sort.md)
+* [最大堆和堆排序](./cs-and-it-tectnology/fundamentals/primary-algorithms/heap-sort.md)
 * 线性时间排序
   * 计数排序
   * 基数排序
@@ -350,17 +350,17 @@ TODO：缺一张图
 #### 3.3.2 云技术 (Cloud Technology)
 #### 3.3.3 云原生技术(Cloud Native)
 ##### 3.3.3.1 容器(Container)
-* [Podman vs Docker，有哪些差异？](./technology/cloud-native/podman-vs-docker.md)
+* [Podman vs Docker，有哪些差异？](./cs-and-it-tectnology/cloud-native/podman-vs-docker.md)
 * Docker
-  * [那些年踩过的坑--Docker篇](./technology/cloud-native/docker/docker-practice-20170713.md)
-  * [那些年踩过的坑--Docker篇（二）数据持久化](./technology/cloud-native/docker/docker-practice-20180204.md)
+  * [那些年踩过的坑--Docker篇](./cs-and-it-tectnology/cloud-native/docker/docker-practice-20170713.md)
+  * [那些年踩过的坑--Docker篇（二）数据持久化](./cs-and-it-tectnology/cloud-native/docker/docker-practice-20180204.md)
 * Kubernetes
-  * [Kubernetes是什么？](./technology/cloud-native/kubernetes/what-is-kubernetes.md)
-  * [Kubernetes 核心概念](./technology/cloud-native/kubernetes/kubernetes-concepts.md)
-  * [使用 kubectl](./technology/cloud-native/kubernetes/kubernetes-use-kubectl.md)
-  * [Pod 健康检查](./technology/cloud-native/kubernetes/kubernetes-pod-health-check.md)
+  * [Kubernetes是什么？](./cs-and-it-tectnology/cloud-native/kubernetes/what-is-kubernetes.md)
+  * [Kubernetes 核心概念](./cs-and-it-tectnology/cloud-native/kubernetes/kubernetes-concepts.md)
+  * [使用 kubectl](./cs-and-it-tectnology/cloud-native/kubernetes/kubernetes-use-kubectl.md)
+  * [Pod 健康检查](./cs-and-it-tectnology/cloud-native/kubernetes/kubernetes-pod-health-check.md)
 * Helm
-  * [Helm是什么？](./technology/cloud-native/helm/what-is-helm.md)
+  * [Helm是什么？](./cs-and-it-tectnology/cloud-native/helm/what-is-helm.md)
 
 ##### 3.3.3.2 微服务框架(Microservice Framework)
 
@@ -411,16 +411,16 @@ TODO：缺一张图
 * Etcd
 
 #### 3.3.5 消息队列(Message Queue)
-* [什么是消息队列？](./technology/infrastructure/what-is-message-queue.md)
+* [什么是消息队列？](./cs-and-it-tectnology/infrastructure/what-is-message-queue.md)
 * Kafka
 * NSQ
 * RabbitMQ
 
 #### 3.3.6 搜索引擎(Search Engine)
-* [初识搜索引擎](./technology/infrastructure/search-engine-20180427.md)
+* [初识搜索引擎](./cs-and-it-tectnology/infrastructure/search-engine-20180427.md)
 * Elasticsearch
-  * [Elasticsearch Rally](./technology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
-  * [Elasticsearch 热温数据迁移验证](./technology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
+  * [Elasticsearch Rally](./cs-and-it-tectnology/infrastructure/elasticsearch/elasticsearch-rally-20180123.md)
+  * [Elasticsearch 热温数据迁移验证](./cs-and-it-tectnology/infrastructure/elasticsearch/elasticsearch-hot-warm-20181211.md)
 * OpenSearch
 
 #### 3.3.7 信息安全(Information Security)
@@ -428,11 +428,11 @@ TODO：缺一张图
 #### 3.3.8 通用人工智能(Artificial General Intelligence)
 
 ### 3.4 故障排查(Troubleshooting)
-* [Kubernetes Troubleshooting](./technology/troubleshooting/kubernetes-troubleshooting.md)
+* [Kubernetes Troubleshooting](./cs-and-it-tectnology/troubleshooting/kubernetes-troubleshooting.md)
 
 
 ### 3.5 其他技术问题(Others)
-* [全球化系统中的日期时间处理问题](./technology/others/problems/globalization-datatime.md)
+* [全球化系统中的日期时间处理问题](./cs-and-it-tectnology/others/problems/globalization-datatime.md)
 
 
 ## 4.软件工程(Software Engineering)
