@@ -16,6 +16,7 @@
 #### 5.1.1 市场分析
 #### 5.1.2 产品分析
 * [Microsoft System Center 产品分析](./cloud-management-tooling/microsoft-system-center.md)
+* KubeSphere
 
 ### 5.2 Content Services Platform
 内容服务平台(CSP)是管理和利用组织内内容的基础。CSP技术使员工能够跨设备和组织边界以现代无缝方式检索和处理内容。核心CSP功能包括内容捕获、创建、合并、处理和保留，以支持个人、团队、部门和企业业务运营。
@@ -26,6 +27,7 @@
 #### 5.2.2 产品分析
 * [IBM FileNet Content Manager 架构分析](./content-services/ibm-filenet-content-manager.md)
 * [OpenText Documentum 架构分析](./content-services/opentext-documentum.md)
+* SharePoint
 
 ### 5.3 Application Performance Monitoring and Observability
 Gartner 将应用程序性能监控和可观察性市场定义为能够观察和分析应用程序运行状况和用户体验的软件。目标角色是 IT 运营、站点可靠性工程师、云和平台运营、应用程序开发人员和产品所有者。这些解决方案可以作为供应商管理的托管环境或通过 SaaS 提供自托管部署。
@@ -34,6 +36,7 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 
 #### 5.3.1 市场分析
 #### 5.3.2 产品分析
+* Splunk
 
 ### 5.4 Enterprise Backup and Recovery Software Solutions
 企业备份和恢复软件解决方案旨在捕获本地、混合、多云和 SaaS 环境中企业工作负载的时间点副本（备份），并将数据写入二级存储目标以供在丢失的情况下恢复这些数据的目的。备份和恢复解决方案具有多项核心功能。其中包括本地数据中心的操作系统、文件、数据库和应用程序的备份和恢复；公有云IaaS、PaaS、SaaS数据备份与恢复；创建多个备份副本以支持弹性、灾难恢复和其他用例；分配符合组织恢复目标的多个备份和保留策略；报告备份/恢复任务的成功和失败。
@@ -42,6 +45,11 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 
 #### 5.4.1 市场分析
 #### 5.4.2 产品分析
+* Cohesity
+* Veeam
+* Commvault
+* Rubrik
+* Veritas
 
 ### 5.5 Identity and Access Management
 #### 5.5.1 市场分析

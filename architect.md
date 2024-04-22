@@ -14,12 +14,6 @@
 
 **[➡️ 知识体系梳理](./skillmap.md)**
 
-**书单：**
-* [➡️ 书单-计算机基础](https://www.douban.com/doulist/13915490/)
-* [➡️ 书单-软件架构](https://www.douban.com/doulist/11915500/)
-* [➡️ 书单-科技史和商业史](https://www.douban.com/doulist/12785657/)
-* [➡️ 书单-产品和创业](https://www.douban.com/doulist/11858031/)
-
 **基本问题(What)**：
 * [什么是业务价值？](./concepts/business-value.md)
 * [软件架构发展史](./timelines/software-architecture-timeline.md)

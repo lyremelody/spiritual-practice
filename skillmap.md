@@ -98,15 +98,10 @@ TODO：缺一张图
     - [5.5 Identity and Access Management](#55-identity-and-access-management)
       - [5.5.1 市场分析](#551-市场分析)
       - [5.5.2 产品分析](#552-产品分析)
-  - [6.领导力(Leadership)](#6领导力leadership)
-    - [6.1 目标管理(Management by Objectives)](#61-目标管理management-by-objectives)
-    - [6.2 沟通管理(Communication Management)](#62-沟通管理communication-management)
-    - [6.3 情绪管理(Emotion Management)](#63-情绪管理emotion-management)
-    - [6.4 时间管理(Time Management)](#64-时间管理time-management)
-  - [7.学习和论文翻译(Studis and Papers)](#7学习和论文翻译studis-and-papers)
-    - [7.1 Openness](#71-openness)
-    - [7.2 SLA](#72-sla)
-    - [7.3 多租户](#73-多租户)
+  - [6.学习和论文翻译(Studis and Papers)](#6学习和论文翻译studis-and-papers)
+    - [6.1 Openness](#61-openness)
+    - [6.2 SLA](#62-sla)
+    - [6.3 多租户](#63-多租户)
 
 
 
@@ -631,6 +626,7 @@ TODO：缺一张图
 #### 5.1.1 市场分析
 #### 5.1.2 产品分析
 * [Microsoft System Center 产品分析](./business-and-market/cloud-management-tooling/microsoft-system-center.md)
+* KubeSphere
 
 ### 5.2 Content Services Platform
 内容服务平台(CSP)是管理和利用组织内内容的基础。CSP技术使员工能够跨设备和组织边界以现代无缝方式检索和处理内容。核心CSP功能包括内容捕获、创建、合并、处理和保留，以支持个人、团队、部门和企业业务运营。
@@ -641,6 +637,7 @@ TODO：缺一张图
 #### 5.2.2 产品分析
 * [IBM FileNet Content Manager 架构分析](./business-and-market/content-services/ibm-filenet-content-manager.md)
 * [OpenText Documentum 架构分析](./business-and-market/content-services/opentext-documentum.md)
+* SharePoint
 
 ### 5.3 Application Performance Monitoring and Observability
 Gartner 将应用程序性能监控和可观察性市场定义为能够观察和分析应用程序运行状况和用户体验的软件。目标角色是 IT 运营、站点可靠性工程师、云和平台运营、应用程序开发人员和产品所有者。这些解决方案可以作为供应商管理的托管环境或通过 SaaS 提供自托管部署。
@@ -649,6 +646,7 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 
 #### 5.3.1 市场分析
 #### 5.3.2 产品分析
+* Splunk
 
 ### 5.4 Enterprise Backup and Recovery Software Solutions
 企业备份和恢复软件解决方案旨在捕获本地、混合、多云和 SaaS 环境中企业工作负载的时间点副本（备份），并将数据写入二级存储目标以供在丢失的情况下恢复这些数据的目的。备份和恢复解决方案具有多项核心功能。其中包括本地数据中心的操作系统、文件、数据库和应用程序的备份和恢复；公有云IaaS、PaaS、SaaS数据备份与恢复；创建多个备份副本以支持弹性、灾难恢复和其他用例；分配符合组织恢复目标的多个备份和保留策略；报告备份/恢复任务的成功和失败。
@@ -657,6 +655,11 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 
 #### 5.4.1 市场分析
 #### 5.4.2 产品分析
+* Cohesity
+* Veeam
+* Commvault
+* Rubrik
+* Veritas
 
 ### 5.5 Identity and Access Management
 #### 5.5.1 市场分析
@@ -666,19 +669,13 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 * ORY
 * Authing
 
-## 6.领导力(Leadership)
-### 6.1 目标管理(Management by Objectives)
-### 6.2 沟通管理(Communication Management)
-### 6.3 情绪管理(Emotion Management)
-### 6.4 时间管理(Time Management)
-
-## 7.学习和论文翻译(Studis and Papers)
-### 7.1 Openness
+## 6.学习和论文翻译(Studis and Papers)
+### 6.1 Openness
 * [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
 * [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
 
-### 7.2 SLA
+### 6.2 SLA
 * [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
 
-### 7.3 多租户
+### 6.3 多租户
 * [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
