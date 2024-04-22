@@ -1,4 +1,4 @@
-# 上下求索
+# 格物修齐
 
 <p align="left">
   <a href="https://github.com/lyremelody/life-notes">
@@ -22,6 +22,8 @@
 * [➡️ 书单-领导力](https://www.douban.com/doulist/158107909/)
 * [➡️ 书单-人物传记](https://www.douban.com/doulist/156216608/)
 
+**[➡️ 世界观](./worldview/README.md)**
+
 **[➡️ 知识体系梳理](./skillmap.md)**
 * [➡️ 1.1 概念理解(Understanding Concepts)](./concepts/README.md)
 * [➡️ 1.2 发展史(Timelines)](./timelines/README.md)
@@ -33,3 +35,7 @@
 **[➡️ 能力与提升(Ability and Improvement)](./ability-and-improvement/)**
 
 **[➡️ 方法论](./methodology.md)**
+
+**[➡️ 论文学习和翻译(Papers)](./papers-reading/README.md)**
+
+**[➡️ 读《资治通鉴》](./zizhitongjian-reading/README.md)**

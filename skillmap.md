@@ -98,10 +98,6 @@ TODO：缺一张图
     - [5.5 Identity and Access Management](#55-identity-and-access-management)
       - [5.5.1 市场分析](#551-市场分析)
       - [5.5.2 产品分析](#552-产品分析)
-  - [6.学习和论文翻译(Studis and Papers)](#6学习和论文翻译studis-and-papers)
-    - [6.1 Openness](#61-openness)
-    - [6.2 SLA](#62-sla)
-    - [6.3 多租户](#63-多租户)
 
 
 
@@ -668,14 +664,3 @@ Gartner 将应用程序性能监控和可观察性市场定义为能够观察和
 * Keycloak
 * ORY
 * Authing
-
-## 6.学习和论文翻译(Studis and Papers)
-### 6.1 Openness
-* [「Openness」开放性：一个框架及简史](./papers-reading/Openness-with-and-without-Information-Technology-a-framework-and-a-brief-history.md)
-* [开放平台: How, When and Why?](./papers-reading/opening-platform-how-when-and-why.md)
-
-### 6.2 SLA
-* [一文理解「SLA/服务等级协议」](./papers-reading/about-sla.md)
-
-### 6.3 多租户
-* [Force.com 多租户互联网应用开发平台的设计](./papers-reading/translatep889-weissman-1-pdf.md)
