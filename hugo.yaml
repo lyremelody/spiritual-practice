@@ -1,0 +1,40 @@
+baseURL: https://spiritual-practice.lyremelody.cn/
+languageCode: en-us
+title: 格物修齐
+theme: "hugo-book"
+copyright: lyremelody.cn
+
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
+
+uglyURLs: true
+
+# Needed for mermaid/katex shortcodes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+params:
+  BookTheme: "auto"
+  BookToC: true
+  BookLogo: "logo.png"
+  BookSection: "*"
+  BookDateFormat: "Jan 2, 2006"
+  BookSearch: true
+  BookComments: true
+  BookPortableLinks: true
+  BookServiceWorker: true
+  plantuml:
+    enable: true
+    theme: "default"
+    svg_image_url: "https://www.plantuml.com/plantuml/svg/"
+
+imaging:
+  resampleFilter: "CatmullRom"
+  quality: 75
+  anchor: Smart
