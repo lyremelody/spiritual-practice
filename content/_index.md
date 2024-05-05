@@ -12,20 +12,13 @@ cascade:
   type: "docs"
 ---
 
-## [概念与理解](./concepts/)
-
-## [发展史](./timelines/)
-
-## [原则](./principles/)
-
-## [设计思想](./design-thinking/)
-
-## [计算机与信息技术](./cs-and-it-technology/)
-
-## [软件工程](./software-engineering/)
-
-## [业务与市场](./business-and-market/)
-
-## [论文学习](./papers-reading/)
-
-## [软技能](./soft-skills/)
+# 首页
+* [概念与理解](./concepts/)
+* [发展史](./timelines/)
+* [原则](./principles/)
+* [设计思想](./design-thinking/)
+* [计算机与信息技术](./cs-and-it-technology/)
+* [软件工程](./software-engineering/)
+* [业务与市场](./business-and-market/)
+* [论文学习](./papers-reading/)
+* [软技能](./soft-skills/)
