@@ -1,8 +1,9 @@
 baseURL: https://lyremelody.cn/
-languageCode: en-us
+languageCode: zh_CN
 title: 格物修齐
 theme: "hugo-book"
 copyright: lyremelody.cn
+privacy_policy: https://lyremelody.cn/
 
 # Book configuration
 disablePathToLower: true
@@ -24,7 +25,8 @@ params:
   BookToC: true
   BookLogo: "logo.png"
   BookSection: "*"
-  BookDateFormat: "Jan 2, 2006"
+  BookRepo: https://github.com/lyremelody/spiritual-practice
+  BookDateFormat: "2006-01-02"
   BookSearch: true
   BookComments: true
   BookPortableLinks: true
