@@ -2,7 +2,7 @@ baseURL: https://lyremelody.cn/
 languageCode: zh_CN
 title: 格物修齐
 theme: "hugo-book"
-copyright: lyremelody.cn
+copyright: © 2024 lyremelody.cn All Rights Reserved
 privacy_policy: https://lyremelody.cn/
 
 # Book configuration
@@ -26,11 +26,11 @@ menu:
     - name: "GitHub"
       url: "https://github.com/lyremelody/spiritual-practice"
       weight: 10
-      pre: <img src="svg/github-mark.svg" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
+      pre: <img src="/svg/github-mark.svg" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
     - name: "LeetCode"
       url: "https://leetcode.com/u/lyremelody/"
       weight: 20
-      pre: <img src="leetcode-192x192.png" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
+      pre: <img src="/leetcode-192x192.png" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
 
 params:
   BookTheme: "auto"
