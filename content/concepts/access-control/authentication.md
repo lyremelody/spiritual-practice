@@ -6,9 +6,10 @@ weight: 1131
 bookFlatSection: true
 bookHidden: false
 date: 2023-12-14
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Authentication 身份验证/认证
 
 ## 1 什么是认证(Authentication)以及认证的目的？
 **一个人的身份必需在身份验证/认证过程中被验证。身份验证/认证通常涉及一个包含两个步骤的过程**：

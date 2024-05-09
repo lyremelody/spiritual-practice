@@ -2,13 +2,14 @@
 title: '领导力(LeaderShip)'
 linkTitle: '领导力(LeaderShip)'
 type: 'docs'
-weight: 1901
+weight: 1801
 bookFlatSection: true
 bookHidden: false
 date: 2024-04-28
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 领导力(LeaderShip)
 
 ## 领导力的定义
 **所谓领导力，就是创造一个环境，每个人都能在其中发挥出更多的能力**。

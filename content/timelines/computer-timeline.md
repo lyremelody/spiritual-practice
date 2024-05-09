@@ -5,10 +5,11 @@ type: 'docs'
 weight: 101
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-17T17:06:56+08:00
+date: 2023-06-17
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 计算机发展史
 
 计算机的发展分为三个阶段。
 

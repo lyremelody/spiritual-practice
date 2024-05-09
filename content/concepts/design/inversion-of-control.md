@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1102
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-30T17:06:56+08:00
+date: 2023-06-30
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 控制反转 Inversion of Control
 
 控制反转(Inversion of Control，缩写为IoC)，是面向对象编程中的一种设计原则，可以用来减低代码之间的耦合度。
 

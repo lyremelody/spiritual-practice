@@ -11,6 +11,9 @@ menu:
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
 * [谈谈设计之「自顶向下」和「自底向上」](./talk-about-top-down-and-bottom-up.md)

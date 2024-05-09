@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1643
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 实现软件质量
 
 良好的软件质量不会自己出现，它是良好的项目管理和扎实的软件工程实践的结果。
 

@@ -11,9 +11,11 @@ menu:
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
-## 5.业务与市场(Business and Market)
 * PMF
 * NPS
 * STP(Segmenting、Targeting、Positioning)

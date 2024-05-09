@@ -6,9 +6,10 @@ weight: 1137
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# RBAC 角色型访问控制
 
 * **定义**：RBAC(Role-Based Access Control)，角色型访问控制。
 

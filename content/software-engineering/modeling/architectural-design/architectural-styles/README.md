@@ -6,9 +6,10 @@ weight: 162320
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Architectural Style 架构风格概述
 
 Architectural Style，架构风格，也有翻译成体系结构风格。
 Component，组件，也有翻译成构建。

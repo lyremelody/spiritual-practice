@@ -6,9 +6,10 @@ weight: 162335
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 解决方案架构文档模版
 
 * 参考资料《解决方案架构师修炼手册》
 

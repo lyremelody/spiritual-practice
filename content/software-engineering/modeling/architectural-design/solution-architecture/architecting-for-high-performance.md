@@ -6,8 +6,10 @@ weight: 162342
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-# 性能优化
 
 ## 1 什么是性能？
 性能的定义：

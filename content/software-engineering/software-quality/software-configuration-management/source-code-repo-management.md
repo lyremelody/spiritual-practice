@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1651
 bookFlatSection: true
 bookHidden: false
-date: 2023-08-10T17:06:56+08:00
+date: 2023-08-10
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 微服务代码仓库管理的选择
 
 ## 1 代码仓库管理有哪些方式？
 

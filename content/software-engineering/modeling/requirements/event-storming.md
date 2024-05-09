@@ -5,10 +5,11 @@ type: 'docs'
 weight: 16213
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 方法：事件风暴(Event Storming)
 
 ## 1 简介
 ### 1.1 事件风暴是什么？

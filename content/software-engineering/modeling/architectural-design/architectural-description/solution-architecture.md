@@ -6,8 +6,10 @@ weight: 162334
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-# Solution Architecture 解决方案架构
 
 解决方案架构从战略和战术的视角，对业务解决方案的方方面面进行定义和展望。
 解决方案架构不仅仅是软件解决方案，它涵盖了系统的方方面面，包括但不限于系统基础设施、网络、安全、合规性要求、系统运维、成本和可靠性。

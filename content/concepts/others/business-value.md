@@ -5,12 +5,11 @@ type: 'docs'
 weight: 1145
 bookFlatSection: true
 bookHidden: false
-date: 2022-08-23T17:06:56+08:00
+date: 2022-08-23
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 什么是业务价值？
-
-<strong><font color="red">最后修改于2022-08-23</font></strong>
 
 经常听到别人讲，“需要考虑业务价值”、“做这个需求/改进是否有业务价值”、“代码重构或者架构优化是否有业务价值”。另外，写专利有没有业务价值？
 

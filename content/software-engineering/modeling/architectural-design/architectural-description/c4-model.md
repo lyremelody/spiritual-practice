@@ -6,9 +6,10 @@ weight: 162332
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# C4模型
 
 ## 1 简介
 ### 1.1 C4模型是什么？

@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1146
 bookFlatSection: true
 bookHidden: false
-date: 2022-08-09T17:06:56+08:00
+date: 2022-08-09
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# API管理与API网关
 
 ## 1 API管理
 ### 1.1 为什么需要API？

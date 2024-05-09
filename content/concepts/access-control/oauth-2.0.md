@@ -6,9 +6,10 @@ weight: 1135
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# OAuth 2.0
 
 OAuth 2.0 是行业标准的**授权协议**。
 

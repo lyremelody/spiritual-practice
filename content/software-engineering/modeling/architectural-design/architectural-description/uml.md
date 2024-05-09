@@ -6,9 +6,11 @@ weight: 162333
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
-# UML
 ## 1 为什么需要UML？
 ## 2 UML是什么？
 ## 3 UML核心元素

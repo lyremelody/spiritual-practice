@@ -2,13 +2,14 @@
 title: '如何进行遗留系统设计改进沟通？'
 linkTitle: '如何进行遗留系统设计改进沟通？'
 type: 'docs'
-weight: 1909
+weight: 1809
 bookFlatSection: true
 bookHidden: false
 date: 2023-04-22
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 如何进行遗留系统设计改进沟通？
 
 【了解和确定问题的涉及范围】可通过产品表现、文档、与相关人员单点沟通来了解和确认：
 * 基于问题触发，做到心中有数。以暴露的问题为起点，找相关负责人了解相关系统设计(顶层设计)；大致了解遗留系统相关信息，找出有哪些系统设计问题，以及思考有哪些架构模式能够应对。

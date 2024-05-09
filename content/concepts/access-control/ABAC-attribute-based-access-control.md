@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1136
 bookFlatSection: true
 bookHidden: false
-date: 2023-09-13T17:06:56+08:00
+date: 2023-09-13
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# ABAC(Attribute-Based Access Control)
 
 基于属性的访问控制（Attribute-Based Access Control，简称 ABAC）是一种非常灵活的授权模型，不同于 RBAC，ABAC 则是通过各种属性来动态判断一个操作是否可以被允许。
 

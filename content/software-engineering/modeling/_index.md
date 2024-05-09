@@ -11,4 +11,7 @@ menu:
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---

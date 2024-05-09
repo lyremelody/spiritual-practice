@@ -6,9 +6,10 @@ weight: 1134
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# LDAP(Lightweight Directory Access Protocol)
 
 ## 1 目录服务
 日常生活中使用的电话薄内记录着亲朋好友的姓名、电话与地址等数据，它就是 telephone directory(电话目录)；计算机中的文件系统(file system)内记录着文件的文件名、大小与日期等数据，它就是 file directory(文件目录)。如果这些目录内的数据能够由系统加以整理，用户就能够容易且迅速地查找到所需的数据，而 directory service(目录服务)提供的服务，就是要达到此目的。**目录服务是一个特殊的非关系型数据库，用来保存描述性的、基于属性的详细信息，支持过滤功能**。这种数据库与我们常⻅的关系型数据库(Mysql、SQL Server、Oracle等)的区别在于目录服务以树状的层次结构来存储数据，就好像 Linux/Unix 系统中的文件目录一样。此外，目录服务是一个专⻔为搜索和浏览而优化的数据库，有着优异的读性能，但写性能差，并且没有事务处理、回滚等复杂功能，不适于存储修改频繁的数据。综上所述，目录服务更适用于存储如组织架构之类的信息。

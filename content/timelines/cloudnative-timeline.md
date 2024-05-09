@@ -5,10 +5,11 @@ type: 'docs'
 weight: 106
 bookFlatSection: true
 bookHidden: false
-date: 2022-01-11T17:06:56+08:00
+date: 2022-01-11
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 云原生发展史
 
 了解一个概念，最好的方法，就是先全面的了解一下这个概念的发展。
 

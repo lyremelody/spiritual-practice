@@ -5,9 +5,11 @@ type: 'docs'
 weight: 1622
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-# 设计相关概念
 
 **软件设计**包括一些列原理、概念和实践，可以指导开发高质量的系统或产品。
 

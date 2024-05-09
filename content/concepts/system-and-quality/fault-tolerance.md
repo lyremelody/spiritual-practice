@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1111
 bookFlatSection: true
 bookHidden: false
-date: 2022-04-14T17:06:56+08:00
+date: 2022-04-14
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# fault tolerance 容错
 
 最近需要处理一些系统稳定性问题，所以整理记录一下。
 

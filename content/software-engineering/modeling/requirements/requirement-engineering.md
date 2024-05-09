@@ -5,10 +5,11 @@ type: 'docs'
 weight: 16211
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 需求工程
 
 **理解问题的需求是软件工程师面对的最困难的任务之一**：
 * 客户可能不知道自己需要什么；

@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1112
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Reliability 可靠性
 
 ## 1 软件质量模型中的「可靠性」(Reliability)
 在计算机软件领域，ISO/IEC 25010 中定义的产品质量模型中，定义了八个质量属性：功能适用性(Function Suitability)、性能效率(Performance Efficiency)、兼容性(Compatibility)、可用性(Usability，其实我感觉翻译成「易用性」更容易避免歧义)、可靠性(Reliability)、安全(Security)、可维护性(Maintainability)、可移植性(Portability)。

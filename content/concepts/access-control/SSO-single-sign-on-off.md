@@ -6,9 +6,10 @@ weight: 1138
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# SSO
 
 ## 1 SSO，Single Sign-On
 SSO (Single sign-on)，单点登录(单一签入)，一种对于许多相互关连，但是又是各自独立的软件系统，提供访问控制的属性。当拥有这项属性时，当用户登录时，就可以获取所有系统的访问权限，不用对每个单一系统都逐一登录。SSO 是一种帮助用户快捷访问网络中多个站点的安全通信技术。

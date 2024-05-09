@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1113
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Scalability 可伸缩性
 
 可伸缩性一直以都是设计解决方案架构时的主要考虑因素。
 可伸缩性意味着系统能够处理不断增长的工作负载，并且可以应用于架构的不同层次。例如应用服务器、Web应用程序和数据库。

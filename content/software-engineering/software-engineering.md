@@ -5,10 +5,11 @@ type: 'docs'
 weight: 160
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 软件工程的定义
 
 美国电气与电子工程师学会(IEEE)[IEE7]给出的定义：
 * 软件工程：将系统化的、规范化的、可量化的方法应用于软件的开发、运行和维护，即将工程化方法应用于软件。

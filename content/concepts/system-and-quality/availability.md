@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1110
 bookFlatSection: true
 bookHidden: false
-date: 2023-08-03T17:06:56+08:00
+date: 2023-08-03
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Availability 可用性
 
 概念就那么些，花点时间整理一下，不搞清楚，多少年还是搞不清楚。
 

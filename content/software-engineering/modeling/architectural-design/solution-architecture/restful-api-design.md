@@ -6,9 +6,10 @@ weight: 162344
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-# RESTful API 设计
-
 
 ## 参考资料
 1. [Microsoft, RESTful Web API 设计](https://learn.microsoft.com/zh-cn/azure/architecture/best-practices/api-design)

@@ -6,8 +6,10 @@ weight: 1812
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-09
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-# OpenText Documentum 架构分析
 
 ## 1 产品关系
 ### 1.1 OpenText CSP

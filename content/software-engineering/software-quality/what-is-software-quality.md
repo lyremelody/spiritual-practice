@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1641
 bookFlatSection: true
 bookHidden: false
-date: 2023-09-20T17:06:56+08:00
+date: 2023-09-20
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 软件质量
 
 ## 1.什么是软件质量？
 

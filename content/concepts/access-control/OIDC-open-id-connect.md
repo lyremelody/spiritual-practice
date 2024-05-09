@@ -6,9 +6,10 @@ weight: 1133
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# OIDC(Open ID Connect)
 
 在 OIDC 协议中，有三种 Token：
 * id_token

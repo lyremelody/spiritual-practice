@@ -6,9 +6,10 @@ weight: 162331
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# "4+1"视图模型
 
 ## 1 简介
 ### 1.1 “4+1”视图模型是什么？

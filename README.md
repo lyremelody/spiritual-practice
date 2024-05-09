@@ -9,7 +9,7 @@
 这是个人能力成长的记录，请点击下面的链接阅读:
 
 - [在线阅读](https://lyremelody.cn/)：hugo格式
-- [@github](https://github.com/lyremelody/spiritual-practice/)：源码托管于github
+- [@github](https://github.com/lyremelody/spiritual-practice/blob/main/content/_index.md)：源码托管于github
 
 ### 版权申明
 

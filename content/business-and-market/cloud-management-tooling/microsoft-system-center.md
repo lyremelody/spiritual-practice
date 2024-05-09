@@ -6,9 +6,10 @@ weight: 1841
 bookFlatSection: true
 bookHidden: false
 date: 2022-10-09
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Microsoft System Center 产品分析
 
 ## 1 背景
 对于运行关键任务工作负载的企业而言，数据中心是任何 IT 基础架构的核心部分。

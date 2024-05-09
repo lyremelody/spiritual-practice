@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1100
 bookFlatSection: true
 bookHidden: false
-date: 2019-05-10T17:06:56+08:00
+date: 2019-05-10
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 谈谈设计之「自顶向下」和「自底向上」
 
 今天在做一个技术评审的时候，同事在讲设计，设计图画得不清楚，后面讲着讲着就说“还是来看\(demo\)代码吧”。另一个同事觉得看设计不要看代码，要把设计用图来体现，更清晰。
 

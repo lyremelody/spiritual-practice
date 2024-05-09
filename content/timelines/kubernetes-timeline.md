@@ -5,10 +5,11 @@ type: 'docs'
 weight: 108
 bookFlatSection: true
 bookHidden: false
-date: 2022-01-11T17:06:56+08:00
+date: 2022-01-11
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Kubernetes的发展史
 
 ## 参考资料
 

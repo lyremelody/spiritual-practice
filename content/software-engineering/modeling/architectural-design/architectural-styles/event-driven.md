@@ -6,9 +6,10 @@ weight: 162322
 bookFlatSection: true
 bookHidden: false
 date: 2023-08-07
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 事件驱动风格
 
 ## 1 基本思想
 在一个系统中，比如面向对象系统，组件接口提供了访问过程或函数的端口的集合，典型的情况是，组件通过显式地调用这些过程或函数与其他组件交互。然而，另一种可供选择的集成技术非常受关注，它基于隐式调用(implicit invocation)，该技术就是事件驱动的软件架构风格。

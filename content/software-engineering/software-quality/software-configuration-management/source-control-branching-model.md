@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1651
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-14T17:06:56+08:00
+date: 2023-06-14
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 代码分支模型
 
 ## Git Flow
 ![](images/git-flow-model.png)

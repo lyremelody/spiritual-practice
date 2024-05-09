@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1120
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# CAP/ACID/BASE
 
 ## 1 CAP
 ### 1.1 CAP(1999)

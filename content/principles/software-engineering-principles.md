@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1201
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 软件工程实践原则
 
 ## 1 软件工程整体实践原则
 David Hooker[Hoo96] 提出了7个关注软件工程整体实践的原则。

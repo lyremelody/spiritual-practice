@@ -6,9 +6,10 @@ weight: 1811
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-07
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# IBM FileNet Content Manager 架构分析
 
 ## 1 IBM CSP 产品关系
 ### 1.1 IBM 业务单元

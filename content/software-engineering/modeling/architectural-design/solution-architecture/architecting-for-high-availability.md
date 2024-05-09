@@ -6,9 +6,10 @@ weight: 162341
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-25
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 高可用架构设计
 
 > **要实现高可用的系统，不仅仅是在技术层面，还需要一套严谨科学的工程管理**。
 > 其中包括但不限于：

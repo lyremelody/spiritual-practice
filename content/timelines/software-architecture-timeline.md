@@ -5,10 +5,11 @@ type: 'docs'
 weight: 104
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-27T17:06:56+08:00
+date: 2023-06-27
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 软件架构发展史
 
 ## 20世纪60年代中期：软件危机
 20世纪60年代中期开始爆发大规模的软件危机，软件危机的突出表现就是软件生产不仅效率低，而且质量差。究其原因，主要是因为软件开发的理论方法不够系统、技术手段相对滞后，主要的软件生产都是手工作坊式的。

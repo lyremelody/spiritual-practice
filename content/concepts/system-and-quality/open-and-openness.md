@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1115
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Open and Openness 开放和开放性
 
 ## Google 定义的 Open
 《The meaning of open》是 Google的高级副总裁 Jonathan Rosenberg 在 2009年12月21日发表的。读完此文，做了相关的整理，如下。

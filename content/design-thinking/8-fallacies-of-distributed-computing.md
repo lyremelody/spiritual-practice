@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1301
 bookFlatSection: true
 bookHidden: false
-date: 2022-05-14T17:06:56+08:00
+date: 2022-05-14
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 分布式计算的8个错误假设
 
 The more things change, the more they stay the same.
 

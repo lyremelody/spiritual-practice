@@ -4,13 +4,16 @@ title: "发展史"
 linkTitle: "发展史"
 weight: 11
 bookCollapseSection: true
-date: 2021-11-29
 menu:
   main:
     weight: 30
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+date: 2021-11-29
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
 * [计算机发展史](./computer-timeline.md)

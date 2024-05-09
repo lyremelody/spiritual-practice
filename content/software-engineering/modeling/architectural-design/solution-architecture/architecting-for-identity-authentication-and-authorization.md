@@ -6,11 +6,9 @@ weight: 162343
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 身份认证与授权方案
-
-- [身份认证与授权方案](#身份认证与授权方案)
-  - [1 基本概念](#1-基本概念)
 
 ## 1 基本概念

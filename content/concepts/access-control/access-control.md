@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1130
 bookFlatSection: true
 bookHidden: false
-date: 2023-09-13T17:06:56+08:00
+date: 2023-09-13
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Access Control 访问控制
 
 **本文涉及的概念：**
 * Access Control

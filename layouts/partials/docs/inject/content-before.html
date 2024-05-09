@@ -1,0 +1,18 @@
+<div><center><h1>{{ .Title }}</h1></center></div>
+<div class="flex flex-wrap justify-between">
+  {{ if (gt .Params.date 0)}}
+  <div>
+    <a class="flex align-center" title='{{ i18n "Published on" }} {{ .Date.Format .Site.Params.BookDateFormat }}'
+        target="_blank" rel="noopener">
+        <span>{{ .Params.Author }} {{ i18n "Published on" }} {{ .Date.Format .Site.Params.BookDateFormat }}</span>
+    </a>
+  </div>
+  {{ end }}
+
+  <div>
+    <a class="flex align-center" title='{{ .WordCount }} Words.' target="_blank" rel="noopener">
+        <span>{{ .WordCount }} {{ i18n "Words" }}</span>
+    </a>
+  </div>
+</div>
+<br>

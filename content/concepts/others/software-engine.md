@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1144
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-30T17:06:56+08:00
+date: 2023-06-30
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# Software Engine 软件引擎
 
 ## 1 软件引擎的基本含义
 引擎(Engine) 是汽车发动机的隐喻。

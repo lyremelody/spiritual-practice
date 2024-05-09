@@ -5,10 +5,11 @@ type: 'docs'
 weight: 109
 bookFlatSection: true
 bookHidden: false
-date: 2023-07-31T17:06:56+08:00
+date: 2023-07-31
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 消息队列发展史
 
 ![](images/message-queue-histroy.jpg)
 

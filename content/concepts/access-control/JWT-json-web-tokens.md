@@ -6,9 +6,10 @@ weight: 1132
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-12
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# JWT(JSON Web Token)
 
 JSON Web Token(JWT，RFC 7519)，是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准(RFC7519)。
 该 token 被设计为紧凑且安全的，特别适用于分布式站点的单点登录(SSO)场景。

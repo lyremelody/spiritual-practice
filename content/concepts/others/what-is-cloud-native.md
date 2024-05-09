@@ -5,10 +5,11 @@ type: 'docs'
 weight: 1141
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 云原生是什么？
 
 ## 1 业界对于云原生的定义
 总结下来，业界对于云原生涉及的范围大致会定义在4个方面：

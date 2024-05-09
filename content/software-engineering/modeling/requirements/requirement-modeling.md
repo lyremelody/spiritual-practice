@@ -5,10 +5,11 @@ type: 'docs'
 weight: 16212
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-08T17:06:56+08:00
+date: 2023-06-08
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 需求建模(Requirement Modeling)
 
 ## 1 简介
 **概念：需求建模**使用文字和图表综合的形式，以相对容易理解的方式描绘需求，更重要的是可以更直接地评审它们的正确性、完整性和一致性。

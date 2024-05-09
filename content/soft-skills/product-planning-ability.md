@@ -2,13 +2,14 @@
 title: '产品规划力'
 linkTitle: '产品规划力'
 type: 'docs'
-weight: 1901
+weight: 1801
 bookFlatSection: true
 bookHidden: false
 date: 2024-04-22
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 产品规划力
 
 ## 产品规划力的定义
 基于市场洞察、客户需求、竞争对手、外在机会与风险以及市场和技术发展态势的基础上，根据公司自身的情况和发展方向，制定出可以把握市场机会，满足客户需要的产品的远景目标(Vision)以及实施该远景目标的战略、战术，并形成产品或技术发展路线图，驱动产品持续提升竞争力。

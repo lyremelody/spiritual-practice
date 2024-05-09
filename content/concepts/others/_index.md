@@ -11,6 +11,9 @@ menu:
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
 * [云原生 cloud native](./what-is-cloud-native.md)

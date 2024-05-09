@@ -5,10 +5,11 @@ type: 'docs'
 weight: 105
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-07T17:06:56+08:00
+date: 2023-06-07
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 云计算发展史
 
 ## 云计算的远古时代
 

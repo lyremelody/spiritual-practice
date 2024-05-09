@@ -1,5 +1,6 @@
 baseURL: https://lyremelody.cn/
-languageCode: zh_CN
+languageCode: zh
+defaultContentLanguage: zh
 title: 格物修齐
 theme: "hugo-book"
 copyright: © 2024 lyremelody.cn All Rights Reserved
@@ -31,6 +32,10 @@ menu:
       url: "https://leetcode.com/u/lyremelody/"
       weight: 20
       pre: <img src="/leetcode-192x192.png" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
+    - name: "About"
+      url: "https://github.com/lyremelody/lyremelody/blob/main/README.md"
+      weight: 30
+      pre: <img src="/logo.png" alt="" height="20" style="vertical-align:bottom"/>
 
 params:
   BookTheme: "auto"

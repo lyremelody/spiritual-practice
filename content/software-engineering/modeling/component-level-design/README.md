@@ -5,10 +5,11 @@ type: 'docs'
 weight: 16241
 bookFlatSection: true
 bookHidden: false
-date: 2023-06-07T17:06:56+08:00
+date: 2023-06-07
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
-
-# 组件级设计概述
 
 ## 1 什么是组件(Componnent)？
 通常来讲，组件是计算机软件中的一个模块化的构造块。

@@ -11,9 +11,11 @@ menu:
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+isCJKLanguage: true
+params:
+  author: lyremelody
 ---
 
-## 4.软件工程(Software Engineering)
 * [软件工程总览](./software-engineering.md)
 
 ### 4.1 软件过程(Software Process)
