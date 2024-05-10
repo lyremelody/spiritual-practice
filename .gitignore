@@ -1,4 +1,5 @@
 public/
+resources/_gen/
 exampleSite/public/
 .DS_Store
 .hugo_build.lock

@@ -38,7 +38,7 @@ menu:
       pre: <img src="/logo.png" alt="" height="20" style="vertical-align:bottom"/>
 
 params:
-  BookTheme: "auto"
+  BookTheme: "light"
   BookToC: true
   BookLogo: "logo.png"
   BookSection: "*"
