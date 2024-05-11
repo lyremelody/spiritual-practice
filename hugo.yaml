@@ -24,9 +24,13 @@ markup:
 menu:
   # before: []
   after:
+    - name: "微信公众号"
+      url: "/wechat.png"
+      weight: 10
+      pre: <img src="/logo-mp.ico" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
     - name: "GitHub"
       url: "https://github.com/lyremelody/spiritual-practice"
-      weight: 10
+      weight: 11
       pre: <img src="/svg/github-mark.svg" class="book-icon" alt="" height="20" style="vertical-align:bottom"/>
     - name: "LeetCode"
       url: "https://leetcode.com/u/lyremelody/"
