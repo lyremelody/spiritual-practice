@@ -1,6 +1,6 @@
 ---
-title: '[译/注] Force.com 多租户互联网应用开发平台的设计'
-linkTitle: '[译/注] Force.com 多租户互联网应用开发平台的设计'
+title: 'Force.com 多租户互联网应用开发平台的设计'
+linkTitle: 'Force.com 多租户互联网应用开发平台的设计'
 type: 'docs'
 weight: 1804
 bookFlatSection: true
@@ -13,7 +13,7 @@ params:
 
 ## **原文信息**
 
-### **原文地址**&#x20;
+### **原文地址**
 
 http://cloud.pubs.dbs.uni-leipzig.de/sites/cloud.pubs.dbs.uni-leipzig.de/files/p889-weissman-1.pdf
 
