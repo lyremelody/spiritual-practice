@@ -15,6 +15,8 @@ params:
   author: lyremelody
 ---
 
+**[人生问题集](./questions.md)**
+
 **知识体系：**
 * [概念与理解](./concepts/)
 * [发展史](./timelines/)
