@@ -16,6 +16,5 @@ params:
   author: lyremelody
 ---
 
-## 论文学习和翻译(Studis and Papers)
-
-## 读书
+* [论文学习](./papers-reading/_index.md)
+* [读《资治通鉴》](./zizhitongjian/_index.md)

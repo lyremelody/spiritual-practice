@@ -15,3 +15,6 @@ isCJKLanguage: true
 params:
   author: lyremelody
 ---
+
+* [分布式计算的8个错误假设](./8-fallacies-of-distributed-computing.md)
+* [《简约之美》脑图](./code-simplicity-the-science-of-development.md)

@@ -15,3 +15,7 @@ isCJKLanguage: true
 params:
   author: lyremelody
 ---
+
+* [About Traits](./about-traits.md)
+* [领导力(LeaderShip)](./leadership.md)
+* [产品规划力](./product-planning-ability.md)
