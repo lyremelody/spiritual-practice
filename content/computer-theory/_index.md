@@ -2,7 +2,7 @@
 type: docs
 title: '计算机理论'
 linkTitle: '计算机理论'
-weight: 14
+weight: 16
 bookCollapseSection: true
 date: 2021-11-29
 menu:

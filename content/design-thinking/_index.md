@@ -2,7 +2,7 @@
 type: docs
 title: "设计思想"
 linkTitle: "设计思想"
-weight: 13
+weight: 15
 bookCollapseSection: true
 date: 2021-11-29
 menu:

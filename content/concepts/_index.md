@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "概念与理解"
-linkTitle: "概念与理解"
+title: "技术概念理解"
+linkTitle: "技术概念理解"
 weight: 10
 bookCollapseSection: true
 date: 2021-11-29

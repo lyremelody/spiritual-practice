@@ -2,7 +2,7 @@
 type: docs
 title: "论文学习"
 linkTitle: "论文学习"
-weight: 191
+weight: 20
 bookCollapseSection: true
 menu:
   main:

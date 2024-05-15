@@ -2,7 +2,7 @@
 type: docs
 title: "资治通鉴"
 linkTitle: "资治通鉴"
-weight: 192
+weight: 22
 bookCollapseSection: true
 menu:
   main:

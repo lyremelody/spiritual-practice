@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "发展史"
-linkTitle: "发展史"
+title: "技术发展史"
+linkTitle: "技术发展史"
 weight: 11
 bookCollapseSection: true
 menu:

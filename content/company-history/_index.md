@@ -1,8 +1,8 @@
 ---
 type: docs
-title: "阅读与思考"
-linkTitle: "阅读与思考"
-weight: 19
+title: "企业发展史"
+linkTitle: "企业发展史"
+weight: 12
 bookCollapseSection: true
 menu:
   main:
@@ -16,5 +16,3 @@ params:
   author: lyremelody
 ---
 
-* [论文学习](./papers-reading/_index.md)
-* [读《资治通鉴》](./zizhitongjian/_index.md)
