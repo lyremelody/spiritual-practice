@@ -21,6 +21,7 @@ params:
 * [技术概念理解](./concepts/)
 * [技术发展史](./timelines/)
 * [企业发展史](./company-history/)
+* [人物年谱](./biographies/)
 * [业务与市场](./business-and-market/)
 * [原则](./principles/)
 * [设计思想](./design-thinking/)
