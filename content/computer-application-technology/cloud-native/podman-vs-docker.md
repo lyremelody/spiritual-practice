@@ -62,10 +62,10 @@ Podman的另一个定义特征是它是无守护进程的。守护进程是在�
 ## Podman和Docker：差异
 根据谷歌趋势，Docker 和 Podman 在过去五年中的兴趣都在波动，其中 Docker 一直更受欢迎。但眼下，这两款容器编排工具已经达到了用户兴趣的顶峰。
 
-<div align=center><img src="./podman-vs-docker/podman-trend.png"></div>
+<div align=center><img src="./images/podman-trend.png"></div>
 <div align=center>Podman's interest at Google's Trends 2015 - 2023</div>
 <br>
-<div align=center><img src="./podman-vs-docker/docker-trend.png"></div>
+<div align=center><img src="./images/docker-trend.png"></div>
 <div align=center>Docker's interest at Google's Trends 2015 - 2023</div>
 <br>
 
