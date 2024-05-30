@@ -17,6 +17,7 @@ params:
 ---
 
 * [计算机发展史](./computer-timeline.md)
+* [智能计算发展史](./intelligent-computing-timeline.md)
 * 操作系统发展史
 * 计算机网络发展史
 * [软件架构发展史](./software-architecture-timeline.md)
