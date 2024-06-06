@@ -1,21 +1,19 @@
 ---
 type: docs
-title: "原则"
-linkTitle: "原则"
-weight: 13
+title: "思想"
+linkTitle: "思想"
+weight: 12
 bookCollapseSection: true
-date: 2021-11-29
 menu:
   main:
     weight: 30
     pre: <i class='fa fa-cogs'></i>
 cascade:
   type: "docs"
+date: 2024-06-05
 isCJKLanguage: true
 params:
   author: lyremelody
 ---
 
-## 1 生活原则
-
-## 2 工作原则
+大学之道，在明明德，在亲民，在止于至善。

@@ -2,7 +2,7 @@
 title: '软件工程实践原则'
 linkTitle: '软件工程实践原则'
 type: 'docs'
-weight: 1201
+weight: 161
 bookFlatSection: true
 bookHidden: false
 date: 2023-06-08

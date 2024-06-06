@@ -17,6 +17,7 @@ params:
 ---
 
 * [软件工程总览](./software-engineering.md)
+* [软件工程实践原则](./software-engineering-principles.md)
 
 ### 4.1 软件过程(Software Process)
 #### 4.1.1 软件过程模型(Software Process Models)

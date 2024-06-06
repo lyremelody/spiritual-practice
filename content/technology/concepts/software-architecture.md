@@ -35,10 +35,10 @@ Architecture(建筑)的含义包括：
 即描述建筑物、建筑物结构、建筑设计方法、建筑建造方法。
 
 ### 1.2 计算机体系架构(Computer Architecture)
-见 [《计算机发展史》](../timelines/computer-timeline.md)
+见 [《计算机发展史》](../../history/timelines/computer-timeline.md)
 
 ### 1.3 软件架构(Software Architecture)发展史
-见 [《软件架构发展史》](../timelines/software-architecture-timeline.md)
+见 [《软件架构发展史》](../../history/timelines/software-architecture-timeline.md)
 
 ## 2 软件架构是什么？
 ### 2.1 我之前混沌的碎碎念
@@ -177,7 +177,7 @@ Architecture(建筑)的含义包括：
 ### 3.1 软件架构设计的目的
 **我认为软件架构设计的主要目的是为了解决复杂性带来的问题，即管理复杂性，主要包括提升质量、提升效率、降低风险**。
 
-从软件架构的起源大致可以看出这点，见[《软件架构发展史》](../timelines/software-architecture-timeline.md)。
+从软件架构的起源大致可以看出这点，见[《软件架构发展史》](../../history//timelines/software-architecture-timeline.md)。
 
 ## 4 软件架构相关的概念
 ### 4.1 Architectural Style 架构风格

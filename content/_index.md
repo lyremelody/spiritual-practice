@@ -15,22 +15,13 @@ params:
   author: lyremelody
 ---
 
-**[人生问题集](./questions/_index.md)**
-
-**知识体系：**
-* [技术概念理解](./concepts/)
-* [技术发展史](./timelines/)
-* [企业发展史](./company-history/)
-* [人物年谱](./biographies/)
-* [业务与市场](./business-and-market/)
+**认知体系：**
+* [问题](./questions/_index.md)
+* [思想](./thought/)
 * [原则](./principles/)
-* [设计思想](./design-thinking/)
-* [计算机理论](./computer-theory/)
-* [计算机系统](./computer-system/)
-* [计算机应用](./computer-application-technology/)
-* [软件工程](./software-engineering/)
-* [软技能](./soft-skills/)
-* [论文学习](./papers-reading/)
+* [商业](./business-and-market/)
+* [技术](./technology/)
+* [历史](./history/)
 
 **书单：**
 * [书单-思维与认知](https://www.douban.com/doulist/45741511/)

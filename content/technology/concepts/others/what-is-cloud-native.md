@@ -212,7 +212,7 @@ IT 开销减少意味着入行的壁垒更低，这一竞争优势使得各团�
 
 ## 4 云原生发展史
 
-详细内容见我的另外一篇文章 [《云原生发展史》](../../timelines/cloudnative-timeline.md)
+详细内容见我的另外一篇文章 [《云原生发展史》](../../../history/timelines/cloudnative-timeline.md)
 
 ## 5 我对于云原生的理解
 
