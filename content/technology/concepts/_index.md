@@ -17,6 +17,7 @@ params:
 ---
 
 * [对于“软件架构”的理解](./software-architecture.md)
+* [IT Infra、Data Infra、Cloud Infra、CloudNative Infra、AI Infra](./infrastructure-concepts.md)
 * [设计概念](./design/_index.md)
 * [系统与质量概念](./system-and-quality/_index.md)
 * [分布式系统概念](./distributed-systems/_index.md)
