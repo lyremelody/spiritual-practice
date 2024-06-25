@@ -2,7 +2,7 @@
 title: '业务价值'
 linkTitle: '业务价值'
 type: 'docs'
-weight: 1001
+weight: 10001
 bookFlatSection: true
 bookHidden: false
 date: 2022-08-23
