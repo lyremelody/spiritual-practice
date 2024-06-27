@@ -2,7 +2,7 @@
 title: 'Trie'
 linkTitle: 'Trie'
 type: 'docs'
-weight: 14123
+weight: 141105
 bookFlatSection: true
 bookHidden: false
 date: 2023-09-13
@@ -21,7 +21,7 @@ params:
 
 形如：
 
-<div align=center><img src="./trie.png"></div>
+<div align=center><img src="./images/trie.png"></div>
 
 注：图中各节点应该是字符，比如 “to”实际存的是“o”，为了方便看所以写
 

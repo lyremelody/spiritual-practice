@@ -23,7 +23,7 @@ params:
 * 链表
 * 散列表
 * 二叉搜索树
-* [前缀树 Trie](./data-structures/trie.md)
+* [前缀树 Trie](./data-structures-and-algorithms/trie.md)
 * 红黑树
 * B树
 * 斐波那契堆
@@ -34,8 +34,8 @@ params:
 * 算法分析
 * 分治策略
 * 插入排序
-* [快速排序](./primary-algorithms/quick-sort.md)
-* [最大堆和堆排序](./primary-algorithms/heap-sort.md)
+* [快速排序](./data-structures-and-algorithms/quick-sort.md)
+* [最大堆和堆排序](./data-structures-and-algorithms/heap-sort.md)
 * 线性时间排序
   * 计数排序
   * 基数排序
