@@ -21,4 +21,5 @@ params:
 人生在于给自己提问题、找答案、持续修订答案，这样认识自我和实践的过程。
 
 * [人生问题集](./worldview-questions/_index.md)
+* [商业问题集](./business-questions/_index.md)
 * [技术问题集](./it-tech-interview-questions/_index.md)

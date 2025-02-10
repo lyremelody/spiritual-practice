@@ -16,11 +16,11 @@ params:
   author: lyremelody
 ---
 
-#### 程序设计(Programming)
 
-#### 数据结构(Data Structure)
-* 栈和队列
-* 链表
+#### 数据结构和算法(Data Structure and Primary Algorithms)
+* [算法复杂度分析](./data-structures-and-algorithms/complexity-analysis.md)
+* [数组与链表](./data-structures-and-algorithms/array-and-list.md)
+* 栈与队列
 * 散列表
 * 二叉搜索树
 * [前缀树 Trie](./data-structures-and-algorithms/trie.md)
@@ -29,8 +29,6 @@ params:
 * 斐波那契堆
 * 图
 * 最小生成树
-
-#### 基础算法(Primary Algorithms)
 * 算法分析
 * 分治策略
 * 插入排序
