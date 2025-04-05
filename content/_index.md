@@ -17,7 +17,6 @@ params:
 
 **认知体系：**
 * [问题](./questions/_index.md)
-* [思想](./thought/)
 * [原则](./principles/)
 * [商业](./business-and-market/)
 * [技术](./technology/)

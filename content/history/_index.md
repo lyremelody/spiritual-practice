@@ -19,4 +19,3 @@ params:
 * [技术发展史](./timelines/)
 * [企业发展史](./company-history/)
 * [人物年谱](./biographies/)
-* [资治通鉴](./zizhitongjian/)
